@@ -495,10 +495,18 @@
       "해지 방법 DB",
       "Phase 2: 카테고리별 지출 차트 + 중복 감지 + 절약 추천",
       "Phase 3: 코드 리팩토링 + 모바일 최적화 + PWA",
-      "Phase 4: Free/Pro 결제 연동 (토스페이먼츠)"
+      "Phase 4: Free/Pro 결제 연동 (토스페이먼츠)",
+      "Phase 2: 카테고리별 지출 차트",
+      "Phase 2: 중복 감지 + 절약 추천",
+      "Phase 3: 코드 모듈 분리 + PWA"
     ],
     "workInstruction": "/mnt/clawd/믿독-구독관리앱-클코작업지시서.md",
     "activities": [
+      {
+        "date": "2026-02-21",
+        "text": "Phase 1 완성 + Vercel 배포 (localStorage, 편집, 해지가이드, 무료체험, 알림, 배달카테고리 추가)",
+        "status": "deployed"
+      },
       {
         "date": "2026-02-21",
         "text": "Phase 1 완성 (localStorage/편집/해지가이드/무료체험/알림) + 랜딩페이지 통합 + 배달 카테고리 추가 + Vercel mitdok.vercel.app 배포",
