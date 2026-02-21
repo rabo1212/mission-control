@@ -386,7 +386,7 @@
     "name": "딱사진",
     "slug": "ddak-photo",
     "description": "AI 상품사진 자동 생성 iOS 앱",
-    "status": "paused",
+    "status": "developing",
     "url": null,
     "github": null,
     "stack": [
@@ -412,10 +412,17 @@
     "todos": [
       "Apple Developer 가입 ($99)",
       "실기기 테스트",
-      "앱스토어 제출"
+      "앱스토어 제출",
+      "iOS 시뮬레이터 전체 플로우 QA",
+      "다크모드 대응 검토"
     ],
     "workInstruction": "/mnt/clawd/상품사진앱-시장조사-클코작업지시서.md",
     "activities": [
+      {
+        "date": "2026-02-21",
+        "text": "Apple HIG 미니멀 화이트 디자인 리뉴얼 완료 (theme.ts + 19개 파일)",
+        "status": "developing"
+      },
       {
         "date": "2026-02-14",
         "text": "dev-cycle 완주",
