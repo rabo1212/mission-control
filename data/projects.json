@@ -1366,5 +1366,51 @@
         "status": "paused"
       }
     ]
+  },
+  {
+    "name": "퀀텀리프",
+    "slug": "quantum-leap",
+    "description": "AI/반도체 종목 모니터링 대시보드 + 텔레그램 알림",
+    "status": "deployed",
+    "url": "https://quantum-leap-pied.vercel.app",
+    "github": "rabo1212/quantum-leap",
+    "stack": [
+      "Next.js",
+      "TypeScript",
+      "Finnhub API",
+      "Alpha Vantage API",
+      "Telegram Bot"
+    ],
+    "category": "트레이딩",
+    "phases": [
+      {
+        "name": "MVP + 실데이터",
+        "status": "done"
+      },
+      {
+        "name": "텔레그램 알림",
+        "status": "done"
+      },
+      {
+        "name": "포트폴리오 시뮬레이터",
+        "status": "planned"
+      }
+    ],
+    "todos": [
+      {
+        "text": "Vercel Pro 시 Cron 빈도 업그레이드",
+        "done": false
+      },
+      {
+        "text": "Phase 2: 포트폴리오 시뮬레이터",
+        "done": false
+      }
+    ],
+    "activities": [
+      {
+        "date": "2026-02-22",
+        "text": "Phase 1 MVP + 실데이터 API 연동 + 텔레그램 알림 시스템 구축 및 Vercel 배포"
+      }
+    ]
   }
 ]
