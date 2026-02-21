@@ -510,6 +510,11 @@
     "activities": [
       {
         "date": "2026-02-21",
+        "text": "Phase 2 지출분석+절약추천 강화 완료 (AreaChart 월별추이, OTT/음악 특화 추천, 벤치마크)",
+        "status": "deployed"
+      },
+      {
+        "date": "2026-02-21",
         "text": "Phase 1 완성 + Vercel 배포 (localStorage, 편집, 해지가이드, 무료체험, 알림, 배달카테고리 추가)",
         "status": "deployed"
       },
