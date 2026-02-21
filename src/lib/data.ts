@@ -44,6 +44,22 @@ export function getStats(projects: Project[]) {
   };
 }
 
+export function getUrgentSlugs(projects: Project[]): string[] {
+  const now = new Date();
+  const staleDays = 5;
+  return projects
+    .filter((p) => {
+      if (p.status === "error") return true;
+      if (p.status === "developing" && p.activities?.length) {
+        const lastDate = new Date(p.activities[0].date);
+        const diff = (now.getTime() - lastDate.getTime()) / (1000 * 60 * 60 * 24);
+        return diff >= staleDays;
+      }
+      return false;
+    })
+    .map((p) => p.slug);
+}
+
 export function generateBriefing(project: Project): string {
   const lines: string[] = [];
   lines.push(`📋 프로젝트 브리핑: ${project.name}`);

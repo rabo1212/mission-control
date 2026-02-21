@@ -1,11 +1,11 @@
-import { getProjects, getStats, generateBriefing } from "@/lib/data";
-import SummaryCards from "@/components/SummaryCards";
-import ProjectCard from "@/components/ProjectCard";
+import { getProjects, getStats, getUrgentSlugs, generateBriefing } from "@/lib/data";
+import Dashboard from "@/components/Dashboard";
 import Timeline from "@/components/Timeline";
 
 export default function Home() {
   const projects = getProjects();
   const stats = getStats(projects);
+  const urgentSlugs = getUrgentSlugs(projects);
 
   const statusOrder: Record<string, number> = {
     error: 0,
@@ -18,6 +18,11 @@ export default function Home() {
   const sorted = [...projects].sort(
     (a, b) => (statusOrder[a.status] ?? 9) - (statusOrder[b.status] ?? 9)
   );
+
+  const briefings: Record<string, string> = {};
+  for (const p of projects) {
+    briefings[p.slug] = generateBriefing(p);
+  }
 
   return (
     <>
@@ -39,20 +44,13 @@ export default function Home() {
         </div>
       </header>
 
-      <SummaryCards stats={stats} />
-
-      <section className="mb-10">
-        <h2 className="text-lg font-semibold mb-4">프로젝트</h2>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
-          {sorted.map((p) => (
-            <ProjectCard
-              key={p.slug}
-              project={p}
-              briefingText={generateBriefing(p)}
-            />
-          ))}
-        </div>
-      </section>
+      <Dashboard
+        projects={projects}
+        stats={stats}
+        briefings={briefings}
+        urgentSlugs={urgentSlugs}
+        sortedSlugs={sorted.map((p) => p.slug)}
+      />
 
       <section>
         <h2 className="text-lg font-semibold mb-4">최근 활동</h2>
