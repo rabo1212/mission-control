@@ -1,0 +1,699 @@
+[
+  {
+    "name": "천명(天命)",
+    "slug": "chunmyeong",
+    "description": "AI 사주\u00d7관상 통합 분석 웹앱",
+    "status": "deployed",
+    "url": "https://chunmyeong.vercel.app",
+    "github": "rabo1212/chunmyeong",
+    "stack": ["Next.js", "TypeScript", "Claude API", "@orrery/core"],
+    "category": "천명 시리즈",
+    "phases": [
+      { "name": "MVP", "status": "done" },
+      { "name": "광고 연동", "status": "done" },
+      { "name": "프리미엄 결제", "status": "done" },
+      { "name": "토스 실결제", "status": "pending" }
+    ],
+    "todos": ["토스 실서비스 전환 (사업자등록 필요)", "결제 E2E 테스트", "마케팅 시작"],
+    "workInstruction": "/mnt/clawd/사주관상앱-클코작업지시서.md",
+    "activities": [
+      { "date": "2026-02-21", "text": "Phase 4 프리미엄 구현 완료", "status": "deployed" },
+      { "date": "2026-02-21", "text": "AGPL 라이선스 고지 추가", "status": "deployed" },
+      { "date": "2026-02-20", "text": "Vercel KV 설정 완료", "status": "deployed" }
+    ]
+  },
+  {
+    "name": "냥멍천명",
+    "slug": "chunmyeong-pet",
+    "description": "AI 반려동물 관상 분석 웹앱",
+    "status": "developing",
+    "url": "https://chunmyeong-pet.vercel.app",
+    "github": "rabo1212/chunmyeong-pet",
+    "stack": ["Next.js", "TypeScript", "Claude API"],
+    "category": "천명 시리즈",
+    "phases": [
+      { "name": "MVP", "status": "done" },
+      { "name": "AI 해석", "status": "in_progress" },
+      { "name": "광고 연동", "status": "done" }
+    ],
+    "todos": ["AI 관상 해석 에러 수정", "테스트"],
+    "workInstruction": "/mnt/clawd/펫관상앱-클코작업지시서.md",
+    "activities": [
+      { "date": "2026-02-21", "text": "AI 해석 에러 수정 중", "status": "developing" }
+    ]
+  },
+  {
+    "name": "백랏 스튜디오",
+    "slug": "baeklat-studio",
+    "description": "크리에이티브 스튜디오 공식 홈페이지",
+    "status": "planned",
+    "url": null,
+    "github": null,
+    "stack": ["Next.js", "Tailwind", "Framer Motion", "Supabase"],
+    "category": "비즈니스",
+    "phases": [
+      { "name": "랜딩 페이지", "status": "pending" },
+      { "name": "포트폴리오", "status": "pending" },
+      { "name": "예약 시스템", "status": "pending" },
+      { "name": "관리자 모드", "status": "pending" }
+    ],
+    "todos": ["Phase 1 랜딩 페이지 시작"],
+    "workInstruction": "/mnt/clawd/백랏스튜디오-홈페이지-클코작업지시서.md",
+    "activities": [
+      { "date": "2026-02-21", "text": "작업지시서 완성", "status": "planned" }
+    ]
+  },
+  {
+    "name": "레딧 수요 스나이퍼",
+    "slug": "reddit-demand-sniper",
+    "description": "레딧 불만/수요 자동 수집 → 앱 아이디어 발굴",
+    "status": "deployed",
+    "url": null,
+    "github": null,
+    "stack": ["Python", "Claude API", "Telegram"],
+    "category": "자동화",
+    "phases": [
+      { "name": "MVP (RSS 수집)", "status": "done" },
+      { "name": "서브레딧 확장", "status": "pending" },
+      { "name": "자동 작업지시서", "status": "pending" }
+    ],
+    "todos": ["Reddit API 키 승인 후 PRAW 업그레이드", "서브레딧 15개로 확장"],
+    "workInstruction": "/mnt/clawd/레딧수요스나이퍼-클코작업지시서.md",
+    "activities": [
+      { "date": "2026-02-22", "text": "Phase 1 MVP 완료 + E2E 테스트 통과", "status": "deployed" }
+    ]
+  },
+  {
+    "name": "폴리봇 (BTC Sniper)",
+    "slug": "polybot",
+    "description": "Polymarket BTC 5분 바이너리 자동매매봇",
+    "status": "paused",
+    "url": null,
+    "github": null,
+    "stack": ["Python", "Polymarket API", "SQLite"],
+    "category": "트레이딩",
+    "phases": [
+      { "name": "v1~v3", "status": "done" },
+      { "name": "v4 합의 시스템", "status": "done" },
+      { "name": "v4 실전 검증", "status": "pending" }
+    ],
+    "todos": ["v4 실전 데이터 수집 후 전략 평가", "수동 redeem 확인"],
+    "notes": "일일 손실 한도 초과로 정지. 잔고 $170.57",
+    "activities": [
+      { "date": "2026-02-20", "text": "v4 다중지표+고래추적 전략 구현", "status": "paused" }
+    ]
+  },
+  {
+    "name": "세컨드브레인",
+    "slug": "second-brain",
+    "description": "자동 뉴스 브리핑 대시보드",
+    "status": "deployed",
+    "url": "https://second-brain-rabo1.vercel.app",
+    "github": "rabo1212/second-brain",
+    "stack": ["Next.js", "Claude API", "Google News RSS"],
+    "category": "자동화",
+    "phases": [
+      { "name": "MVP", "status": "done" },
+      { "name": "AI 큐레이션", "status": "done" },
+      { "name": "검색 기능", "status": "done" }
+    ],
+    "todos": [],
+    "workInstruction": "/mnt/clawd/세컨드브레인-클코작업지시서.md",
+    "activities": [
+      { "date": "2026-02-15", "text": "검색 + 아카이브 기능 추가", "status": "deployed" }
+    ]
+  },
+  {
+    "name": "트레이딩 대시보드",
+    "slug": "trading-dashboard",
+    "description": "폴리봇+ACP 실시간 모니터링",
+    "status": "deployed",
+    "url": "localhost:3001",
+    "github": null,
+    "stack": ["Next.js", "SQLite", "Recharts"],
+    "category": "트레이딩",
+    "phases": [
+      { "name": "Phase 1 MVP", "status": "done" },
+      { "name": "Phase 2 ACP 모니터", "status": "done" }
+    ],
+    "todos": [],
+    "workInstruction": "/mnt/clawd/트레이딩대시보드-클코작업지시서.md",
+    "activities": [
+      { "date": "2026-02-19", "text": "ACP 모니터 탭 추가", "status": "deployed" }
+    ]
+  },
+  {
+    "name": "PolyOracle ACP",
+    "slug": "polyoracle",
+    "description": "AI→AI 에이전트 서비스 (예측시장 분석 판매)",
+    "status": "running",
+    "url": null,
+    "github": null,
+    "stack": ["TypeScript", "ACP Protocol", "Node.js"],
+    "category": "에이전트",
+    "phases": [
+      { "name": "로컬 엔진", "status": "done" },
+      { "name": "ACP 등록", "status": "done" },
+      { "name": "VPS 배포", "status": "pending" }
+    ],
+    "todos": ["Base USDC 충전 (업비트 출금 제한)", "VPS 배포 (카드 결제 불가)"],
+    "workInstruction": "/mnt/clawd/ACP에이전트서비스-클코작업지시서.md",
+    "activities": [
+      { "date": "2026-02-18", "text": "ACP 등록 + 텔레그램 매출 알림 연결", "status": "running" }
+    ]
+  },
+  {
+    "name": "뽀모도로 게임",
+    "slug": "pomodoro",
+    "description": "본디 스타일 뽀모도로 타이머 게임",
+    "status": "paused",
+    "url": "localhost:3333",
+    "github": null,
+    "stack": ["Next.js", "TypeScript", "Zustand"],
+    "category": "앱",
+    "phases": [
+      { "name": "Phase 1 타이머", "status": "done" },
+      { "name": "Phase 2 게이미피케이션", "status": "done" },
+      { "name": "Phase 3 Supabase", "status": "pending" }
+    ],
+    "todos": ["Supabase 인증 & DB 연동"],
+    "workInstruction": "/mnt/clawd/뽀모도로-게임-클코작업지시서.md",
+    "activities": [
+      { "date": "2026-02-12", "text": "Phase 2 게이미피케이션 완료", "status": "paused" }
+    ]
+  },
+  {
+    "name": "딱사진",
+    "slug": "ddak-photo",
+    "description": "AI 상품사진 자동 생성 iOS 앱",
+    "status": "paused",
+    "url": null,
+    "github": null,
+    "stack": ["React Native", "Expo", "Flux AI"],
+    "category": "앱",
+    "phases": [
+      { "name": "시장조사", "status": "done" },
+      { "name": "MVP 개발", "status": "done" },
+      { "name": "앱스토어 제출", "status": "pending" }
+    ],
+    "todos": ["Apple Developer 가입 ($99)", "실기기 테스트", "앱스토어 제출"],
+    "workInstruction": "/mnt/clawd/상품사진앱-시장조사-클코작업지시서.md",
+    "activities": [
+      { "date": "2026-02-14", "text": "dev-cycle 완주", "status": "paused" }
+    ]
+  },
+  {
+    "name": "미션 컨트롤",
+    "slug": "mission-control",
+    "description": "전체 프로젝트 대시보드 + 클코 브리핑 생성기",
+    "status": "developing",
+    "url": null,
+    "github": null,
+    "stack": ["Next.js", "TypeScript", "Tailwind"],
+    "category": "자동화",
+    "phases": [
+      { "name": "Phase 1 MVP", "status": "in_progress" },
+      { "name": "Phase 2 브리핑", "status": "in_progress" },
+      { "name": "Phase 3 편집 기능", "status": "pending" },
+      { "name": "Phase 4 자동 연동", "status": "pending" }
+    ],
+    "todos": ["Phase 1+2 MVP 완성", "Vercel 배포"],
+    "workInstruction": "/mnt/clawd/미션컨트롤-대시보드-클코작업지시서.md",
+    "activities": [
+      { "date": "2026-02-22", "text": "개발 시작", "status": "developing" }
+    ]
+  },
+  {
+    "name": "믿독(MITDOK)",
+    "slug": "mitdok",
+    "description": "구독 관리 앱 — 알림/절약/인사이트",
+    "status": "developing",
+    "url": "https://subscriptionapp-mocha.vercel.app",
+    "github": null,
+    "stack": ["React 19", "Vite 7", "Tailwind CSS 4"],
+    "category": "앱",
+    "phases": [
+      { "name": "MVP UI", "status": "in_progress" },
+      { "name": "localStorage 저장", "status": "pending" },
+      { "name": "알림 구현", "status": "pending" },
+      { "name": "해지 방법 DB", "status": "pending" }
+    ],
+    "todos": ["localStorage 저장", "알림 구현", "해지 방법 DB"],
+    "workInstruction": "/mnt/clawd/믿독-구독관리앱-클코작업지시서.md",
+    "activities": [
+      { "date": "2026-02-22", "text": "프로젝트 시작", "status": "developing" }
+    ]
+  },
+  {
+    "name": "Imaginary Story",
+    "slug": "imaginary-story",
+    "description": "AI 스토리보드 생성 웹앱",
+    "status": "deployed",
+    "url": "https://imaginarystory.co.kr",
+    "github": "rabo1212/imaginary-story",
+    "stack": ["React", "TypeScript", "Vite"],
+    "category": "웹앱",
+    "phases": [
+      { "name": "MVP", "status": "done" },
+      { "name": "SEO 등록", "status": "done" }
+    ],
+    "todos": [],
+    "notes": "네이버 서치어드바이저 + 구글 서치콘솔 등록 완료",
+    "activities": [
+      { "date": "2026-02-11", "text": "SEO 등록 완료 (네이버+구글)", "status": "deployed" }
+    ]
+  },
+  {
+    "name": "꾸미 (Kkumi)",
+    "slug": "kkumi",
+    "description": "AI UGC 숏폼 광고 영상 자동 생성 서비스",
+    "status": "paused",
+    "url": "localhost:8001",
+    "github": null,
+    "stack": ["Python", "FastAPI", "Fal.ai"],
+    "category": "AI/도구",
+    "phases": [
+      { "name": "Phase 1 백엔드 MVP", "status": "done" },
+      { "name": "Fal.ai 연동", "status": "pending" },
+      { "name": "프론트엔드", "status": "pending" }
+    ],
+    "todos": ["Fal.ai API 키 발급", "실제 AI 모드 전환"],
+    "notes": "현재 Mock AI 모드 (MOCK_AI=true)",
+    "activities": [
+      { "date": "2026-02-13", "text": "Phase 1 백엔드 MVP 완료", "status": "paused" }
+    ]
+  },
+  {
+    "name": "바이낸스 현물봇",
+    "slug": "binance-spot-bot",
+    "description": "바이낸스 현물 RSI+Grid 하이브리드 자동매매봇",
+    "status": "paused",
+    "url": null,
+    "github": null,
+    "stack": ["Python", "httpx", "aiosqlite", "Binance API"],
+    "category": "트레이딩",
+    "phases": [
+      { "name": "RSI 전략", "status": "done" },
+      { "name": "Grid 전략", "status": "done" },
+      { "name": "ATR 동적 손익절", "status": "done" },
+      { "name": "실전 매매", "status": "pending" }
+    ],
+    "todos": ["DRY_RUN 해제 후 실전 테스트"],
+    "notes": "DRY_RUN=true, TESTNET=true 상태",
+    "activities": [
+      { "date": "2026-02-14", "text": "sync→async 대규모 개선", "status": "paused" }
+    ]
+  },
+  {
+    "name": "업비트 하이브리드봇",
+    "slug": "upbit-bot",
+    "description": "업비트 BTC 그리드+모멘텀 하이브리드 자동매매봇",
+    "status": "paused",
+    "url": null,
+    "github": null,
+    "stack": ["Python", "aiohttp", "aiosqlite", "Upbit API"],
+    "category": "트레이딩",
+    "phases": [
+      { "name": "그리드 매매", "status": "done" },
+      { "name": "모멘텀 추격", "status": "done" },
+      { "name": "터미널 대시보드", "status": "done" },
+      { "name": "실전 매매", "status": "pending" }
+    ],
+    "todos": ["DRY_RUN 해제 후 실전 테스트"],
+    "notes": "DRY_RUN=true 상태. Rich Live UI 터미널 대시보드 포함",
+    "activities": [
+      { "date": "2026-02-16", "text": "초기 구현 완료", "status": "paused" }
+    ]
+  },
+  {
+    "name": "바이낸스 선물봇",
+    "slug": "binance-futures-bot",
+    "description": "바이낸스 선물 테스트넷 RSI 롱/숏 자동매매봇",
+    "status": "paused",
+    "url": null,
+    "github": null,
+    "stack": ["Python", "binance-futures-connector"],
+    "category": "트레이딩",
+    "phases": [
+      { "name": "RSI 전략", "status": "done" },
+      { "name": "테스트넷 검증", "status": "pending" }
+    ],
+    "todos": ["테스트넷 실전 데이터 수집"],
+    "notes": "BTCUSDT 15분봉 기반, 테스트넷 전용",
+    "activities": []
+  },
+  {
+    "name": "주식봇 (Stock Bot)",
+    "slug": "stock-bot",
+    "description": "야후파이낸스 주식 데이터 수집 + 텔레그램 알림봇",
+    "status": "deployed",
+    "url": null,
+    "github": "rabo1212/stock-bot",
+    "stack": ["Node.js", "yahoo-finance2", "Telegram API", "Redis"],
+    "category": "트레이딩",
+    "phases": [
+      { "name": "데이터 수집", "status": "done" },
+      { "name": "텔레그램 알림", "status": "done" }
+    ],
+    "todos": [],
+    "activities": [
+      { "date": "2026-01-28", "text": "주식 모니터링 가동", "status": "deployed" }
+    ]
+  },
+  {
+    "name": "Fairytale Photo",
+    "slug": "fairytale-photo",
+    "description": "AI 이미지 생성 + Konva 캔버스 편집 도구",
+    "status": "deployed",
+    "url": null,
+    "github": "rabo1212/fairytale-photo",
+    "stack": ["Next.js 14", "Konva", "Replicate API", "Tailwind"],
+    "category": "AI/도구",
+    "phases": [
+      { "name": "캔버스 편집", "status": "done" },
+      { "name": "AI 이미지 생성", "status": "done" }
+    ],
+    "todos": [],
+    "activities": [
+      { "date": "2026-01-25", "text": "Vercel 배포 완료", "status": "deployed" }
+    ]
+  },
+  {
+    "name": "텔레그램 리마인더봇",
+    "slug": "telegram-reminder-bot",
+    "description": "자연어 시간 입력 → 텔레그램 알림 비서봇",
+    "status": "deployed",
+    "url": null,
+    "github": null,
+    "stack": ["Python", "python-telegram-bot"],
+    "category": "자동화",
+    "phases": [
+      { "name": "자연어 파싱", "status": "done" },
+      { "name": "알림 전송", "status": "done" }
+    ],
+    "todos": [],
+    "notes": "\"오후 3시에 약 먹기\", \"10분 후 확인\" 등 지원",
+    "activities": []
+  },
+  {
+    "name": "Dexter",
+    "slug": "dexter",
+    "description": "자율 금융 리서치 AI 에이전트",
+    "status": "developing",
+    "url": null,
+    "github": "virattt/dexter",
+    "stack": ["TypeScript", "Bun", "LangChain", "Playwright"],
+    "category": "에이전트",
+    "phases": [
+      { "name": "리서치 엔진", "status": "done" },
+      { "name": "자동 실행", "status": "in_progress" },
+      { "name": "자체 검증", "status": "pending" }
+    ],
+    "todos": ["금융 분석 자동화 파이프라인 완성"],
+    "activities": [
+      { "date": "2026-02-09", "text": "금융 AI 에이전트 개발 중", "status": "developing" }
+    ]
+  },
+  {
+    "name": "ComfyUI MCP Server",
+    "slug": "comfyui-mcp",
+    "description": "ComfyUI 연동 MCP 서버 (AI 이미지/음성/영상 생성)",
+    "status": "paused",
+    "url": null,
+    "github": "joenorton/comfyui-mcp-server",
+    "stack": ["Python", "MCP", "Pillow", "ComfyUI"],
+    "category": "AI/도구",
+    "phases": [
+      { "name": "MCP 연동", "status": "done" }
+    ],
+    "todos": ["ComfyUI 로컬 워크플로우 최적화"],
+    "notes": "포크 프로젝트",
+    "activities": [
+      { "date": "2026-01-20", "text": "MCP 서버 포크 및 설정", "status": "paused" }
+    ]
+  },
+  {
+    "name": "Backlot Video",
+    "slug": "backlot-video",
+    "description": "Remotion 기반 인트로/릴 영상 자동 생성",
+    "status": "paused",
+    "url": null,
+    "github": null,
+    "stack": ["React 19", "Remotion", "TypeScript", "Vite"],
+    "category": "영상/미디어",
+    "phases": [
+      { "name": "BacklotIntro", "status": "done" },
+      { "name": "ImaginaryStoryReel", "status": "done" }
+    ],
+    "todos": [],
+    "activities": [
+      { "date": "2026-01-27", "text": "영상 렌더링 도구 완성", "status": "paused" }
+    ]
+  },
+  {
+    "name": "Tech Shorts",
+    "slug": "tech-shorts",
+    "description": "Remotion 기반 기술 쇼츠 자동 생성",
+    "status": "paused",
+    "url": null,
+    "github": null,
+    "stack": ["React 19", "Remotion", "TypeScript"],
+    "category": "영상/미디어",
+    "phases": [
+      { "name": "쇼츠 템플릿", "status": "done" }
+    ],
+    "todos": [],
+    "activities": []
+  },
+  {
+    "name": "딱하나",
+    "slug": "ddak-hana",
+    "description": "풀스택 모노레포 프로젝트 (server + client)",
+    "status": "developing",
+    "url": null,
+    "github": null,
+    "stack": ["Node.js", "npm workspace"],
+    "category": "앱",
+    "phases": [
+      { "name": "프로젝트 구조", "status": "done" },
+      { "name": "개발", "status": "in_progress" }
+    ],
+    "todos": ["서버/클라이언트 개발 진행"],
+    "activities": [
+      { "date": "2026-02-15", "text": "모노레포 구조 설정", "status": "developing" }
+    ]
+  },
+  {
+    "name": "지원해 (Jiwonhae)",
+    "slug": "jiwonhae",
+    "description": "AI 기반 자기소개서/면접 코칭 웹앱",
+    "status": "developing",
+    "url": null,
+    "github": null,
+    "stack": ["Next.js 14", "Claude API", "Upstash Redis", "OpenAI"],
+    "category": "AI/도구",
+    "phases": [
+      { "name": "자소서 코칭", "status": "done" },
+      { "name": "면접 코칭", "status": "in_progress" }
+    ],
+    "todos": ["면접 시뮬레이션 완성", "배포"],
+    "activities": [
+      { "date": "2026-02-16", "text": "자소서/면접 코칭 기능 개발 중", "status": "developing" }
+    ]
+  },
+  {
+    "name": "Fortune App",
+    "slug": "fortune-app",
+    "description": "사주 + 점성술 + 타로 종합 운세 앱",
+    "status": "paused",
+    "url": null,
+    "github": null,
+    "stack": ["Flutter", "Riverpod", "Supabase"],
+    "category": "천명 시리즈",
+    "phases": [
+      { "name": "사주 엔진", "status": "done" },
+      { "name": "점성술", "status": "pending" },
+      { "name": "타로", "status": "pending" }
+    ],
+    "todos": ["점성술/타로 기능 추가"],
+    "activities": [
+      { "date": "2026-02-08", "text": "Flutter 앱 기본 구조 완성", "status": "paused" }
+    ]
+  },
+  {
+    "name": "강원 여행 앱",
+    "slug": "gangwon-travel",
+    "description": "강원도 여행 정보 제공 웹앱 + QR",
+    "status": "paused",
+    "url": null,
+    "github": null,
+    "stack": ["React 19", "Vite", "Tailwind", "QR Code"],
+    "category": "웹앱",
+    "phases": [
+      { "name": "MVP", "status": "done" }
+    ],
+    "todos": [],
+    "activities": [
+      { "date": "2026-02-08", "text": "여행 정보 웹앱 완성", "status": "paused" }
+    ]
+  },
+  {
+    "name": "먀오 (Myao)",
+    "slug": "myao",
+    "description": "6명의 AI 전문가 관점 다중 에이전트 시스템",
+    "status": "paused",
+    "url": null,
+    "github": null,
+    "stack": ["Flutter", "Python", "Multi-Agent"],
+    "category": "에이전트",
+    "phases": [
+      { "name": "설계서 완성", "status": "done" },
+      { "name": "MVP 개발", "status": "pending" }
+    ],
+    "todos": ["MVP 개발 시작"],
+    "activities": [
+      { "date": "2026-02-08", "text": "앱 설계서 완성", "status": "paused" }
+    ]
+  },
+  {
+    "name": "전생테스트",
+    "slug": "past-life-test",
+    "description": "전생 테스트 웹앱 (PWA)",
+    "status": "paused",
+    "url": null,
+    "github": null,
+    "stack": ["Next.js 14", "Framer Motion", "html2canvas", "PWA"],
+    "category": "웹앱",
+    "phases": [
+      { "name": "MVP", "status": "done" }
+    ],
+    "todos": [],
+    "activities": [
+      { "date": "2026-02-08", "text": "PWA 전생테스트 완성", "status": "paused" }
+    ]
+  },
+  {
+    "name": "미국 주식 분석기",
+    "slug": "us-stock-analyzer",
+    "description": "미국 주식 분석 API + AI 분석 서비스",
+    "status": "deployed",
+    "url": null,
+    "github": null,
+    "stack": ["Node.js", "Vercel Serverless", "AI"],
+    "category": "트레이딩",
+    "phases": [
+      { "name": "분석 API", "status": "done" },
+      { "name": "AI 분석", "status": "done" }
+    ],
+    "todos": [],
+    "activities": [
+      { "date": "2026-02-04", "text": "Vercel 서버리스 배포", "status": "deployed" }
+    ]
+  },
+  {
+    "name": "오늘의 날씨&주식",
+    "slug": "weather-stock-app",
+    "description": "실시간 날씨, 미세먼지, 주식 정보 PWA",
+    "status": "deployed",
+    "url": null,
+    "github": null,
+    "stack": ["JavaScript", "HTML5", "Scriptable", "PWA"],
+    "category": "앱",
+    "phases": [
+      { "name": "날씨/주식 표시", "status": "done" },
+      { "name": "PWA", "status": "done" }
+    ],
+    "todos": [],
+    "activities": [
+      { "date": "2026-01-29", "text": "PWA 앱 배포", "status": "deployed" }
+    ]
+  },
+  {
+    "name": "무드보드 스튜디오",
+    "slug": "moodboard-studio",
+    "description": "AI 기반 제품 사진 무드보드 생성기",
+    "status": "paused",
+    "url": null,
+    "github": null,
+    "stack": ["React 19", "Vite", "Tailwind", "jspdf"],
+    "category": "AI/도구",
+    "phases": [
+      { "name": "무드보드 생성", "status": "done" },
+      { "name": "PDF 내보내기", "status": "done" }
+    ],
+    "todos": [],
+    "activities": [
+      { "date": "2026-02-08", "text": "무드보드 생성기 완성", "status": "paused" }
+    ]
+  },
+  {
+    "name": "제품사진 관리앱",
+    "slug": "product-ai-image",
+    "description": "제품 사진 촬영 관리 앱 (Flutter)",
+    "status": "paused",
+    "url": null,
+    "github": null,
+    "stack": ["Flutter", "Riverpod", "Supabase"],
+    "category": "AI/도구",
+    "phases": [
+      { "name": "사진 관리", "status": "done" }
+    ],
+    "todos": [],
+    "activities": [
+      { "date": "2026-01-31", "text": "Flutter 앱 완성", "status": "paused" }
+    ]
+  },
+  {
+    "name": "Abstract MV",
+    "slug": "abstract-mv",
+    "description": "Remotion 기반 추상 뮤직비디오 생성",
+    "status": "paused",
+    "url": null,
+    "github": null,
+    "stack": ["React 18", "Remotion", "TypeScript"],
+    "category": "영상/미디어",
+    "phases": [
+      { "name": "영상 템플릿", "status": "done" }
+    ],
+    "todos": [],
+    "activities": [
+      { "date": "2026-02-13", "text": "추상 MV 템플릿 완성", "status": "paused" }
+    ]
+  },
+  {
+    "name": "Imaginary Story Reel",
+    "slug": "imaginary-story-reel",
+    "description": "Remotion 기반 스토리 릴 영상 생성",
+    "status": "paused",
+    "url": null,
+    "github": null,
+    "stack": ["React 18", "Remotion", "TypeScript"],
+    "category": "영상/미디어",
+    "phases": [
+      { "name": "릴 템플릿", "status": "done" }
+    ],
+    "todos": [],
+    "activities": [
+      { "date": "2026-02-08", "text": "스토리 릴 생성기 완성", "status": "paused" }
+    ]
+  },
+  {
+    "name": "바이브 코딩 컬렉션",
+    "slug": "vibe-cording",
+    "description": "미니 게임/앱 모음 (MenuQR, 레몬게임, 풍선, 2048 등)",
+    "status": "paused",
+    "url": null,
+    "github": null,
+    "stack": ["Next.js", "React", "Tailwind", "Supabase"],
+    "category": "웹앱",
+    "notes": "여러 미니 프로젝트 컬렉션: menuqr(QR메뉴판), lemongame, balloon, catclicker, colorflip, 2048game 등",
+    "phases": [
+      { "name": "MenuQR", "status": "done" },
+      { "name": "미니게임들", "status": "done" }
+    ],
+    "todos": [],
+    "activities": [
+      { "date": "2026-02-13", "text": "레몬게임 추가", "status": "paused" }
+    ]
+  }
+]
