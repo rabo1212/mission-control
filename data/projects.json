@@ -183,7 +183,7 @@
     "name": "폴리봇 (BTC Sniper)",
     "slug": "polybot",
     "description": "Polymarket BTC 5분 바이너리 자동매매봇",
-    "status": "paused",
+    "status": "running",
     "url": null,
     "github": null,
     "stack": [
@@ -208,10 +208,16 @@
     ],
     "todos": [
       "v4 실전 데이터 수집 후 전략 평가",
-      "수동 redeem 확인"
+      "수동 redeem 확인",
+      "QUANT 활용 전략 분석 세션"
     ],
     "notes": "일일 손실 한도 초과로 정지. 잔고 $170.57",
     "activities": [
+      {
+        "date": "2026-02-21",
+        "text": "QUANT(📊퀀트분석가) 14번째 에이전트 추가, v4→v2 전략 전환",
+        "status": "running"
+      },
       {
         "date": "2026-02-20",
         "text": "v4 다중지표+고래추적 전략 구현",
