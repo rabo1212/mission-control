@@ -264,6 +264,11 @@
     "workInstruction": "/mnt/clawd/세컨드브레인-클코작업지시서.md",
     "activities": [
       {
+        "date": "2026-02-22",
+        "text": "요약 실패 버그 수정 — 캐시 사전 생성 + backfill + API 폴백",
+        "status": "deployed"
+      },
+      {
         "date": "2026-02-15",
         "text": "검색 + 아카이브 기능 추가",
         "status": "deployed"
