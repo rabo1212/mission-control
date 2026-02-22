@@ -133,5 +133,14 @@
     "description": "차트 분석, 매매 전략 설계, 백테스트, 리스크 관리 전문가",
     "skills": ["기술적 분석", "백테스트", "리스크 관리", "Python"],
     "status": "active"
+  },
+  {
+    "id": "writer",
+    "name": "WRITER",
+    "emoji": "✍️",
+    "role": "크리에이티브 라이터",
+    "description": "소설, 대본, 스크립트, X 아티클, 에세이 등 창작 글쓰기 전문가",
+    "skills": ["스토리텔링", "대본", "아티클", "에세이"],
+    "status": "active"
   }
 ]
