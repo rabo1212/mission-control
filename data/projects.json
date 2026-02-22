@@ -1397,14 +1397,8 @@
       }
     ],
     "todos": [
-      {
-        "text": "Vercel Pro 시 Cron 빈도 업그레이드",
-        "done": false
-      },
-      {
-        "text": "Phase 2: 포트폴리오 시뮬레이터",
-        "done": false
-      }
+      "Vercel Pro 시 Cron 빈도 업그레이드",
+      "Phase 2: 포트폴리오 시뮬레이터"
     ],
     "activities": [
       {
