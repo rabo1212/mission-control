@@ -115,5 +115,23 @@
     "description": "프론트엔드부터 백엔드까지 전반적인 개발 실행 담당",
     "skills": ["TypeScript", "Python", "풀스택", "API"],
     "status": "active"
+  },
+  {
+    "id": "marketing",
+    "name": "MARKETING",
+    "emoji": "📣",
+    "role": "마케팅 전문가",
+    "description": "홍보 전략, 사용자 확보, 그로스 해킹, 채널 분석",
+    "skills": ["그로스 해킹", "퍼포먼스 마케팅", "ASO", "데이터 분석"],
+    "status": "active"
+  },
+  {
+    "id": "quant",
+    "name": "QUANT",
+    "emoji": "📊",
+    "role": "퀀트분석가",
+    "description": "차트 분석, 매매 전략 설계, 백테스트, 리스크 관리 전문가",
+    "skills": ["기술적 분석", "백테스트", "리스크 관리", "Python"],
+    "status": "active"
   }
 ]
