@@ -524,10 +524,16 @@
       "Phase 4: Free/Pro 결제 연동 (토스페이먼츠)",
       "Phase 2: 카테고리별 지출 차트",
       "Phase 2: 중복 감지 + 절약 추천",
-      "Phase 3: 코드 모듈 분리 + PWA"
+      "Phase 3: 코드 모듈 분리 + PWA",
+      "iOS 앱스토어 출시 준비 (Apple Developer 계정, 아이콘, 스플래시)"
     ],
     "workInstruction": "/mnt/clawd/믿독-구독관리앱-클코작업지시서.md",
     "activities": [
+      {
+        "date": "2026-02-22",
+        "text": "Phase 3: 알림 시스템 + iOS Capacitor 대비 (CDN→빌드, HashRouter, PWA)",
+        "status": "deployed"
+      },
       {
         "date": "2026-02-21",
         "text": "Phase 2 지출분석+절약추천 강화 완료 (AreaChart 월별추이, OTT/음악 특화 추천, 벤치마크)",
