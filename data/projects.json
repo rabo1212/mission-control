@@ -435,8 +435,8 @@
     "slug": "mission-control",
     "description": "전체 프로젝트 대시보드 + 클코 브리핑 생성기",
     "status": "developing",
-    "url": null,
-    "github": null,
+    "url": "https://mission-control-rabo1.vercel.app",
+    "github": "rabo1212/mission-control",
     "stack": [
       "Next.js",
       "TypeScript",
@@ -484,8 +484,8 @@
     "slug": "mitdok",
     "description": "구독 관리 앱 — 알림/절약/인사이트",
     "status": "deployed",
-    "url": "https://subscriptionapp-mocha.vercel.app",
-    "github": null,
+    "url": "https://mitdok.vercel.app",
+    "github": "rabo1212/subscription-manager",
     "stack": [
       "React 19",
       "Vite 7",
@@ -624,7 +624,7 @@
     "description": "바이낸스 현물 RSI+Grid 하이브리드 자동매매봇",
     "status": "paused",
     "url": null,
-    "github": null,
+    "github": "rabo1212/binance-spot-bot",
     "stack": [
       "Python",
       "httpx",
@@ -772,7 +772,7 @@
     "slug": "fairytale-photo",
     "description": "AI 이미지 생성 + Konva 캔버스 편집 도구",
     "status": "deployed",
-    "url": null,
+    "url": "https://fairytale-photo.vercel.app",
     "github": "rabo1212/fairytale-photo",
     "stack": [
       "Next.js 14",
@@ -957,8 +957,8 @@
     "slug": "ddak-hana",
     "description": "풀스택 모노레포 프로젝트 (server + client)",
     "status": "developing",
-    "url": null,
-    "github": null,
+    "url": "https://ddak-hana.vercel.app",
+    "github": "rabo1212/ddak-hana",
     "stack": [
       "Node.js",
       "npm workspace"
@@ -990,8 +990,8 @@
     "slug": "jiwonhae",
     "description": "AI 기반 자기소개서/면접 코칭 웹앱",
     "status": "developing",
-    "url": null,
-    "github": null,
+    "url": "https://jiwonhae.vercel.app",
+    "github": "rabo1212/jiwonhae-",
     "stack": [
       "Next.js 14",
       "Claude API",
@@ -1064,8 +1064,8 @@
     "slug": "gangwon-travel",
     "description": "강원도 여행 정보 제공 웹앱 + QR",
     "status": "paused",
-    "url": null,
-    "github": null,
+    "url": "https://gangwon-app.vercel.app",
+    "github": "rabo1212/gangwon-travel",
     "stack": [
       "React 19",
       "Vite",
@@ -1127,8 +1127,8 @@
     "slug": "past-life-test",
     "description": "전생 테스트 웹앱 (PWA)",
     "status": "paused",
-    "url": null,
-    "github": null,
+    "url": "https://past-life-test.vercel.app",
+    "github": "rabo1212/past-life-test",
     "stack": [
       "Next.js 14",
       "Framer Motion",
@@ -1156,7 +1156,7 @@
     "slug": "us-stock-analyzer",
     "description": "미국 주식 분석 API + AI 분석 서비스",
     "status": "deployed",
-    "url": null,
+    "url": "https://us-stock-analyzer-gamma.vercel.app",
     "github": null,
     "stack": [
       "Node.js",
@@ -1188,7 +1188,7 @@
     "slug": "weather-stock-app",
     "description": "실시간 날씨, 미세먼지, 주식 정보 PWA",
     "status": "deployed",
-    "url": null,
+    "url": "https://weather-stock-app.vercel.app",
     "github": null,
     "stack": [
       "JavaScript",
@@ -1221,8 +1221,8 @@
     "slug": "moodboard-studio",
     "description": "AI 기반 제품 사진 무드보드 생성기",
     "status": "paused",
-    "url": null,
-    "github": null,
+    "url": "https://moodboard-studio-one.vercel.app",
+    "github": "rabo1212/moodboard-studio",
     "stack": [
       "React 19",
       "Vite",
