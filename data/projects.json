@@ -586,6 +586,11 @@
     "activities": [
       {
         "date": "2026-02-22",
+        "text": "모델폴백, GA4 이벤트 7개, 영상크레딧 60, 이미지 재시도, 가격인상, 타임아웃 연장",
+        "status": "deployed"
+      },
+      {
+        "date": "2026-02-22",
         "text": "GA4 커스텀 이벤트 7개 추가 (purchase, generate, signup, share, ad)",
         "status": "deployed"
       },
