@@ -107,7 +107,7 @@
     "name": "백랏 스튜디오",
     "slug": "baeklat-studio",
     "description": "크리에이티브 스튜디오 공식 홈페이지",
-    "status": "planned",
+    "status": "deployed",
     "url": null,
     "github": null,
     "stack": [
@@ -140,6 +140,11 @@
     ],
     "workInstruction": "/mnt/clawd/백랏스튜디오-홈페이지-클코작업지시서.md",
     "activities": [
+      {
+        "date": "2026-02-23",
+        "text": "빠른 기록 기능 추가 (QuickLogModal + BottomNav 중앙 버튼 + Sidebar 버튼 + FAB) 및 Vercel 재배포",
+        "status": "deployed"
+      },
       {
         "date": "2026-02-21",
         "text": "작업지시서 완성",
