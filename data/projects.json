@@ -362,10 +362,17 @@
     ],
     "todos": [
       "Base USDC 충전 (업비트 출금 제한)",
-      "VPS 배포 (카드 결제 불가)"
+      "VPS 배포 (카드 결제 불가)",
+      "VPS(Railway) 배포 검토",
+      "매출 대시보드 구축"
     ],
     "workInstruction": "/mnt/clawd/ACP에이전트서비스-클코작업지시서.md",
     "activities": [
+      {
+        "date": "2026-02-25",
+        "text": "엔터테인먼트 서비스 4개 추가 (crypto_roast/degen_score/crypto_fortune/rug_pull_scanner), 24/7 자동재시작 스크립트 구축, 총 26개 오퍼링 운영 중. 오늘 실매출 $1.3+ 발생",
+        "status": "running"
+      },
       {
         "date": "2026-02-25",
         "text": "crypto_fact_check 서비스 추가 ($0.03, Claude AI 팩트체크), Quick 라이트 시리즈 6개 + tweet_generator + fact_check 총 22개 오퍼링. 오늘 실매출 발생 중 (tweet_generator 30초만에 3건 연속 판매)",
