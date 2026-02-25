@@ -1572,6 +1572,11 @@
     "activities": [
       {
         "date": "2026-02-25",
+        "text": "Session 5-1: 로비에 플레이어 프로필 통계 카드 추가",
+        "status": "developing"
+      },
+      {
+        "date": "2026-02-25",
         "text": "Session 4-3: 온라인 게임 기록 저장 + 로비 전적 표시",
         "status": "developing"
       },
