@@ -368,6 +368,11 @@
     "activities": [
       {
         "date": "2026-02-25",
+        "text": "crypto_fact_check 서비스 추가 ($0.03, Claude AI 팩트체크), Quick 라이트 시리즈 6개 + tweet_generator + fact_check 총 22개 오퍼링. 오늘 실매출 발생 중 (tweet_generator 30초만에 3건 연속 판매)",
+        "status": "running"
+      },
+      {
+        "date": "2026-02-25",
         "text": "초저가 Quick 시리즈 6개 추가 ($0.01~$0.02): btc_price, stock_price, kimchi, gas, sector_heat, trending_markets. 총 21개 오퍼링 운영, 오늘 매출 $1+ 발생",
         "status": "running"
       },
