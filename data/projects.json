@@ -368,6 +368,11 @@
     "activities": [
       {
         "date": "2026-02-25",
+        "text": "초저가 Quick 시리즈 6개 추가 ($0.01~$0.02): btc_price, stock_price, kimchi, gas, sector_heat, trending_markets. 총 21개 오퍼링 운영, 오늘 매출 $1+ 발생",
+        "status": "running"
+      },
+      {
+        "date": "2026-02-25",
         "text": "market_tweet_generator 서비스 신규 개발 - 실시간 시장 데이터 기반 AI 트윗/스레드 생성 (/bin/zsh.02), Claude Haiku + 주식/크립토/섹터 데이터 연동. 총 15개 오퍼링",
         "status": "running"
       },
