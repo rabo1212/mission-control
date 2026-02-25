@@ -1579,6 +1579,11 @@
     "activities": [
       {
         "date": "2026-02-25",
+        "text": "Session 8: 온라인 전적 히스토리 페이지 추가 (/history)",
+        "status": "developing"
+      },
+      {
+        "date": "2026-02-25",
         "text": "Session 7-2: 게임 중 설정 패널(효과음/가이드 토글) 추가",
         "status": "developing"
       },
