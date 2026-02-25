@@ -1579,6 +1579,11 @@
     "activities": [
       {
         "date": "2026-02-25",
+        "text": "Session 6-3: 닉네임 변경/로그아웃/게임오버 UX 개선",
+        "status": "developing"
+      },
+      {
+        "date": "2026-02-25",
         "text": "Session 6-2: 글로벌 리더보드(랭킹) 페이지 추가",
         "status": "developing"
       },
