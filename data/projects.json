@@ -1489,6 +1489,11 @@
     "activities": [
       {
         "date": "2026-02-25",
+        "text": "리뷰 기반 CRITICAL/HIGH/MEDIUM 버그 14건 수정 (AI 프리즈, 최적 분해, isMenzen, overflow 등)",
+        "status": "deployed"
+      },
+      {
+        "date": "2026-02-25",
         "text": "GitHub 레포 생성 + Vercel 배포 완료",
         "status": "deployed"
       },
