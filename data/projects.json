@@ -1452,5 +1452,48 @@
         "text": "Phase 1 MVP + 실데이터 API 연동 + 텔레그램 알림 시스템 구축 및 Vercel 배포"
       }
     ]
+  },
+  {
+    "name": "마작플레이 (MahjongPlay)",
+    "slug": "mahjong-play",
+    "description": "중국식 마작(국표마작, MCR) AI 연습 게임",
+    "status": "developing",
+    "url": "",
+    "github": "",
+    "stack": [
+      "Next.js 14",
+      "TypeScript",
+      "Tailwind CSS",
+      "Zustand"
+    ],
+    "category": "게임",
+    "phases": [
+      {
+        "name": "Phase 1: AI 연습 MVP",
+        "status": "done"
+      },
+      {
+        "name": "Phase 2: 온라인 대전",
+        "status": "pending"
+      },
+      {
+        "name": "Phase 3: 역 확장 + 폴리시",
+        "status": "pending"
+      }
+    ],
+    "todos": [
+      "Vercel 배포",
+      "GitHub 레포 생성",
+      "Phase 2: Socket.io 온라인 대전",
+      "Phase 3: 81가지 역 전부 구현"
+    ],
+    "workInstruction": "",
+    "activities": [
+      {
+        "date": "2026-02-25",
+        "text": "Phase 1 MVP 완성: 게임엔진+UI+3단계AI+효과음+전적기록",
+        "status": "developing"
+      }
+    ]
   }
 ]
