@@ -368,6 +368,11 @@
     "activities": [
       {
         "date": "2026-02-25",
+        "text": "ACP 오퍼링 4개 추가 등록 (us_stock_analysis/yahoo_stock_data/sector_monitor_signal/natural_cron_parser), 총 14개 서비스 운영 중. cron 파서 UTC 시간 버그 수정",
+        "status": "running"
+      },
+      {
+        "date": "2026-02-25",
         "text": "pet_fortune_analysis 오퍼링 추가 (/bin/zsh.30, 냥멍천명 Vercel API 연동), 셀러 10개 오퍼링 활성화",
         "status": "running"
       },
