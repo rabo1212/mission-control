@@ -1533,7 +1533,7 @@
     "name": "마작플레이 (MahjongPlay)",
     "slug": "mahjong-play",
     "description": "중국식 마작(국표마작, MCR) AI 연습 게임",
-    "status": "deployed",
+    "status": "developing",
     "url": "",
     "github": "",
     "stack": [
@@ -1560,10 +1560,17 @@
     "todos": [
       "Phase 2: Socket.io 온라인 대전",
       "Phase 3: 81가지 역 전부 구현",
-      "온라인 대국 (WebSocket 멀티플레이어)"
+      "온라인 대국 (WebSocket 멀티플레이어)",
+      "온라인 게임 기록 저장",
+      "대기실 레디 시스템"
     ],
     "workInstruction": "",
     "activities": [
+      {
+        "date": "2026-02-25",
+        "text": "Session 3-3~4-2: 정형문 채팅, 게임 결과 강화(MCR 정산+승리패), 로비 방 목록",
+        "status": "developing"
+      },
       {
         "date": "2026-02-25",
         "text": "온라인 대국 전 엔진 강화 10건: 가깡/영상개화/해저로월/DTO/세션시스템",
