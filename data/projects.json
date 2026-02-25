@@ -367,10 +367,17 @@
       "매출 대시보드 구축",
       "reddit_demand_signal 대체 서비스 검토",
       "evaluator 승인률 개선 (Virtuals 디스코드 문의)",
-      "에이전트 이름 변경 원인 파악 (PolyOracle→rolypoly)"
+      "에이전트 이름 변경 원인 파악 (PolyOracle→rolypoly)",
+      "매출 추적 + 전환율 모니터링",
+      "Discord evaluator 승인률 문의"
     ],
     "workInstruction": "/mnt/clawd/ACP에이전트서비스-클코작업지시서.md",
     "activities": [
+      {
+        "date": "2026-02-25",
+        "text": "구매율 개선: 가격 인상(엔터6종 .01→.10~.25), 에이전트 설명 리라이팅(ONLY 포지셔닝), requestPayment 메시지 17개 전체 개선, 마켓플레이스 재동기화",
+        "status": "running"
+      },
       {
         "date": "2026-02-25",
         "text": "deliverable 필드+requestPayment 메시지 17개 전부 개선, 오퍼링 폴더명 버그 수정(polyoracle→rolypoly)",
