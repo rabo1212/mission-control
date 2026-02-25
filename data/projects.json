@@ -1457,7 +1457,7 @@
     "name": "마작플레이 (MahjongPlay)",
     "slug": "mahjong-play",
     "description": "중국식 마작(국표마작, MCR) AI 연습 게임",
-    "status": "developing",
+    "status": "deployed",
     "url": "",
     "github": "",
     "stack": [
@@ -1482,13 +1482,16 @@
       }
     ],
     "todos": [
-      "Vercel 배포",
-      "GitHub 레포 생성",
       "Phase 2: Socket.io 온라인 대전",
       "Phase 3: 81가지 역 전부 구현"
     ],
     "workInstruction": "",
     "activities": [
+      {
+        "date": "2026-02-25",
+        "text": "GitHub 레포 생성 + Vercel 배포 완료",
+        "status": "deployed"
+      },
       {
         "date": "2026-02-25",
         "text": "미션컨트롤 대시보드 등록 완료",
