@@ -1579,6 +1579,11 @@
     "activities": [
       {
         "date": "2026-02-25",
+        "text": "Session 7-2: 게임 중 설정 패널(효과음/가이드 토글) 추가",
+        "status": "developing"
+      },
+      {
+        "date": "2026-02-25",
         "text": "Session 7-1: 온라인 게임에 초보자 가이드(향청수/대기패/추천 버리기) 추가",
         "status": "developing"
       },
