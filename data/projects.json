@@ -1491,6 +1491,11 @@
     "activities": [
       {
         "date": "2026-02-25",
+        "text": "미션컨트롤 대시보드 등록 완료",
+        "status": "developing"
+      },
+      {
+        "date": "2026-02-25",
         "text": "Phase 1 MVP 완성: 게임엔진+UI+3단계AI+효과음+전적기록",
         "status": "developing"
       }
