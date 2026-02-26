@@ -1607,6 +1607,31 @@
     "activities": [
       {
         "date": "2026-02-26",
+        "text": "Session 25-28: 효과음/벽패경고/전적필터/대기패개선/랭킹정렬/모바일대응",
+        "status": "developing"
+      },
+      {
+        "date": "2026-02-26",
+        "text": "Session 28: OnlineGameOverModal 모바일, 랭킹 승률 정렬, 순위 밖 안내",
+        "status": "developing"
+      },
+      {
+        "date": "2026-02-26",
+        "text": "Session 27: WaitingTiles 14장 대기패 계산, console.error 제거",
+        "status": "developing"
+      },
+      {
+        "date": "2026-02-26",
+        "text": "Session 26: 전적 난이도 필터/삭제 버튼, 빈 히스토리 메시지, GameOverModal 모바일 대응",
+        "status": "developing"
+      },
+      {
+        "date": "2026-02-26",
+        "text": "Session 25: 패 뽑기 효과음 연결(playTileDraw), 벽패 10장 이하 위기 경고 UI",
+        "status": "developing"
+      },
+      {
+        "date": "2026-02-26",
         "text": "모바일 게임 테이블 반응형: 타일 크기/버림패/팝업 위치 개선 (Session 24)",
         "status": "developing"
       },
