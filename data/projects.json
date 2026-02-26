@@ -1586,6 +1586,11 @@
     "activities": [
       {
         "date": "2026-02-26",
+        "text": "Session 13: 멀티플레이 UX (방 수 뱃지, 초대링크, 초보방 필터)",
+        "status": "developing"
+      },
+      {
+        "date": "2026-02-26",
         "text": "Session 12: UX 폴리시 묶음 (로컬 나가기, OG메타, favicon, 통계라벨)",
         "status": "developing"
       },
