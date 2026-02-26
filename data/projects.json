@@ -1579,6 +1579,11 @@
     "activities": [
       {
         "date": "2026-02-26",
+        "text": "Session 10: 역 사전 페이지 + 대기실 코드 복사 버튼",
+        "status": "developing"
+      },
+      {
+        "date": "2026-02-26",
         "text": "Session 9: 네비게이션 개선 + 홈 로컬 전적 목록",
         "status": "developing"
       },
