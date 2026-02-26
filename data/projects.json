@@ -1607,6 +1607,11 @@
     "activities": [
       {
         "date": "2026-02-26",
+        "text": "Session 18: GameOverModal 동적 좌석풍 라벨 + MCR 정산 기반 세션 점수 계산",
+        "status": "developing"
+      },
+      {
+        "date": "2026-02-26",
         "text": "Session 17: 동적 좌석풍 라벨 + 세션 점수 HUD + yaku-list 주석 수정",
         "status": "developing"
       },
