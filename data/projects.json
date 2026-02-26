@@ -1607,6 +1607,11 @@
     "activities": [
       {
         "date": "2026-02-26",
+        "text": "모바일 게임 테이블 반응형: 타일 크기/버림패/팝업 위치 개선 (Session 24)",
+        "status": "developing"
+      },
+      {
+        "date": "2026-02-26",
         "text": "마작 입문 가이드 페이지 /rules 추가: 패 종류/게임 흐름/화료/점수/용어 (Session 23)",
         "status": "developing"
       },
