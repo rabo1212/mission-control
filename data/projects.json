@@ -1861,5 +1861,58 @@
         "status": "developing"
       }
     ]
+  },
+  {
+    "name": "랜딩 에이전트 팀",
+    "slug": "landing-agent-team",
+    "description": "AI 5-Agent 파이프라인으로 13섹션 고전환 랜딩페이지 자동 생성",
+    "status": "deployed",
+    "url": "https://webapp-rabo1.vercel.app",
+    "github": "rabo1212/landing-agent-team",
+    "stack": [
+      "Next.js",
+      "TypeScript",
+      "Gemini API",
+      "shadcn/ui",
+      "Zustand"
+    ],
+    "category": "AI 도구",
+    "phases": [
+      {
+        "name": "CLI 파이프라인",
+        "status": "done"
+      },
+      {
+        "name": "웹앱 UI",
+        "status": "done"
+      },
+      {
+        "name": "품질 개선",
+        "status": "planned"
+      }
+    ],
+    "todos": [
+      {
+        "text": "커스텀 도메인 연결",
+        "done": false
+      },
+      {
+        "text": "디자인 AI 냄새 제거 품질 검증",
+        "done": false
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-02-26",
+        "event": "Next.js 14 웹앱 UI 구현 및 Vercel 배포 완료"
+      }
+    ],
+    "activities": [
+      {
+        "date": "2026-02-26",
+        "text": "Next.js 14 웹앱 UI 구현 및 Vercel 배포 완료 (5-Agent 파이프라인 + Gemini API)",
+        "status": "deployed"
+      }
+    ]
   }
 ]
