@@ -371,10 +371,16 @@
       "매출 추적 + 전환율 모니터링",
       "Discord evaluator 승인률 문의",
       "COMPLETED 10건 달성 후 Graduated Agent 신청",
-      "PolyTester에 Base USDC 충전 후 셀프 테스트"
+      "PolyTester에 Base USDC 충전 후 셀프 테스트",
+      "reddit_complaint_monitor E2E 테스트 (Reddit rate limit 해제 후)"
     ],
     "workInstruction": "/mnt/clawd/ACP에이전트서비스-클코작업지시서.md",
     "activities": [
+      {
+        "date": "2026-02-26",
+        "text": "reddit_complaint_monitor ACP 서비스 신규 추가 (/bin/zsh.30) — Reddit 경쟁사 불만 수집 + AI 영업 멘트 생성",
+        "status": "running"
+      },
       {
         "date": "2026-02-26",
         "text": "구매율 개선: 가격인상(6개 서비스 /bin/zsh.01→/bin/zsh.10~/bin/zsh.25), deliverable 포맷 버그 수정({type,value} 래핑), 소켓 재연결 잡 복구 추가, market_deep_analysis 키워드 폴백 수정, 에이전트 설명 리라이팅, PolyTester 테스트 에이전트 생성",
