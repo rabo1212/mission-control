@@ -1607,6 +1607,11 @@
     "activities": [
       {
         "date": "2026-02-26",
+        "text": "Hard AI 전략 고도화: 스지/카베/수트패턴/패산인식/가깡전략 (Session 22)",
+        "status": "developing"
+      },
+      {
+        "date": "2026-02-26",
         "text": "역 가이드 페이지 리뉴얼: 검색/점수필터/시각적 패 예시 추가 (Session 21)",
         "status": "developing"
       },
