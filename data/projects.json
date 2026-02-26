@@ -1607,6 +1607,11 @@
     "activities": [
       {
         "date": "2026-02-26",
+        "text": "Session 20: PWA manifest + viewport/theme-color 메타 + error.tsx/not-found.tsx + iOS safe area",
+        "status": "developing"
+      },
+      {
+        "date": "2026-02-26",
         "text": "Session 19: 액션 키보드 단축키(C/P/K/W/Space) + TileComponent aria-label + React.memo 최적화",
         "status": "developing"
       },
