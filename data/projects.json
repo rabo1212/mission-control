@@ -193,13 +193,15 @@
     ],
     "todos": [
       "Reddit API 키 승인 후 PRAW 업그레이드",
-      "서브레딧 15개로 확장",
-      "Rate limit 개선 (Entrepreneur/smallbusiness 429 차단)",
-      "ACP 캐싱 (같은 날 중복 요청 시 재수집 방지)",
       "VPS 배포 (24/7 셀러 운영)"
     ],
     "workInstruction": "/mnt/clawd/레딧수요스나이퍼-클코작업지시서.md",
     "activities": [
+      {
+        "date": "2026-02-26",
+        "text": "서브레딧 15개 확장, Rate limit 적응형 개선(RSS-only 모드), ACP 캐싱 추가",
+        "status": "running"
+      },
       {
         "date": "2026-02-25",
         "text": "ACP 오퍼링 등록 완료 (reddit_demand_signal, /bin/zsh.25 USDC) + acp_runner.py 버그 수정 + 빈결과 폴백 로직 추가",
