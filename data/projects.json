@@ -1600,6 +1600,11 @@
     "activities": [
       {
         "date": "2026-02-26",
+        "text": "Session 17: 동적 좌석풍 라벨 + 세션 점수 HUD + yaku-list 주석 수정",
+        "status": "developing"
+      },
+      {
+        "date": "2026-02-26",
         "text": "Session 16: 동풍전 4국 세션 시스템 연결 (session.ts 고아코드 활용, 6파일 +251줄)",
         "status": "developing"
       },
