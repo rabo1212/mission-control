@@ -374,10 +374,16 @@
       "Discord evaluator 승인률 문의",
       "COMPLETED 10건 달성 후 Graduated Agent 신청",
       "PolyTester에 Base USDC 충전 후 셀프 테스트",
-      "reddit_complaint_monitor E2E 테스트 (Reddit rate limit 해제 후)"
+      "reddit_complaint_monitor E2E 테스트 (Reddit rate limit 해제 후)",
+      "졸업 신청 (10건 COMPLETED 확인 후)"
     ],
     "workInstruction": "/mnt/clawd/ACP에이전트서비스-클코작업지시서.md",
     "activities": [
+      {
+        "date": "2026-02-26",
+        "text": "18개 오퍼링 설명 구체적 예시로 전면 업데이트 + ACP 재등록, reddit_complaint_monitor 신규 서비스 추가",
+        "status": "running"
+      },
       {
         "date": "2026-02-26",
         "text": "reddit_complaint_monitor ACP 서비스 신규 추가 (/bin/zsh.30) — Reddit 경쟁사 불만 수집 + AI 영업 멘트 생성",
