@@ -1614,6 +1614,11 @@
     "activities": [
       {
         "date": "2026-02-26",
+        "text": "Session 31: DiscardPool key 중복, 키보드 가드, 쯔모 이중효과음, useGameLoop 정리",
+        "status": "developing"
+      },
+      {
+        "date": "2026-02-26",
         "text": "Session 30: 버그 4건 수정 (치/펑 추천, 타일 크기, 국번호, 설정팝업)",
         "status": "developing"
       },
