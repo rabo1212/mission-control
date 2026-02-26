@@ -1614,6 +1614,11 @@
     "activities": [
       {
         "date": "2026-02-26",
+        "text": "Session 32: 남은 버그 4건 정리 + 인터랙티브 튜토리얼 모드 5단계 추가",
+        "status": "developing"
+      },
+      {
+        "date": "2026-02-26",
         "text": "Session 31: DiscardPool key 중복, 키보드 가드, 쯔모 이중효과음, useGameLoop 정리",
         "status": "developing"
       },
