@@ -1766,5 +1766,37 @@
         "status": "developing"
       }
     ]
+  },
+  {
+    "name": "내 집 얼마?",
+    "slug": "my-house-price",
+    "description": "아파트 실거래가 조회 + 대출계산기 웹앱",
+    "status": "deployed",
+    "url": "https://my-house-price.vercel.app",
+    "github": "rabo1212/my-house-price",
+    "stack": [
+      "Next.js",
+      "TypeScript",
+      "Recharts",
+      "Tailwind"
+    ],
+    "category": "부동산",
+    "phases": [
+      {
+        "name": "MVP",
+        "status": "done"
+      },
+      {
+        "name": "커스텀 도메인",
+        "status": "planned"
+      }
+    ],
+    "todos": [],
+    "timeline": [
+      {
+        "date": "2026-02-26",
+        "event": "MVP 완성 + Vercel 배포"
+      }
+    ]
   }
 ]
