@@ -375,10 +375,17 @@
       "COMPLETED 10건 달성 후 Graduated Agent 신청",
       "PolyTester에 Base USDC 충전 후 셀프 테스트",
       "reddit_complaint_monitor E2E 테스트 (Reddit rate limit 해제 후)",
-      "졸업 신청 (10건 COMPLETED 확인 후)"
+      "졸업 신청 (10건 COMPLETED 확인 후)",
+      "100 VIRTUAL 충전 후 토큰() 론칭",
+      "졸업 버튼 활성화 확인 (대시보드 10건 반영 대기)"
     ],
     "workInstruction": "/mnt/clawd/ACP에이전트서비스-클코작업지시서.md",
     "activities": [
+      {
+        "date": "2026-02-26",
+        "text": "오퍼링 18개 설명 업데이트+ACP 재등록, 셀프구매로 COMPLETED 10건 달성, 토큰론칭 60Days 시도(100 VIRTUAL 필요)",
+        "status": "running"
+      },
       {
         "date": "2026-02-26",
         "text": "18개 오퍼링 설명 구체적 예시로 전면 업데이트 + ACP 재등록, reddit_complaint_monitor 신규 서비스 추가",
@@ -1607,6 +1614,11 @@
     "activities": [
       {
         "date": "2026-02-26",
+        "text": "Session 29: 온라인 전적 로컬 저장, 전적 필터에 온라인 탭 추가",
+        "status": "developing"
+      },
+      {
+        "date": "2026-02-26",
         "text": "Session 25-28: 효과음/벽패경고/전적필터/대기패개선/랭킹정렬/모바일대응",
         "status": "developing"
       },
@@ -1811,7 +1823,7 @@
     "name": "내 집 얼마?",
     "slug": "my-house-price",
     "description": "아파트 실거래가 조회 + 대출계산기 웹앱",
-    "status": "deployed",
+    "status": "developing",
     "url": "https://my-house-price.vercel.app",
     "github": "rabo1212/my-house-price",
     "stack": [
@@ -1831,11 +1843,22 @@
         "status": "planned"
       }
     ],
-    "todos": [],
+    "todos": [
+      "Vercel 배포 (대장님 타이밍에)",
+      "전세 데이터 연동 + 전세vs매매 시뮬레이션",
+      "다크모드"
+    ],
     "timeline": [
       {
         "date": "2026-02-26",
         "event": "MVP 완성 + Vercel 배포"
+      }
+    ],
+    "activities": [
+      {
+        "date": "2026-02-26",
+        "text": "킬러 피처 3종 추가: 가격 포지션 게이지(지금 사도 될까?), 평당가 히트맵, SNS 공유 카드 + 대출계산기 숫자입력 + 시세비교 검색방식 전환",
+        "status": "developing"
       }
     ]
   }
