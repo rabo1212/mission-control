@@ -1586,6 +1586,11 @@
     "activities": [
       {
         "date": "2026-02-26",
+        "text": "Session 12: UX 폴리시 묶음 (로컬 나가기, OG메타, favicon, 통계라벨)",
+        "status": "developing"
+      },
+      {
+        "date": "2026-02-26",
         "text": "Session 11: 로컬 게임오버 모달 업그레이드 (쯔모/론, 정산, 부로)",
         "status": "developing"
       },
