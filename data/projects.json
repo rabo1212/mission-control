@@ -1838,7 +1838,7 @@
     "name": "내 집 얼마?",
     "slug": "my-house-price",
     "description": "아파트 실거래가 조회 + 대출계산기 웹앱",
-    "status": "developing",
+    "status": "deployed",
     "url": "https://my-house-price.vercel.app",
     "github": "rabo1212/my-house-price",
     "stack": [
@@ -1861,7 +1861,8 @@
     "todos": [
       "Vercel 배포 (대장님 타이밍에)",
       "전세 데이터 연동 + 전세vs매매 시뮬레이션",
-      "다크모드"
+      "다크모드",
+      "다크모드 지원"
     ],
     "timeline": [
       {
@@ -1870,6 +1871,11 @@
       }
     ],
     "activities": [
+      {
+        "date": "2026-02-26",
+        "text": "입체감 디자인 리뉴얼 (글래스모피즘+메시그라데이션+3D호버) + 킬러피처 3종(히트맵/게이지/공유카드) + 코드리뷰 전체 수정 + Vercel 배포",
+        "status": "deployed"
+      },
       {
         "date": "2026-02-26",
         "text": "킬러 피처 3종 추가: 가격 포지션 게이지(지금 사도 될까?), 평당가 히트맵, SNS 공유 카드 + 대출계산기 숫자입력 + 시세비교 검색방식 전환",
