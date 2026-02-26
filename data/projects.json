@@ -1600,6 +1600,11 @@
     "activities": [
       {
         "date": "2026-02-26",
+        "text": "Session 16: 동풍전 4국 세션 시스템 연결 (session.ts 고아코드 활용, 6파일 +251줄)",
+        "status": "developing"
+      },
+      {
+        "date": "2026-02-26",
         "text": "Session 15: 치(吃) 다중 옵션 선택 UI + 꽃패 렌더링 수정 (7파일, +120줄)",
         "status": "developing"
       },
