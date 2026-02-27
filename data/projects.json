@@ -1954,5 +1954,48 @@
         "status": "deployed"
       }
     ]
+  },
+  {
+    "name": "고스톱플레이",
+    "slug": "gostop-play",
+    "description": "3인 고스톱 웹 게임 (AI 대전)",
+    "status": "deployed",
+    "url": "https://gostop-play.vercel.app",
+    "github": "rabo1212/gostop-play",
+    "stack": [
+      "Next.js",
+      "TypeScript",
+      "Zustand",
+      "Vitest"
+    ],
+    "category": "게임",
+    "phases": [
+      {
+        "name": "MVP",
+        "status": "done"
+      },
+      {
+        "name": "세션 관리",
+        "status": "done"
+      },
+      {
+        "name": "배포",
+        "status": "done"
+      }
+    ],
+    "todos": [],
+    "timeline": [
+      {
+        "date": "2026-02-27",
+        "text": "Phase 1 MVP 완료 + Vercel 배포"
+      }
+    ],
+    "activities": [
+      {
+        "date": "2026-02-27",
+        "text": "Phase 1 MVP 완료: 게임 엔진, AI, 화투 이미지, 3판 세션, 테스트 50개, GitHub+Vercel 배포",
+        "status": "deployed"
+      }
+    ]
   }
 ]
