@@ -1982,7 +1982,7 @@
     "name": "고스톱플레이",
     "slug": "gostop-play",
     "description": "3인 고스톱 웹 게임 (AI 대전)",
-    "status": "developing",
+    "status": "deployed",
     "url": "https://gostop-play.vercel.app",
     "github": "rabo1212/gostop-play",
     "stack": [
@@ -2007,9 +2007,8 @@
       }
     ],
     "todos": [
-      "Supabase 프로젝트 생성 + SQL 스키마 실행",
-      "환경변수 설정 (.env.local + Vercel)",
-      "온라인 대전 E2E 테스트"
+      "온라인 대전 E2E 테스트",
+      "온라인 대전 E2E 테스트 (멀티브라우저)"
     ],
     "timeline": [
       {
@@ -2018,6 +2017,11 @@
       }
     ],
     "activities": [
+      {
+        "date": "2026-02-27",
+        "text": "Supabase 셋업 완료 + 모바일 UI 전면 재설계 (먹은패 가로배치, 카드크기 최적화)",
+        "status": "deployed"
+      },
       {
         "date": "2026-02-27",
         "text": "온라인 3인 대전 구현 완료 (Supabase Realtime, 28파일 2946줄)",
