@@ -43,6 +43,11 @@
     "workInstruction": "/mnt/clawd/사주관상앱-클코작업지시서.md",
     "activities": [
       {
+        "date": "2026-02-27",
+        "text": "A24 스타일 디자인 전면 리뉴얼 + 관상/셀피 기능 완전 제거",
+        "status": "deployed"
+      },
+      {
         "date": "2026-02-25",
         "text": "사주 분석 ACP 오퍼링 등록 완료 (fortune_saju_analysis, /bin/zsh.50 USDC) - Vercel API 연동 방식",
         "status": "deployed"
