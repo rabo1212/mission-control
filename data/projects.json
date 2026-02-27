@@ -259,10 +259,18 @@
     "todos": [
       "v4 실전 데이터 수집 후 전략 평가",
       "수동 redeem 확인",
-      "QUANT 활용 전략 분석 세션"
+      "QUANT 활용 전략 분석 세션",
+      "오늘 저녁  토큰 론칭 (60days.ai)",
+      "100 VIRTUAL 확보 (업비트→바이낸스→VIRTUAL)",
+      "토큰 론칭 후 트위터/Discord 홍보"
     ],
     "notes": "일일 손실 한도 초과로 정지. 잔고 $170.57",
     "activities": [
+      {
+        "date": "2026-02-27",
+        "text": "ACP 셀러 재시작, 졸업조건 확인(42K VIRTUAL 필요), 토큰 론칭 Path2(60Days) 확인, Discord 지원 티켓 오픈, caffeinate 슬립 방지 설정",
+        "status": "running"
+      },
       {
         "date": "2026-02-21",
         "text": "QUANT(📊퀀트분석가) 14번째 에이전트 추가, v4→v2 전략 전환",
