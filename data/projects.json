@@ -38,12 +38,15 @@
       "토스 개발자센터 가입 후 실제 테스트 키 연동",
       "결제 플로우 E2E 테스트",
       "사업자등록 후 토스 라이브 모드 전환",
-      "ACP 사주 서비스 실사용 테스트",
-      "궁합 생성 API(/api/generate-extra) 구현",
-      "PartnerInputModal을 결제 완료 플로우에 연결"
+      "ACP 사주 서비스 실사용 테스트"
     ],
     "workInstruction": "/mnt/clawd/사주관상앱-클코작업지시서.md",
     "activities": [
+      {
+        "date": "2026-02-27",
+        "text": "궁합 분석 API + 결제 후 입력 플로우 + 결과 페이지 표시 완성",
+        "status": "deployed"
+      },
       {
         "date": "2026-02-27",
         "text": "프리미엄 3가지 선택 모델(₩1,990) + 랜딩페이지 리뉴얼 + PartnerInputModal 추가",
