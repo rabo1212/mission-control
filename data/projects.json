@@ -1531,8 +1531,15 @@
         "status": "done"
       }
     ],
-    "todos": [],
+    "todos": [
+      "고스톱: 브라우저 수동 테스트 + GitHub/Vercel 배포"
+    ],
     "activities": [
+      {
+        "date": "2026-02-27",
+        "text": "고스톱플레이(GoStopPlay) Phase 1 MVP 완성: 엔진+AI+SVG카드+게임UI, 빌드 성공",
+        "status": "paused"
+      },
       {
         "date": "2026-02-13",
         "text": "레몬게임 추가",
