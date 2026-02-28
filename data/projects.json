@@ -400,10 +400,17 @@
       "reddit_complaint_monitor E2E 테스트 (Reddit rate limit 해제 후)",
       "졸업 신청 (10건 COMPLETED 확인 후)",
       "100 VIRTUAL 충전 후 토큰() 론칭",
-      "졸업 버튼 활성화 확인 (대시보드 10건 반영 대기)"
+      "졸업 버튼 활성화 확인 (대시보드 10건 반영 대기)",
+      "트위터/디스코드 홍보",
+      "60일 내 커밋 여부 결정"
     ],
     "workInstruction": "/mnt/clawd/ACP에이전트서비스-클코작업지시서.md",
     "activities": [
+      {
+        "date": "2026-02-28",
+        "text": "$PORACLE 토큰 Virtuals 60 Days 프로그램으로 론칭 완료! Midjourney 토큰 이미지 제작, Upbit→Binance→MetaMask→Privy 지갑 경유 100 VIRTUAL 납부",
+        "status": "running"
+      },
       {
         "date": "2026-02-26",
         "text": "오퍼링 18개 설명 업데이트+ACP 재등록, 셀프구매로 COMPLETED 10건 달성, 토큰론칭 60Days 시도(100 VIRTUAL 필요)",
