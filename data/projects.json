@@ -594,10 +594,18 @@
       "실기기 테스트",
       "앱스토어 제출",
       "iOS 시뮬레이터 전체 플로우 QA",
-      "다크모드 대응 검토"
+      "다크모드 대응 검토",
+      "FAL_KEY 환경변수 설정",
+      "E2E 테스트 (실제 API 연동)",
+      "GitHub 리포 생성 + 배포"
     ],
     "workInstruction": "/mnt/clawd/상품사진앱-시장조사-클코작업지시서.md",
     "activities": [
+      {
+        "date": "2026-03-01",
+        "text": "Phase 1 MVP 전체 구현 완료 (11/11 tasks)",
+        "status": "developing"
+      },
       {
         "date": "2026-02-21",
         "text": "Apple HIG 미니멀 화이트 디자인 리뉴얼 완료 (theme.ts + 19개 파일)",
