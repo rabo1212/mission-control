@@ -541,6 +541,11 @@
     "workInstruction": "/mnt/clawd/뽀모도로-게임-클코작업지시서.md",
     "activities": [
       {
+        "date": "2026-03-01",
+        "text": "픽셀 오피스 5구역 시스템 + 캐릭터 이동 애니메이션 구현",
+        "status": "deployed"
+      },
+      {
         "date": "2026-02-27",
         "text": "아이소메트릭 방 디자인 리뉴얼: 아이템 14→42개 확장, 렌더러 모듈화, 상점 카테고리 탭 추가",
         "status": "deployed"
