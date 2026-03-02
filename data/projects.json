@@ -1626,7 +1626,7 @@
     "name": "퀀텀리프",
     "slug": "quantum-leap",
     "description": "AI/반도체 종목 모니터링 대시보드 + 텔레그램 알림",
-    "status": "developing",
+    "status": "deployed",
     "url": "https://quantum-leap-pied.vercel.app",
     "github": "rabo1212/quantum-leap",
     "stack": [
@@ -1654,10 +1654,14 @@
     "todos": [
       "Vercel Pro 시 Cron 빈도 업그레이드",
       "Phase 2: 포트폴리오 시뮬레이터",
-      "Phase 2: 주식+폴리마켓 확장",
-      "Vercel 배포"
+      "Phase 2: 주식+폴리마켓 확장"
     ],
     "activities": [
+      {
+        "date": "2026-03-02",
+        "text": "Vercel 배포 완료 (quantum-leap-v2.vercel.app)",
+        "status": "deployed"
+      },
       {
         "date": "2026-03-02",
         "text": "퀀텀리프 v2 Phase 1 MVP 완성 - 멀티에이전트 AI 크립토 분석 시스템 (4애널리스트+Bull/Bear토론+리스크+펀드매니저)",
