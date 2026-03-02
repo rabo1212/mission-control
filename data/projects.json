@@ -603,10 +603,17 @@
       "다크모드 대응 검토",
       "FAL_KEY 환경변수 설정",
       "E2E 테스트 (실제 API 연동)",
-      "GitHub 리포 생성 + 배포"
+      "GitHub 리포 생성 + 배포",
+      "실제 이미지 생성 E2E 테스트",
+      "Vercel 배포 확인 후 프로덕션 테스트"
     ],
     "workInstruction": "/mnt/clawd/상품사진앱-시장조사-클코작업지시서.md",
     "activities": [
+      {
+        "date": "2026-03-02",
+        "text": "Phase A~E 전면 업그레이드: FLUX Kontext Pro API, 카테고리별 카피전략, 9단계 심리구조, Gemini 에러추적",
+        "status": "developing"
+      },
       {
         "date": "2026-03-01",
         "text": "Phase 1 MVP 전체 구현 완료 (11/11 tasks)",
