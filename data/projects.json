@@ -134,7 +134,7 @@
     "name": "백랏 스튜디오",
     "slug": "baeklat-studio",
     "description": "크리에이티브 스튜디오 공식 홈페이지",
-    "status": "deployed",
+    "status": "developing",
     "url": null,
     "github": null,
     "stack": [
@@ -163,10 +163,17 @@
       }
     ],
     "todos": [
-      "Phase 1 랜딩 페이지 시작"
+      "Phase 1 랜딩 페이지 시작",
+      "Google Calendar API 연동 (환경변수 설정)",
+      "Vercel 환경변수 + 배포"
     ],
     "workInstruction": "/mnt/clawd/백랏스튜디오-홈페이지-클코작업지시서.md",
     "activities": [
+      {
+        "date": "2026-03-02",
+        "text": "VisibleRay 리브랜딩 + Supabase 백엔드 연동 완료 (DB 3테이블, Storage, RLS)",
+        "status": "developing"
+      },
       {
         "date": "2026-02-23",
         "text": "빠른 기록 기능 추가 (QuickLogModal + BottomNav 중앙 버튼 + Sidebar 버튼 + FAB) 및 Vercel 재배포",
@@ -2114,7 +2121,7 @@
     "name": "RABOLAND",
     "description": "드림코어 미학 포트폴리오 사이트",
     "status": "developing",
-    "tech": [
+    "stack": [
       "Next.js 14",
       "TypeScript",
       "Tailwind CSS"
@@ -2124,7 +2131,6 @@
       "Vercel 배포",
       "반응형 모바일 최적화"
     ],
-    "timeline": [],
     "activities": [
       {
         "date": "2026-03-02",
