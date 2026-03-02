@@ -611,6 +611,11 @@
     "activities": [
       {
         "date": "2026-03-02",
+        "text": "생성 후 편집 기능 추가: 가격/문구/이미지 수정 후 HTML만 재빌드",
+        "status": "developing"
+      },
+      {
+        "date": "2026-03-02",
         "text": "Phase A~E 전면 업그레이드: FLUX Kontext Pro API, 카테고리별 카피전략, 9단계 심리구조, Gemini 에러추적",
         "status": "developing"
       },
