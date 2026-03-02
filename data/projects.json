@@ -1667,6 +1667,11 @@
     "activities": [
       {
         "date": "2026-03-02",
+        "text": "분석 품질 대폭 강화: trading-signals RSI/MACD/BB 실계산, Binance Futures(펀딩비/OI/L:S), CryptoPanic 뉴스, Whale Alert 고래추적, 4개 프롬프트 anti-hallucination 재작성, MarketOverview UI 지표요약 추가",
+        "status": "developing"
+      },
+      {
+        "date": "2026-03-02",
         "text": "Phase 3 페이퍼 트레이딩 시스템 구현 (가상 K 포트폴리오, KV 저장, 자동 손절/익절, 생존규칙)",
         "status": "developing"
       },
