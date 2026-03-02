@@ -406,10 +406,17 @@
       "ACP 오퍼링으로 team_analysis 서비스 등록",
       "텔레그램 알림 연동",
       "백테스트 시스템 구축 (Phase 4)",
-      "evaluator 승인 후 Graduate Agent 버튼 확인 및 졸업 신청"
+      "evaluator 승인 후 Graduate Agent 버튼 확인 및 졸업 신청",
+      "Discord 답변 후 -ACP 에이전트 연결",
+      "졸업 신청 (10건 성공 + 비디오)"
     ],
     "workInstruction": "/mnt/clawd/ACP에이전트서비스-클코작업지시서.md",
     "activities": [
+      {
+        "date": "2026-03-02",
+        "text": "새 ACP 에이전트(id:17275) 웹 등록, 졸업 패널 확인.  토큰 연결 시도 — ownerAddress 불일치로 실패. Discord 문의 진행 중",
+        "status": "developing"
+      },
       {
         "date": "2026-03-02",
         "text": "ACP 셀프구매(PolyTester→PolyOracle) 실행, 10번째 COMPLETED 달성 대기 중 (evaluator 승인 pending)",
