@@ -405,10 +405,16 @@
       "60일 내 커밋 여부 결정",
       "ACP 오퍼링으로 team_analysis 서비스 등록",
       "텔레그램 알림 연동",
-      "백테스트 시스템 구축 (Phase 4)"
+      "백테스트 시스템 구축 (Phase 4)",
+      "evaluator 승인 후 Graduate Agent 버튼 확인 및 졸업 신청"
     ],
     "workInstruction": "/mnt/clawd/ACP에이전트서비스-클코작업지시서.md",
     "activities": [
+      {
+        "date": "2026-03-02",
+        "text": "ACP 셀프구매(PolyTester→PolyOracle) 실행, 10번째 COMPLETED 달성 대기 중 (evaluator 승인 pending)",
+        "status": "developing"
+      },
       {
         "date": "2026-03-01",
         "text": "멀티에이전트 팀 분석 시스템 구축 완료 (7-9 AI 에이전트, 논문 기반)",
