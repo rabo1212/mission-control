@@ -669,10 +669,16 @@
     ],
     "todos": [
       "Vercel 배포",
-      "Phase 3 편집 기능"
+      "Phase 3 편집 기능",
+      "가재사무실 디자인 개선 및 모바일 최적화"
     ],
     "workInstruction": "/mnt/clawd/미션컨트롤-대시보드-클코작업지시서.md",
     "activities": [
+      {
+        "date": "2026-03-02",
+        "text": "가재사무실(/office) 탭 추가 - CSS+HTML 도트 아트 스타일 사무실, 16마리 에이전트 상태 시각화, 말풍선, OpenClaw 실시간 연동",
+        "status": "developing"
+      },
       {
         "date": "2026-02-21",
         "text": "필터링 기능 + 자동 업데이트 스크립트 추가",
@@ -1620,7 +1626,7 @@
     "name": "퀀텀리프",
     "slug": "quantum-leap",
     "description": "AI/반도체 종목 모니터링 대시보드 + 텔레그램 알림",
-    "status": "deployed",
+    "status": "developing",
     "url": "https://quantum-leap-pied.vercel.app",
     "github": "rabo1212/quantum-leap",
     "stack": [
@@ -1647,9 +1653,16 @@
     ],
     "todos": [
       "Vercel Pro 시 Cron 빈도 업그레이드",
-      "Phase 2: 포트폴리오 시뮬레이터"
+      "Phase 2: 포트폴리오 시뮬레이터",
+      "Phase 2: 주식+폴리마켓 확장",
+      "Vercel 배포"
     ],
     "activities": [
+      {
+        "date": "2026-03-02",
+        "text": "퀀텀리프 v2 Phase 1 MVP 완성 - 멀티에이전트 AI 크립토 분석 시스템 (4애널리스트+Bull/Bear토론+리스크+펀드매니저)",
+        "status": "developing"
+      },
       {
         "date": "2026-02-22",
         "text": "Phase 1 MVP + 실데이터 API 연동 + 텔레그램 알림 시스템 구축 및 Vercel 배포"
@@ -2001,14 +2014,8 @@
       }
     ],
     "todos": [
-      {
-        "text": "커스텀 도메인 연결",
-        "done": false
-      },
-      {
-        "text": "디자인 AI 냄새 제거 품질 검증",
-        "done": false
-      }
+      "커스텀 도메인 연결",
+      "디자인 AI 냄새 제거 품질 검증"
     ],
     "timeline": [
       {
