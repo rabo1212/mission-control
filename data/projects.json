@@ -2108,5 +2108,29 @@
         "status": "deployed"
       }
     ]
+  },
+  {
+    "slug": "raboland",
+    "name": "RABOLAND",
+    "description": "드림코어 미학 포트폴리오 사이트",
+    "status": "developing",
+    "tech": [
+      "Next.js 14",
+      "TypeScript",
+      "Tailwind CSS"
+    ],
+    "category": "web",
+    "todos": [
+      "Vercel 배포",
+      "반응형 모바일 최적화"
+    ],
+    "timeline": [],
+    "activities": [
+      {
+        "date": "2026-03-02",
+        "text": "RABOLAND 포트폴리오 사이트 구축 (Next.js 14). 랜딩/taste/archive 3탭 구성, 이미지 업로드 기능, 드림코어 미학(노이즈/VHS/글리치)",
+        "status": "developing"
+      }
+    ]
   }
 ]
