@@ -420,6 +420,11 @@
     "workInstruction": "/mnt/clawd/ACP에이전트서비스-클코작업지시서.md",
     "activities": [
       {
+        "date": "2026-03-03",
+        "text": "$PORACLE 토큰 ↔ ACP 에이전트 연결 성공\\! isVirtualAgent=true, symbol=PORACLE",
+        "status": "developing"
+      },
+      {
         "date": "2026-03-02",
         "text": "새 ACP 에이전트(id:17275) 웹 등록, 졸업 패널 확인.  토큰 연결 시도 — ownerAddress 불일치로 실패. Discord 문의 진행 중",
         "status": "developing"
