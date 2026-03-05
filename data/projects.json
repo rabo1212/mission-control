@@ -694,6 +694,11 @@
     "workInstruction": "/mnt/clawd/미션컨트롤-대시보드-클코작업지시서.md",
     "activities": [
       {
+        "date": "2026-03-04",
+        "text": "useSSE.ts TypeScript 에러 수정 + Vercel Production 배포",
+        "status": "developing"
+      },
+      {
         "date": "2026-03-02",
         "text": "가재사무실(/office) 탭 추가 - CSS+HTML 도트 아트 스타일 사무실, 16마리 에이전트 상태 시각화, 말풍선, OpenClaw 실시간 연동",
         "status": "developing"
@@ -714,7 +719,7 @@
     "name": "믿독(MITDOK)",
     "slug": "mitdok",
     "description": "구독 관리 앱 — 알림/절약/인사이트",
-    "status": "deployed",
+    "status": "developing",
     "url": "https://mitdok.vercel.app",
     "github": "rabo1212/subscription-manager",
     "stack": [
@@ -751,10 +756,19 @@
       "Phase 2: 카테고리별 지출 차트",
       "Phase 2: 중복 감지 + 절약 추천",
       "Phase 3: 코드 모듈 분리 + PWA",
-      "iOS 앱스토어 출시 준비 (Apple Developer 계정, 아이콘, 스플래시)"
+      "iOS 앱스토어 출시 준비 (Apple Developer 계정, 아이콘, 스플래시)",
+      "Supabase에 SQL 마이그레이션 실행",
+      "PortOne 콘솔에서 채널 설정 (사업자등록증)",
+      "Edge Functions 배포 (supabase functions deploy)",
+      "환경변수 설정 (.env)"
     ],
     "workInstruction": "/mnt/clawd/믿독-구독관리앱-클코작업지시서.md",
     "activities": [
+      {
+        "date": "2026-03-05",
+        "text": "상용화 전체 수정: PortOne V2 결제 연동, 서버 기반 Pro/Admin 전환, RLS 보안, App.tsx 리팩토링, 삭제 확인 모달, 비밀번호 강도, 한국어 에러, OG 태그",
+        "status": "developing"
+      },
       {
         "date": "2026-02-22",
         "text": "Phase 3: 알림 시스템 + iOS Capacitor 대비 (CDN→빌드, HashRouter, PWA)",
@@ -2118,6 +2132,170 @@
         "date": "2026-02-27",
         "text": "Phase 1 MVP 완료: 게임 엔진, AI, 화투 이미지, 3판 세션, 테스트 50개, GitHub+Vercel 배포",
         "status": "deployed"
+      }
+    ]
+  },
+  {
+    "name": "부동산 데이터 서비스",
+    "slug": "real-estate",
+    "description": "부동산 투자 알리미 봇 + 한국 부동산 MCP 서버",
+    "status": "deployed",
+    "url": null,
+    "github": null,
+    "stack": [
+      "Node.js",
+      "TypeScript",
+      "Python",
+      "FastAPI",
+      "MCP",
+      "Telegram Bot"
+    ],
+    "category": "부동산",
+    "phases": [
+      {
+        "name": "텔레그램 봇",
+        "status": "done"
+      },
+      {
+        "name": "MCP 서버",
+        "status": "done"
+      },
+      {
+        "name": "온비드 공매",
+        "status": "in-progress"
+      }
+    ],
+    "todos": [
+      "온비드 공매 입찰결과 기능 완성",
+      "MCP 서버 Docker 배포"
+    ],
+    "activities": [
+      {
+        "date": "2026-03-04",
+        "text": "대시보드 등록 (real-estate-bot 텔레그램 알리미 + real-estate-mcp 14종 부동산 도구 MCP 서버)",
+        "status": "deployed"
+      }
+    ]
+  },
+  {
+    "name": "ForgeMovie",
+    "slug": "forge-movie",
+    "description": "AI 기반 유튜브/인스타 영상 소재 자동 생성 플랫폼",
+    "status": "developing",
+    "url": null,
+    "github": null,
+    "stack": [
+      "Next.js 14",
+      "TypeScript",
+      "Claude API",
+      "FAL AI",
+      "YouTube API"
+    ],
+    "category": "AI 도구",
+    "phases": [
+      {
+        "name": "5단계 워크플로우",
+        "status": "done"
+      },
+      {
+        "name": "TTS 나레이션",
+        "status": "done"
+      },
+      {
+        "name": "배포",
+        "status": "pending"
+      }
+    ],
+    "todos": [
+      "Vercel 배포",
+      "ZIP 내보내기 테스트"
+    ],
+    "activities": [
+      {
+        "date": "2026-03-04",
+        "text": "대시보드 등록 (제목→대본→이미지→나레이션→내보내기 5단계 파이프라인 구현 완료)",
+        "status": "developing"
+      }
+    ]
+  },
+  {
+    "name": "딱랜딩",
+    "slug": "ddak-landing",
+    "description": "AI 기반 이커머스 상세페이지 자동 생성기 (13섹션 30초)",
+    "status": "developing",
+    "url": null,
+    "github": null,
+    "stack": [
+      "Next.js 14",
+      "TypeScript",
+      "Gemini API",
+      "Zustand",
+      "Tailwind"
+    ],
+    "category": "AI 도구",
+    "phases": [
+      {
+        "name": "위저드 UI",
+        "status": "done"
+      },
+      {
+        "name": "AI 분석+카피",
+        "status": "done"
+      },
+      {
+        "name": "HTML 빌더",
+        "status": "in-progress"
+      }
+    ],
+    "todos": [
+      "HTML 빌더 완성",
+      "Vercel 배포"
+    ],
+    "activities": [
+      {
+        "date": "2026-03-04",
+        "text": "대시보드 등록 (사진+정보 → Gemini 분석 → 13섹션 카피 생성 → HTML 내보내기 파이프라인)",
+        "status": "developing"
+      }
+    ]
+  },
+  {
+    "name": "라보 커맨드센터",
+    "slug": "rabo-command-center",
+    "description": "개인 프로젝트 현황 대시보드 + 실데이터 연동",
+    "status": "developing",
+    "url": null,
+    "github": null,
+    "stack": [
+      "Next.js 16",
+      "TypeScript",
+      "Recharts",
+      "Tailwind"
+    ],
+    "category": "도구",
+    "phases": [
+      {
+        "name": "MVP + 실데이터",
+        "status": "done"
+      },
+      {
+        "name": "Polish",
+        "status": "done"
+      },
+      {
+        "name": "배포",
+        "status": "pending"
+      }
+    ],
+    "todos": [
+      "Vercel 배포",
+      "mission-control과 역할 구분 정리"
+    ],
+    "activities": [
+      {
+        "date": "2026-03-04",
+        "text": "Phase 1-3 완성: MVP + 실데이터 연동 + Polish (Next.js 16 + Recharts)",
+        "status": "developing"
       }
     ]
   },
