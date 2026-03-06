@@ -590,6 +590,11 @@
     "activities": [
       {
         "date": "2026-03-06",
+        "text": "3D 드래그앤드롭 + 5구역 3D 소품 + 모달 게임패널 리스타일 완료",
+        "status": "developing"
+      },
+      {
+        "date": "2026-03-06",
         "text": "React Three Fiber 3D 방 + 게임 HUD UI 대대적 리뉴얼 (42개 아이템 3D화, 파스텔키치+네온팝)",
         "status": "developing"
       },
