@@ -418,10 +418,17 @@
       "졸업 신청 (10건 성공 + 비디오)",
       "PolyTester USDC 충전 (셀프구매용)",
       "↔ACP 연결 Discord 문의",
-      "PolyTester USDC 충전 ()"
+      "PolyTester USDC 충전 ()",
+      "60 Days Commit (54일 남음)",
+      "PolyTester USDC 충전 → 셀프구매 재개"
     ],
     "workInstruction": "/mnt/clawd/ACP에이전트서비스-클코작업지시서.md",
     "activities": [
+      {
+        "date": "2026-03-06",
+        "text": "OpenClaw 봇 모델 에러 수정,  토큰 Uniswap 구매 (51.278개), 메타마스크 토큰 import",
+        "status": "running"
+      },
       {
         "date": "2026-03-06",
         "text": "트위터 자동화 완성: 하루3번 트윗(서비스+차트캡쳐+토큰프로모) + 지갑/토큰 모니터 텔레그램 알림 + 맥북 잠자기방지",
