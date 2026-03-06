@@ -369,7 +369,7 @@
     "name": "PolyOracle ACP",
     "slug": "polyoracle",
     "description": "AI→AI 에이전트 서비스 (예측시장 분석 판매)",
-    "status": "developing",
+    "status": "running",
     "url": null,
     "github": null,
     "stack": [
@@ -415,10 +415,23 @@
       "백테스트 시스템 구축 (Phase 4)",
       "evaluator 승인 후 Graduate Agent 버튼 확인 및 졸업 신청",
       "Discord 답변 후 -ACP 에이전트 연결",
-      "졸업 신청 (10건 성공 + 비디오)"
+      "졸업 신청 (10건 성공 + 비디오)",
+      "PolyTester USDC 충전 (셀프구매용)",
+      "↔ACP 연결 Discord 문의",
+      "PolyTester USDC 충전 ()"
     ],
     "workInstruction": "/mnt/clawd/ACP에이전트서비스-클코작업지시서.md",
     "activities": [
+      {
+        "date": "2026-03-06",
+        "text": "트위터 자동화 완성: 하루3번 트윗(서비스+차트캡쳐+토큰프로모) + 지갑/토큰 모니터 텔레그램 알림 + 맥북 잠자기방지",
+        "status": "running"
+      },
+      {
+        "date": "2026-03-06",
+        "text": "SDK 셀러 웹에이전트 전환 완료 + GAME Twitter 자동트윗봇 구축 (매일 11시 서비스 로테이션) + 셀프구매 자동화 스크립트",
+        "status": "running"
+      },
       {
         "date": "2026-03-03",
         "text": "$PORACLE 토큰 ↔ ACP 에이전트 연결 성공\\! isVirtualAgent=true, symbol=PORACLE",
@@ -2318,6 +2331,49 @@
       {
         "date": "2026-03-02",
         "text": "RABOLAND 포트폴리오 사이트 구축 (Next.js 14). 랜딩/taste/archive 3탭 구성, 이미지 업로드 기능, 드림코어 미학(노이즈/VHS/글리치)",
+        "status": "developing"
+      }
+    ]
+  },
+  {
+    "name": "잊지마(Ijjima)",
+    "slug": "ijjima",
+    "description": "텔레그램으로 할 일 등록, 카카오톡으로 마감 리마인드",
+    "status": "developing",
+    "url": "https://ijjima.vercel.app",
+    "stack": [
+      "Next.js",
+      "TypeScript",
+      "Supabase",
+      "Telegram Bot",
+      "Kakao API"
+    ],
+    "category": "생산성",
+    "phases": [
+      {
+        "name": "MVP (텔레그램+카카오)",
+        "status": "done"
+      },
+      {
+        "name": "웹 대시보드",
+        "status": "pending"
+      },
+      {
+        "name": "Gmail/Calendar 연동",
+        "status": "pending"
+      }
+    ],
+    "todos": [
+      "리마인드 cron 실제 동작 테스트",
+      "웹 대시보드 테스트 메시지 버튼 수정",
+      "debug 로깅 정리",
+      "Gmail 분석 연동",
+      "Google Calendar 동기화"
+    ],
+    "activities": [
+      {
+        "date": "2026-03-06",
+        "text": "MVP 완성: 텔레그램 자연어 명령(등록/목록/완료/삭제) + 카카오톡 연동(OAuth state로 계정 연결) + 리마인드 발송 파이프라인 구축 + Vercel 배포 완료",
         "status": "developing"
       }
     ]
