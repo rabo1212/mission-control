@@ -2346,7 +2346,7 @@
     "name": "잊지마(Ijjima)",
     "slug": "ijjima",
     "description": "텔레그램으로 할 일 등록, 카카오톡으로 마감 리마인드",
-    "status": "developing",
+    "status": "deployed",
     "url": "https://ijjima.vercel.app",
     "stack": [
       "Next.js",
@@ -2379,6 +2379,11 @@
       "OAuth 동의화면 인증 신청 (테스트 사용자 제한 해제)"
     ],
     "activities": [
+      {
+        "date": "2026-03-06",
+        "text": "카톡 원탭 완료 + 완료할 때까지 매일 리마인드 기능 구현 및 배포",
+        "status": "deployed"
+      },
       {
         "date": "2026-03-06",
         "text": "Google OAuth 연동 + 캘린더 동기화(공유 캘린더 포함) + Gmail 마감 메일 스캔 구현 및 배포",
