@@ -2368,9 +2368,15 @@
       "웹 대시보드 테스트 메시지 버튼 수정",
       "debug 로깅 정리",
       "Gmail 분석 연동",
-      "Google Calendar 동기화"
+      "Google Calendar 동기화",
+      "OAuth 동의화면 인증 신청 (테스트 사용자 제한 해제)"
     ],
     "activities": [
+      {
+        "date": "2026-03-06",
+        "text": "Google OAuth 연동 + 캘린더 동기화(공유 캘린더 포함) + Gmail 마감 메일 스캔 구현 및 배포",
+        "status": "developing"
+      },
       {
         "date": "2026-03-06",
         "text": "MVP 완성: 텔레그램 자연어 명령(등록/목록/완료/삭제) + 카카오톡 연동(OAuth state로 계정 연결) + 리마인드 발송 파이프라인 구축 + Vercel 배포 완료",
