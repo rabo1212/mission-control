@@ -555,7 +555,7 @@
     "name": "뽀모도로 게임",
     "slug": "pomodoro",
     "description": "본디 스타일 뽀모도로 타이머 게임",
-    "status": "deployed",
+    "status": "developing",
     "url": "localhost:3333",
     "github": null,
     "stack": [
@@ -581,10 +581,18 @@
     "todos": [
       "Supabase 인증 & DB 연동",
       "PWA 설정 (홈화면 추가, 오프라인)",
-      "커스텀 도메인 연결"
+      "커스텀 도메인 연결",
+      "3D 드래그앤드롭 구현",
+      "5구역 3D 소품 구현",
+      "모달 게임패널 리스타일"
     ],
     "workInstruction": "/mnt/clawd/뽀모도로-게임-클코작업지시서.md",
     "activities": [
+      {
+        "date": "2026-03-06",
+        "text": "React Three Fiber 3D 방 + 게임 HUD UI 대대적 리뉴얼 (42개 아이템 3D화, 파스텔키치+네온팝)",
+        "status": "developing"
+      },
       {
         "date": "2026-03-01",
         "text": "픽셀 오피스 5구역 시스템 + 캐릭터 이동 애니메이션 구현",
