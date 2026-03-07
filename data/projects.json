@@ -624,7 +624,7 @@
     "name": "딱사진",
     "slug": "ddak-photo",
     "description": "AI 상품사진 자동 생성 iOS 앱",
-    "status": "developing",
+    "status": "deployed",
     "url": null,
     "github": null,
     "stack": [
@@ -659,10 +659,17 @@
       "실제 이미지 생성 E2E 테스트",
       "Vercel 배포 확인 후 프로덕션 테스트",
       "Vercel 배포 + 환경변수 설정",
-      "실제 제품사진으로 영상 품질 테스트"
+      "실제 제품사진으로 영상 품질 테스트",
+      "배포 URL에서 Step 1→7 실사용 테스트",
+      "에러 UX 개선 (API 실패 시 안내)"
     ],
     "workInstruction": "/mnt/clawd/상품사진앱-시장조사-클코작업지시서.md",
     "activities": [
+      {
+        "date": "2026-03-07",
+        "text": "Vercel 배포 완료 + localStorage 저장/복구 + next/image 전환 + .env.example 추가",
+        "status": "deployed"
+      },
       {
         "date": "2026-03-06",
         "text": "Veo 3.1 영상 생성 기능 추가 (Step 7 내보내기에 통합, API 테스트 완료)",
