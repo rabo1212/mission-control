@@ -420,10 +420,17 @@
       "↔ACP 연결 Discord 문의",
       "PolyTester USDC 충전 ()",
       "60 Days Commit (54일 남음)",
-      "PolyTester USDC 충전 → 셀프구매 재개"
+      "PolyTester USDC 충전 → 셀프구매 재개",
+      "import-offerings.json Virtuals 웹에이전트에 동기화",
+      "token_scanner GeckoTerminal rate limit 대응"
     ],
     "workInstruction": "/mnt/clawd/ACP에이전트서비스-클코작업지시서.md",
     "activities": [
+      {
+        "date": "2026-03-07",
+        "text": "오퍼링 22→13개 정리 (14개 삭제 + 5개 신규), 셀러/모니터 재시작, RPC 폴백 적용, 트윗봇 업데이트",
+        "status": "running"
+      },
       {
         "date": "2026-03-06",
         "text": "OpenClaw 봇 모델 에러 수정,  토큰 Uniswap 구매 (51.278개), 메타마스크 토큰 import",
