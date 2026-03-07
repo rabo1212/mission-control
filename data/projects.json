@@ -888,10 +888,18 @@
       "영상 크레딧 40→60 인상 검토",
       "CapCut 자막+BGM 넣고 쇼츠 업로드",
       "디스콰이엇 런칭글 올리기",
-      "인스타 계정 개설"
+      "인스타 계정 개설",
+      "AdSense 승인 후 ca-pub ID 교체",
+      "Google Search Console 인증 코드 교체",
+      "Vercel cron job 설정 (subscription-webhook)"
     ],
     "notes": "네이버 서치어드바이저 + 구글 서치콘솔 등록 완료",
     "activities": [
+      {
+        "date": "2026-03-07",
+        "text": "구독 모델, B2B 조직, 기술 수정(race condition, atomic RPC, Tailwind PostCSS), 광고/크레딧 정책 개선 전체 구현 및 배포",
+        "status": "deployed"
+      },
       {
         "date": "2026-02-22",
         "text": "모바일 레이아웃 최적화 + 마케팅 콘텐츠 7종 작성 + 쇼츠 30초 편집",
