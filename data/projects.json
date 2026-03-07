@@ -2411,9 +2411,15 @@
       "debug 로깅 정리",
       "Gmail 분석 연동",
       "Google Calendar 동기화",
-      "OAuth 동의화면 인증 신청 (테스트 사용자 제한 해제)"
+      "OAuth 동의화면 인증 신청 (테스트 사용자 제한 해제)",
+      "Vercel에 OPENAI_API_KEY, ANTHROPIC_API_KEY 환경변수 추가"
     ],
     "activities": [
+      {
+        "date": "2026-03-07",
+        "text": "통화녹음 분석 → 자동 할일 등록 기능 구현 (Whisper + Claude API)",
+        "status": "deployed"
+      },
       {
         "date": "2026-03-06",
         "text": "리마인드 단순화: N일 전부터 매일 아침 7시 카톡 알림 + 원탭 완료 기능",
