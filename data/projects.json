@@ -678,6 +678,11 @@
     "workInstruction": "/mnt/clawd/상품사진앱-시장조사-클코작업지시서.md",
     "activities": [
       {
+        "date": "2026-03-08",
+        "text": "앱스토어급 프리미엄 UI v2: 세그먼트 바, 플로팅 네비, 디바이스 프레임, shimmer 로딩",
+        "status": "deployed"
+      },
+      {
         "date": "2026-03-07",
         "text": "전과정 E2E 테스트 완료 + Vercel 배포 버그 2건 수정 (maxDuration 타임아웃, Veo mimeType)",
         "status": "deployed"
