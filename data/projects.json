@@ -422,10 +422,16 @@
       "60 Days Commit (54일 남음)",
       "PolyTester USDC 충전 → 셀프구매 재개",
       "import-offerings.json Virtuals 웹에이전트에 동기화",
-      "token_scanner GeckoTerminal rate limit 대응"
+      "token_scanner GeckoTerminal rate limit 대응",
+      "PolyBuyer USDC 잔액 모니터링"
     ],
     "workInstruction": "/mnt/clawd/ACP에이전트서비스-클코작업지시서.md",
     "activities": [
+      {
+        "date": "2026-03-08",
+        "text": "SDK 자동구매봇(PolyBuyer) 완성 — initiateJob+payAndAcceptRequirement 파이프라인, 8서비스 로테이션 30분간격 루프 실행 중",
+        "status": "running"
+      },
       {
         "date": "2026-03-07",
         "text": "오퍼링 22→13개 정리 (14개 삭제 + 5개 신규), 셀러/모니터 재시작, RPC 폴백 적용, 트윗봇 업데이트",
