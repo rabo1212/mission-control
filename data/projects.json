@@ -679,6 +679,11 @@
     "activities": [
       {
         "date": "2026-03-08",
+        "text": "코드 리뷰 리포트 전체 수정: Critical+High 10개, Medium 4개, Low 1개(CSP) 적용",
+        "status": "deployed"
+      },
+      {
+        "date": "2026-03-08",
         "text": "앱스토어급 프리미엄 UI v2: 세그먼트 바, 플로팅 네비, 디바이스 프레임, shimmer 로딩",
         "status": "deployed"
       },
