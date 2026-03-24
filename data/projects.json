@@ -2529,12 +2529,22 @@
       {
         "text": "커스텀 도메인 연결",
         "done": false
-      }
+      },
+      "Tavily API 키 발급 (뉴스 검색 품질 향상)",
+      "커스텀 도메인 연결",
+      "Dev Log EP 시리즈 내용 보강"
     ],
     "timeline": [
       {
         "date": "2026-03-24",
         "activity": "MVP 완성 + Vercel 배포. 5개 탭 포스트 생성 성공."
+      }
+    ],
+    "activities": [
+      {
+        "date": "2026-03-24",
+        "text": "DAYLOG_EV 전체 리뷰 + 수정: 한국어 전용 전환, Search/Archive 페이지 추가, 이미지 Flux Pro 업그레이드, My Dev Log EP.01~10 시리즈 생성, 미래날짜 자동공개 시스템",
+        "status": "deployed"
       }
     ]
   }
