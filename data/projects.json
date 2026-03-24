@@ -2487,5 +2487,55 @@
         "status": "developing"
       }
     ]
+  },
+  {
+    "name": "DailyBlogLabo",
+    "slug": "dailybloglabo",
+    "description": "AI 자동 멀티채널 뉴스 블로그 (5탭 x AM/PM = 하루 10포스트)",
+    "status": "deployed",
+    "url": "https://dailybloglabo.vercel.app",
+    "github": "rabo1212/dailybloglabo",
+    "stack": [
+      "Next.js 14",
+      "TypeScript",
+      "Tailwind CSS",
+      "Claude API",
+      "MDX"
+    ],
+    "category": "콘텐츠",
+    "phases": [
+      {
+        "name": "MVP",
+        "status": "done"
+      },
+      {
+        "name": "API 키 연동",
+        "status": "current"
+      },
+      {
+        "name": "GitHub Actions 자동화",
+        "status": "planned"
+      }
+    ],
+    "todos": [
+      {
+        "text": "API 키 발급 (Tavily, Replicate, Alpha Vantage)",
+        "done": false
+      },
+      {
+        "text": "GitHub Actions workflow 추가",
+        "done": false
+      },
+      {
+        "text": "커스텀 도메인 연결",
+        "done": false
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-03-24",
+        "activity": "MVP 완성 + Vercel 배포. 5개 탭 포스트 생성 성공."
+      }
+    ]
   }
 ]
