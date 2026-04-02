@@ -1311,7 +1311,7 @@
     "name": "Tech Shorts",
     "slug": "tech-shorts",
     "description": "Remotion 기반 기술 쇼츠 자동 생성",
-    "status": "paused",
+    "status": "running",
     "url": null,
     "github": null,
     "stack": [
@@ -1326,8 +1326,17 @@
         "status": "done"
       }
     ],
-    "todos": [],
-    "activities": []
+    "todos": [
+      "ElevenLabs API 키 갱신 (현재 만료)",
+      "Fal.ai 잔액 충전 (현재 0)"
+    ],
+    "activities": [
+      {
+        "date": "2026-04-02",
+        "text": "위고비 구독제 영상 제작 및 유튜브 업로드 완료. 파이프라인 개선: 스토리 흐름 가이드, 금액 2차검증, 나레이션 말투 다듬기, 날짜 자동교정 추가",
+        "status": "running"
+      }
+    ]
   },
   {
     "name": "딱하나",
