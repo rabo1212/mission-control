@@ -2612,9 +2612,15 @@
       "CLOVA API 키 발급 및 .env 설정",
       "캡컷 실제 연동 테스트 (롱폼)",
       "롱폼 영상 첫 제작 테스트 (8분)",
-      "Edge TTS 외 한국어 음성 품질 비교 테스트"
+      "Edge TTS 외 한국어 음성 품질 비교 테스트",
+      "렌더링 resume 로직 보완"
     ],
     "activities": [
+      {
+        "date": "2026-04-08",
+        "text": "TTS Neural2-A 변경, Claude CLI 폴백 래퍼 구현, 건강 쇼츠 제작+업로드",
+        "status": "running"
+      },
       {
         "date": "2026-04-06",
         "text": "음성겹침 수정(Remotion durationInFrames), 자막 word-break 수정, 썸네일 후킹카피 자동생성(Haiku), Edge TTS YuJin→Hyunsu, 토선생 크론 비활성화",
