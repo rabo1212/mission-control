@@ -2509,7 +2509,7 @@
     "name": "DailyBlogLabo",
     "slug": "dailybloglabo",
     "description": "AI 자동 멀티채널 뉴스 블로그 (5탭 x AM/PM = 하루 10포스트)",
-    "status": "deployed",
+    "status": "developing",
     "url": "https://dailybloglabo.vercel.app",
     "github": "rabo1212/dailybloglabo",
     "stack": [
@@ -2549,7 +2549,10 @@
       },
       "Tavily API 키 발급 (뉴스 검색 품질 향상)",
       "커스텀 도메인 연결",
-      "Dev Log EP 시리즈 내용 보강"
+      "Dev Log EP 시리즈 내용 보강",
+      "티스토리 API 키 발급",
+      "네이버 블로그 API 키 발급",
+      "애드센스 신청"
     ],
     "timeline": [
       {
@@ -2558,6 +2561,11 @@
       }
     ],
     "activities": [
+      {
+        "date": "2026-04-08",
+        "text": "v2 전면 재구성: 탭 5개 교체, Claude CLI spawn 엔진, Gemini 이미지, 프리셋 YAML, 웹 리서치 에이전트, 티스토리/네이버 발행 모듈, 텔레그램 알림, 크론잡 등록",
+        "status": "developing"
+      },
       {
         "date": "2026-03-24",
         "text": "DAYLOG_EV 전체 리뷰 + 수정: 한국어 전용 전환, Search/Archive 페이지 추가, 이미지 Flux Pro 업그레이드, My Dev Log EP.01~10 시리즈 생성, 미래날짜 자동공개 시스템",
