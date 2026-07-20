@@ -134,7 +134,7 @@
     "name": "백랏 스튜디오",
     "slug": "baeklat-studio",
     "description": "크리에이티브 스튜디오 공식 홈페이지",
-    "status": "developing",
+    "status": "archived",
     "url": null,
     "github": null,
     "stack": [
@@ -184,7 +184,9 @@
         "text": "작업지시서 완성",
         "status": "planned"
       }
-    ]
+    ],
+    "_prevStatus": "developing",
+    "_archivedAt": "20260719_122033"
   },
   {
     "name": "레딧 수요 스나이퍼",
@@ -240,7 +242,7 @@
     "name": "폴리봇 (BTC Sniper)",
     "slug": "polybot",
     "description": "Polymarket BTC 5분 바이너리 자동매매봇",
-    "status": "running",
+    "status": "archived",
     "url": null,
     "github": null,
     "stack": [
@@ -288,7 +290,9 @@
         "text": "v4 다중지표+고래추적 전략 구현",
         "status": "paused"
       }
-    ]
+    ],
+    "_prevStatus": "running",
+    "_archivedAt": "20260719_122033"
   },
   {
     "name": "세컨드브레인",
@@ -336,7 +340,7 @@
     "name": "트레이딩 대시보드",
     "slug": "trading-dashboard",
     "description": "폴리봇+ACP 실시간 모니터링",
-    "status": "deployed",
+    "status": "archived",
     "url": "localhost:3001",
     "github": null,
     "stack": [
@@ -363,7 +367,9 @@
         "text": "ACP 모니터 탭 추가",
         "status": "deployed"
       }
-    ]
+    ],
+    "_prevStatus": "deployed",
+    "_archivedAt": "20260719_122033"
   },
   {
     "name": "PolyOracle ACP",
@@ -568,7 +574,7 @@
     "name": "뽀모도로 게임",
     "slug": "pomodoro",
     "description": "본디 스타일 뽀모도로 타이머 게임",
-    "status": "developing",
+    "status": "archived",
     "url": "localhost:3333",
     "github": null,
     "stack": [
@@ -636,13 +642,15 @@
         "text": "Phase 2 게이미피케이션 완료",
         "status": "paused"
       }
-    ]
+    ],
+    "_prevStatus": "developing",
+    "_archivedAt": "20260719_122033"
   },
   {
     "name": "딱사진",
     "slug": "ddak-photo",
     "description": "AI 상품사진 자동 생성 iOS 앱",
-    "status": "deployed",
+    "status": "archived",
     "url": null,
     "github": null,
     "stack": [
@@ -733,7 +741,9 @@
         "text": "dev-cycle 완주",
         "status": "paused"
       }
-    ]
+    ],
+    "_prevStatus": "deployed",
+    "_archivedAt": "20260719_122033"
   },
   {
     "name": "미션 컨트롤",
@@ -959,7 +969,7 @@
     "name": "꾸미 (Kkumi)",
     "slug": "kkumi",
     "description": "AI UGC 숏폼 광고 영상 자동 생성 서비스",
-    "status": "paused",
+    "status": "archived",
     "url": "localhost:8001",
     "github": null,
     "stack": [
@@ -993,13 +1003,15 @@
         "text": "Phase 1 백엔드 MVP 완료",
         "status": "paused"
       }
-    ]
+    ],
+    "_prevStatus": "paused",
+    "_archivedAt": "20260719_122033"
   },
   {
     "name": "바이낸스 현물봇",
     "slug": "binance-spot-bot",
     "description": "바이낸스 현물 RSI+Grid 하이브리드 자동매매봇",
-    "status": "paused",
+    "status": "archived",
     "url": null,
     "github": "rabo1212/binance-spot-bot",
     "stack": [
@@ -1037,13 +1049,15 @@
         "text": "sync→async 대규모 개선",
         "status": "paused"
       }
-    ]
+    ],
+    "_prevStatus": "paused",
+    "_archivedAt": "20260719_122033"
   },
   {
     "name": "업비트 하이브리드봇",
     "slug": "upbit-bot",
     "description": "업비트 BTC 그리드+모멘텀 하이브리드 자동매매봇",
-    "status": "paused",
+    "status": "archived",
     "url": null,
     "github": null,
     "stack": [
@@ -1081,13 +1095,15 @@
         "text": "초기 구현 완료",
         "status": "paused"
       }
-    ]
+    ],
+    "_prevStatus": "paused",
+    "_archivedAt": "20260719_122033"
   },
   {
     "name": "바이낸스 선물봇",
     "slug": "binance-futures-bot",
     "description": "바이낸스 선물 테스트넷 RSI 롱/숏 자동매매봇",
-    "status": "paused",
+    "status": "archived",
     "url": null,
     "github": null,
     "stack": [
@@ -1109,13 +1125,15 @@
       "테스트넷 실전 데이터 수집"
     ],
     "notes": "BTCUSDT 15분봉 기반, 테스트넷 전용",
-    "activities": []
+    "activities": [],
+    "_prevStatus": "paused",
+    "_archivedAt": "20260719_122033"
   },
   {
     "name": "주식봇 (Stock Bot)",
     "slug": "stock-bot",
     "description": "야후파이낸스 주식 데이터 수집 + 텔레그램 알림봇",
-    "status": "deployed",
+    "status": "archived",
     "url": null,
     "github": "rabo1212/stock-bot",
     "stack": [
@@ -1142,7 +1160,9 @@
         "text": "주식 모니터링 가동",
         "status": "deployed"
       }
-    ]
+    ],
+    "_prevStatus": "deployed",
+    "_archivedAt": "20260719_122033"
   },
   {
     "name": "Fairytale Photo",
@@ -1181,7 +1201,7 @@
     "name": "텔레그램 리마인더봇",
     "slug": "telegram-reminder-bot",
     "description": "자연어 시간 입력 → 텔레그램 알림 비서봇",
-    "status": "deployed",
+    "status": "archived",
     "url": null,
     "github": null,
     "stack": [
@@ -1201,7 +1221,9 @@
     ],
     "todos": [],
     "notes": "\"오후 3시에 약 먹기\", \"10분 후 확인\" 등 지원",
-    "activities": []
+    "activities": [],
+    "_prevStatus": "deployed",
+    "_archivedAt": "20260719_122033"
   },
   {
     "name": "Dexter",
@@ -1278,7 +1300,7 @@
     "name": "Backlot Video",
     "slug": "backlot-video",
     "description": "Remotion 기반 인트로/릴 영상 자동 생성",
-    "status": "paused",
+    "status": "archived",
     "url": null,
     "github": null,
     "stack": [
@@ -1305,13 +1327,15 @@
         "text": "영상 렌더링 도구 완성",
         "status": "paused"
       }
-    ]
+    ],
+    "_prevStatus": "paused",
+    "_archivedAt": "20260719_122033"
   },
   {
     "name": "Tech Shorts",
     "slug": "tech-shorts",
     "description": "Remotion 기반 기술 쇼츠 자동 생성",
-    "status": "running",
+    "status": "archived",
     "url": null,
     "github": null,
     "stack": [
@@ -1344,7 +1368,9 @@
         "text": "위고비 구독제 영상 제작 및 유튜브 업로드 완료. 파이프라인 개선: 스토리 흐름 가이드, 금액 2차검증, 나레이션 말투 다듬기, 날짜 자동교정 추가",
         "status": "running"
       }
-    ]
+    ],
+    "_prevStatus": "running",
+    "_archivedAt": "20260719_122033"
   },
   {
     "name": "딱하나",
@@ -1419,7 +1445,7 @@
     "name": "Fortune App",
     "slug": "fortune-app",
     "description": "사주 + 점성술 + 타로 종합 운세 앱",
-    "status": "paused",
+    "status": "archived",
     "url": null,
     "github": null,
     "stack": [
@@ -1451,7 +1477,9 @@
         "text": "Flutter 앱 기본 구조 완성",
         "status": "paused"
       }
-    ]
+    ],
+    "_prevStatus": "paused",
+    "_archivedAt": "20260719_122033"
   },
   {
     "name": "강원 여행 앱",
@@ -1486,7 +1514,7 @@
     "name": "먀오 (Myao)",
     "slug": "myao",
     "description": "6명의 AI 전문가 관점 다중 에이전트 시스템",
-    "status": "paused",
+    "status": "archived",
     "url": null,
     "github": null,
     "stack": [
@@ -1514,7 +1542,9 @@
         "text": "앱 설계서 완성",
         "status": "paused"
       }
-    ]
+    ],
+    "_prevStatus": "paused",
+    "_archivedAt": "20260719_122033"
   },
   {
     "name": "전생테스트",
@@ -1647,7 +1677,7 @@
     "name": "제품사진 관리앱",
     "slug": "product-ai-image",
     "description": "제품 사진 촬영 관리 앱 (Flutter)",
-    "status": "paused",
+    "status": "archived",
     "url": null,
     "github": null,
     "stack": [
@@ -1669,13 +1699,15 @@
         "text": "Flutter 앱 완성",
         "status": "paused"
       }
-    ]
+    ],
+    "_prevStatus": "paused",
+    "_archivedAt": "20260719_122033"
   },
   {
     "name": "Abstract MV",
     "slug": "abstract-mv",
     "description": "Remotion 기반 추상 뮤직비디오 생성",
-    "status": "paused",
+    "status": "archived",
     "url": null,
     "github": null,
     "stack": [
@@ -1697,13 +1729,15 @@
         "text": "추상 MV 템플릿 완성",
         "status": "paused"
       }
-    ]
+    ],
+    "_prevStatus": "paused",
+    "_archivedAt": "20260719_122033"
   },
   {
     "name": "Imaginary Story Reel",
     "slug": "imaginary-story-reel",
     "description": "Remotion 기반 스토리 릴 영상 생성",
-    "status": "paused",
+    "status": "archived",
     "url": null,
     "github": null,
     "stack": [
@@ -1725,13 +1759,15 @@
         "text": "스토리 릴 생성기 완성",
         "status": "paused"
       }
-    ]
+    ],
+    "_prevStatus": "paused",
+    "_archivedAt": "20260719_122033"
   },
   {
     "name": "바이브 코딩 컬렉션",
     "slug": "vibe-cording",
     "description": "미니 게임/앱 모음 (MenuQR, 레몬게임, 풍선, 2048 등)",
-    "status": "paused",
+    "status": "archived",
     "url": null,
     "github": null,
     "stack": [
@@ -1766,7 +1802,9 @@
         "text": "레몬게임 추가",
         "status": "paused"
       }
-    ]
+    ],
+    "_prevStatus": "paused",
+    "_archivedAt": "20260719_122033"
   },
   {
     "name": "퀀텀리프",
@@ -1834,7 +1872,7 @@
     "name": "마작플레이 (MahjongPlay)",
     "slug": "mahjong-play",
     "description": "중국식 마작(국표마작, MCR) AI 연습 게임",
-    "status": "developing",
+    "status": "archived",
     "url": "",
     "github": "",
     "stack": [
@@ -2089,7 +2127,9 @@
         "text": "Phase 1 MVP 완성: 게임엔진+UI+3단계AI+효과음+전적기록",
         "status": "developing"
       }
-    ]
+    ],
+    "_prevStatus": "developing",
+    "_archivedAt": "20260719_122033"
   },
   {
     "name": "내 집 얼마?",
@@ -2252,7 +2292,7 @@
     "name": "부동산 데이터 서비스",
     "slug": "real-estate",
     "description": "부동산 투자 알리미 봇 + 한국 부동산 MCP 서버",
-    "status": "deployed",
+    "status": "archived",
     "url": null,
     "github": null,
     "stack": [
@@ -2288,7 +2328,9 @@
         "text": "대시보드 등록 (real-estate-bot 텔레그램 알리미 + real-estate-mcp 14종 부동산 도구 MCP 서버)",
         "status": "deployed"
       }
-    ]
+    ],
+    "_prevStatus": "deployed",
+    "_archivedAt": "20260719_122033"
   },
   {
     "name": "ForgeMovie",
@@ -2335,7 +2377,7 @@
     "name": "딱랜딩",
     "slug": "ddak-landing",
     "description": "AI 기반 이커머스 상세페이지 자동 생성기 (13섹션 30초)",
-    "status": "developing",
+    "status": "archived",
     "url": null,
     "github": null,
     "stack": [
@@ -2370,7 +2412,9 @@
         "text": "대시보드 등록 (사진+정보 → Gemini 분석 → 13섹션 카피 생성 → HTML 내보내기 파이프라인)",
         "status": "developing"
       }
-    ]
+    ],
+    "_prevStatus": "developing",
+    "_archivedAt": "20260719_122033"
   },
   {
     "name": "라보 커맨드센터",
@@ -2421,7 +2465,7 @@
     "slug": "raboland",
     "name": "RABOLAND",
     "description": "드림코어 미학 포트폴리오 사이트",
-    "status": "developing",
+    "status": "archived",
     "stack": [
       "Next.js 14",
       "TypeScript",
@@ -2438,13 +2482,15 @@
         "text": "RABOLAND 포트폴리오 사이트 구축 (Next.js 14). 랜딩/taste/archive 3탭 구성, 이미지 업로드 기능, 드림코어 미학(노이즈/VHS/글리치)",
         "status": "developing"
       }
-    ]
+    ],
+    "_prevStatus": "developing",
+    "_archivedAt": "20260719_122033"
   },
   {
     "name": "잊지마(Ijjima)",
     "slug": "ijjima",
     "description": "텔레그램으로 할 일 등록, 카카오톡으로 마감 리마인드",
-    "status": "deployed",
+    "status": "developing",
     "url": "https://ijjima.vercel.app",
     "stack": [
       "Next.js",
@@ -2475,9 +2521,22 @@
       "Gmail 분석 연동",
       "Google Calendar 동기화",
       "OAuth 동의화면 인증 신청 (테스트 사용자 제한 해제)",
-      "Vercel에 OPENAI_API_KEY, ANTHROPIC_API_KEY 환경변수 추가"
+      "Vercel에 OPENAI_API_KEY, ANTHROPIC_API_KEY 환경변수 추가",
+      "iCloud 백업",
+      "TestFlight 베타 배포",
+      "앱스토어 출시 준비 (스크린샷, 설명문)"
     ],
     "activities": [
+      {
+        "date": "2026-04-12",
+        "text": "기억해방 v0.3 완성: 가구50종, 에셋팩 전체활용, 앱아이콘, 위젯, 실기기테스트 통과",
+        "status": "developing"
+      },
+      {
+        "date": "2026-04-11",
+        "text": "기억해방 v0.1~v0.3 MVP 구현: 에스컬레이션알림, 게이트3종, 감정연결문구, 도트방, 가구드래그배치, 식물성장, 동물해금, 퀴즈, 4탭",
+        "status": "developing"
+      },
       {
         "date": "2026-03-07",
         "text": "통화녹음 분석 → 자동 할일 등록 기능 구현 (Whisper + Claude API)",

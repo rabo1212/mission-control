@@ -10,6 +10,67 @@ export function getProjects(): Project[] {
   return JSON.parse(raw);
 }
 
+const HOME = process.env.HOME || "/Users/labo";
+
+/** slug/name으로 홈폴더의 실제 프로젝트 디렉토리 mtime을 찾는다 */
+function folderMtime(p: Project): number | null {
+  const candidates = [p.slug, p.name];
+  for (const c of candidates) {
+    if (!c) continue;
+    const dir = path.join(HOME, c);
+    try {
+      const st = fs.statSync(dir);
+      if (st.isDirectory()) {
+        // src나 주요 하위 파일의 최근 수정으로 보정
+        let m = st.mtimeMs;
+        for (const probe of ["src", "app", "package.json", "main.py"]) {
+          const pp = path.join(dir, probe);
+          try {
+            const s2 = fs.statSync(pp);
+            if (s2.mtimeMs > m) m = s2.mtimeMs;
+          } catch {}
+        }
+        return m;
+      }
+    } catch {}
+  }
+  return null;
+}
+
+/**
+ * 프로젝트에 최근성 + "다시 돌리자" 판단을 붙인다.
+ * lastActivityMs = 실제 폴더 mtime(있으면) 우선, 없으면 activities[0].date.
+ * reviveHint = 멈춤/방치 판단 문구(페페 관점).
+ */
+export function enrichProjects(projects: Project[]): Project[] {
+  const now = Date.now();
+  const enriched = projects.map((p) => {
+    const fm = folderMtime(p);
+    const actMs = p.activities?.[0]?.date ? new Date(p.activities[0].date).getTime() : 0;
+    const lastActivityMs = Math.max(fm ?? 0, actMs) || actMs || 0;
+    const daysIdle = lastActivityMs ? Math.floor((now - lastActivityMs) / 86400000) : 999;
+
+    let reviveHint: string | null = null;
+    if (p.status === "error") {
+      reviveHint = "🚨 에러 상태 — 바로 봐야 함";
+    } else if (p.status === "paused") {
+      reviveHint =
+        daysIdle > 60
+          ? `⏸️ ${daysIdle}일째 멈춤 — 접을지 되살릴지 결정할 때`
+          : "⏸️ 일시정지 — 다시 돌리면 좋을 후보";
+    } else if (p.status === "developing" && daysIdle >= 5) {
+      reviveHint = `🔧 개발중인데 ${daysIdle}일 방치 — 다시 손대면 좋겠음`;
+    } else if (p.status === "running" && daysIdle >= 14) {
+      reviveHint = `⚙️ 운영중인데 ${daysIdle}일 조용 — 점검 필요`;
+    }
+
+    return { ...p, lastActivityMs, daysIdle, reviveHint };
+  });
+  // 최근 활동순 정렬
+  enriched.sort((a, b) => (b.lastActivityMs ?? 0) - (a.lastActivityMs ?? 0));
+  return enriched;
+}
+
 export function getAgents(): Agent[] {
   const raw = fs.readFileSync(AGENTS_PATH, "utf-8");
   return JSON.parse(raw);
@@ -77,7 +138,7 @@ export function generateBriefing(project: Project): string {
   lines.push(`상태: ${statusMap[project.status] || project.status}`);
   if (project.url) lines.push(`URL: ${project.url}`);
   if (project.github) lines.push(`GitHub: ${project.github}`);
-  if (project.stack.length) lines.push(`기술: ${project.stack.join(", ")}`);
+  if (project.stack?.length) lines.push(`기술: ${project.stack.join(", ")}`);
   lines.push("");
 
   if (project.phases?.length) {
@@ -100,7 +161,10 @@ export function generateBriefing(project: Project): string {
 
   if (project.todos?.length) {
     lines.push("다음 할 일:");
-    project.todos.forEach((t, i) => lines.push(`${i + 1}. ${t}`));
+    project.todos.forEach((t, i) => {
+      const txt = typeof t === "string" ? t : t?.text ?? "";
+      lines.push(`${i + 1}. ${txt}`);
+    });
     lines.push("");
   }
 

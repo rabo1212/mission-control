@@ -35,7 +35,7 @@ export default function SummaryCards({
           <button
             key={c.key}
             onClick={() => onFilter(isActive ? null : c.key)}
-            className={`rounded-xl p-4 text-center transition-all cursor-pointer ${
+            className={`rounded-xl p-3 sm:p-4 text-center transition-all cursor-pointer ${
               isActive
                 ? "ring-2 ring-offset-1 ring-offset-[#0a0a12] bg-[#13131f]"
                 : "bg-[#13131f] hover:bg-[#1a1a2e]"
@@ -48,9 +48,9 @@ export default function SummaryCards({
             }`}
             style={isActive ? { borderColor: c.color, borderWidth: 2 } : {}}
           >
-            {c.icon && <div className="text-2xl mb-1">{c.icon}</div>}
+            {c.icon && <div className="text-xl sm:text-2xl mb-1">{c.icon}</div>}
             <div
-              className="text-3xl font-bold font-[var(--font-mono)]"
+              className="text-2xl sm:text-3xl font-bold font-[var(--font-mono)]"
               style={{ color: c.color }}
             >
               {stats[c.key]}

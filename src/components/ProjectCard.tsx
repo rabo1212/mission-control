@@ -31,6 +31,12 @@ export default function ProjectCard({
           </span>
         </div>
 
+        {project.reviveHint && (
+          <div className="mb-2 text-[11px] text-[#a78bfa] bg-[#8b5cf6]/10 border border-[#8b5cf6]/20 rounded-md px-2 py-1">
+            {project.reviveHint}
+          </div>
+        )}
+
         <p className="text-sm text-[#a1a1aa] mb-3 line-clamp-2">
           {project.description}
         </p>
@@ -74,7 +80,9 @@ export default function ProjectCard({
         {project.todos && project.todos.length > 0 && (
           <div className="mt-3 pt-3 border-t border-[#1e1e30]">
             <p className="text-xs text-[#a1a1aa] truncate">
-              📌 {project.todos[0]}
+              📌 {typeof project.todos[0] === "string"
+                ? project.todos[0]
+                : (project.todos[0] as { text?: string })?.text ?? ""}
             </p>
           </div>
         )}

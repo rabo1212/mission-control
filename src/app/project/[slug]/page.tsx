@@ -32,12 +32,12 @@ export default async function ProjectPage({
       </Link>
 
       <div className="mb-8">
-        <div className="flex items-center gap-3 mb-2">
+        <div className="flex items-center flex-wrap gap-2 sm:gap-3 mb-2">
           <span
-            className="w-3 h-3 rounded-full"
+            className="w-3 h-3 rounded-full shrink-0"
             style={{ backgroundColor: status.color }}
           />
-          <h1 className="text-2xl font-bold">{project.name}</h1>
+          <h1 className="text-xl sm:text-2xl font-bold break-keep">{project.name}</h1>
           <span
             className="text-xs px-2 py-0.5 rounded-full"
             style={{

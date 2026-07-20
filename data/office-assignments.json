@@ -1,0 +1,28 @@
+{
+  "developing": [
+    { "slug": "polyoracle",       "name": "PolyOracle",    "team": ["backend", "prompt", "security", "devops"] },
+    { "slug": "mission-control",  "name": "미션 컨트롤",    "team": ["frontend", "dev"] },
+    { "slug": "chunmyeong-pet",   "name": "냥멍천명",      "team": ["frontend", "prompt", "design"] },
+    { "slug": "mahjong-play",     "name": "마작플레이",     "team": ["frontend", "dev", "design"] },
+    { "slug": "dexter",           "name": "Dexter",        "team": ["backend", "prompt"] },
+    { "slug": "ddak-photo",       "name": "딱포토",        "team": ["frontend", "design"] },
+    { "slug": "ddak-hana",        "name": "딱하나",        "team": ["dev", "backend"] },
+    { "slug": "jiwonhae",         "name": "지원해",        "team": ["frontend", "prompt"] }
+  ],
+  "running": [
+    { "slug": "polybot",                "name": "폴리봇",        "team": ["quant", "backend", "debug"] },
+    { "slug": "reddit-demand-sniper",   "name": "레딧 스나이퍼",  "team": ["backend", "prompt"] }
+  ],
+  "deployed": [
+    { "slug": "chunmyeong",       "name": "천명(天命)",     "team": ["frontend", "design"] },
+    { "slug": "mitdok",            "name": "믿독",          "team": ["frontend", "backend"] },
+    { "slug": "my-house-price",    "name": "내 집 얼마?",   "team": ["frontend", "dev"] },
+    { "slug": "imaginary-story",   "name": "상상이야기",    "team": ["frontend", "prompt"] },
+    { "slug": "trading-dashboard", "name": "트레이딩 대시",  "team": ["frontend", "quant"] },
+    { "slug": "second-brain",      "name": "세컨드브레인",   "team": ["backend", "devops"] },
+    { "slug": "landing-agent-team","name": "랜딩 에이전트",  "team": ["prompt", "design"] }
+  ],
+  "idle": [
+    { "slug": "_break", "name": "휴식", "team": ["host", "writer", "content", "marketing", "biz", "legal", "qa"] }
+  ]
+}

@@ -8,3 +8,12 @@
   scrollbar-width: thin;
   scrollbar-color: #1e1e30 transparent;
 }
+
+/* 가로 스크롤 영역 스크롤바 숨김 (네비탭 등 모바일) */
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}

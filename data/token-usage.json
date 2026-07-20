@@ -1,0 +1,92 @@
+[
+  {
+    "agent_id": "host",
+    "project_slug": "poly-oracle",
+    "model": "claude-sonnet-4",
+    "input_tokens": 15000,
+    "output_tokens": 8000,
+    "cost_usd": 0.12,
+    "recorded_at": "2026-03-04T01:00:00.000Z"
+  },
+  {
+    "agent_id": "frontend",
+    "project_slug": "mission-control",
+    "model": "claude-haiku-4",
+    "input_tokens": 5000,
+    "output_tokens": 3000,
+    "cost_usd": 0.008,
+    "recorded_at": "2026-03-04T02:00:00.000Z"
+  },
+  {
+    "agent_id": "quant",
+    "project_slug": "quantum-leap",
+    "model": "claude-sonnet-4",
+    "input_tokens": 30000,
+    "output_tokens": 12000,
+    "cost_usd": 0.25,
+    "recorded_at": "2026-03-04T03:00:00.000Z"
+  },
+  {
+    "agent_id": "backend",
+    "project_slug": "second-brain",
+    "model": "claude-haiku-4",
+    "input_tokens": 8000,
+    "output_tokens": 4500,
+    "cost_usd": 0.015,
+    "recorded_at": "2026-03-03T10:00:00.000Z"
+  },
+  {
+    "agent_id": "host",
+    "project_slug": "poly-bot",
+    "model": "claude-sonnet-4",
+    "input_tokens": 22000,
+    "output_tokens": 9500,
+    "cost_usd": 0.18,
+    "recorded_at": "2026-03-03T14:00:00.000Z"
+  },
+  {
+    "agent_id": "prompt",
+    "project_slug": "ddag-photo",
+    "model": "claude-opus-4",
+    "input_tokens": 45000,
+    "output_tokens": 15000,
+    "cost_usd": 0.95,
+    "recorded_at": "2026-03-03T16:00:00.000Z"
+  },
+  {
+    "agent_id": "debug",
+    "project_slug": "poly-oracle",
+    "model": "claude-haiku-4",
+    "input_tokens": 3000,
+    "output_tokens": 1500,
+    "cost_usd": 0.005,
+    "recorded_at": "2026-03-02T09:00:00.000Z"
+  },
+  {
+    "agent_id": "host",
+    "project_slug": "mission-control",
+    "model": "claude-sonnet-4",
+    "input_tokens": 18000,
+    "output_tokens": 7000,
+    "cost_usd": 0.15,
+    "recorded_at": "2026-03-02T11:00:00.000Z"
+  },
+  {
+    "agent_id": "content",
+    "project_slug": "raboland",
+    "model": "claude-sonnet-4",
+    "input_tokens": 12000,
+    "output_tokens": 6000,
+    "cost_usd": 0.10,
+    "recorded_at": "2026-03-01T08:00:00.000Z"
+  },
+  {
+    "agent_id": "quant",
+    "project_slug": "quantum-leap",
+    "model": "claude-opus-4",
+    "input_tokens": 50000,
+    "output_tokens": 20000,
+    "cost_usd": 1.10,
+    "recorded_at": "2026-03-01T15:00:00.000Z"
+  }
+]

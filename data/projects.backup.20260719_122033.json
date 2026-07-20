@@ -1,0 +1,2654 @@
+[
+  {
+    "name": "천명(天命)",
+    "slug": "chunmyeong",
+    "description": "AI 사주×관상 통합 분석 웹앱",
+    "status": "deployed",
+    "url": "https://chunmyeong.vercel.app",
+    "github": "rabo1212/chunmyeong",
+    "stack": [
+      "Next.js",
+      "TypeScript",
+      "Claude API",
+      "@orrery/core"
+    ],
+    "category": "천명 시리즈",
+    "phases": [
+      {
+        "name": "MVP",
+        "status": "done"
+      },
+      {
+        "name": "광고 연동",
+        "status": "done"
+      },
+      {
+        "name": "프리미엄 결제",
+        "status": "done"
+      },
+      {
+        "name": "토스 실결제",
+        "status": "pending"
+      }
+    ],
+    "todos": [
+      "토스 실서비스 전환 (사업자등록 필요)",
+      "결제 E2E 테스트",
+      "마케팅 시작",
+      "토스 개발자센터 가입 후 실제 테스트 키 연동",
+      "결제 플로우 E2E 테스트",
+      "사업자등록 후 토스 라이브 모드 전환",
+      "ACP 사주 서비스 실사용 테스트"
+    ],
+    "workInstruction": "/mnt/clawd/사주관상앱-클코작업지시서.md",
+    "activities": [
+      {
+        "date": "2026-02-27",
+        "text": "궁합 분석 API + 결제 후 입력 플로우 + 결과 페이지 표시 완성",
+        "status": "deployed"
+      },
+      {
+        "date": "2026-02-27",
+        "text": "프리미엄 3가지 선택 모델(₩1,990) + 랜딩페이지 리뉴얼 + PartnerInputModal 추가",
+        "status": "deployed"
+      },
+      {
+        "date": "2026-02-27",
+        "text": "A24 스타일 디자인 전면 리뉴얼 + 관상/셀피 기능 완전 제거",
+        "status": "deployed"
+      },
+      {
+        "date": "2026-02-25",
+        "text": "사주 분석 ACP 오퍼링 등록 완료 (fortune_saju_analysis, /bin/zsh.50 USDC) - Vercel API 연동 방식",
+        "status": "deployed"
+      },
+      {
+        "date": "2026-02-21",
+        "text": "프리미엄 유료 기능 구현 완료 (₩1,900) + 코드 리뷰 보안 수정 9건 + Vercel KV 설정 + AGPL 라이선스 고지",
+        "status": "deployed"
+      },
+      {
+        "date": "2026-02-21",
+        "text": "Phase 4 프리미엄 구현 완료",
+        "status": "deployed"
+      },
+      {
+        "date": "2026-02-21",
+        "text": "AGPL 라이선스 고지 추가",
+        "status": "deployed"
+      },
+      {
+        "date": "2026-02-20",
+        "text": "Vercel KV 설정 완료",
+        "status": "deployed"
+      }
+    ]
+  },
+  {
+    "name": "냥멍천명",
+    "slug": "chunmyeong-pet",
+    "description": "AI 반려동물 관상 분석 웹앱",
+    "status": "developing",
+    "url": "https://chunmyeong-pet.vercel.app",
+    "github": "rabo1212/chunmyeong-pet",
+    "stack": [
+      "Next.js",
+      "TypeScript",
+      "Claude API"
+    ],
+    "category": "천명 시리즈",
+    "phases": [
+      {
+        "name": "MVP",
+        "status": "done"
+      },
+      {
+        "name": "AI 해석",
+        "status": "in_progress"
+      },
+      {
+        "name": "광고 연동",
+        "status": "done"
+      }
+    ],
+    "todos": [
+      "AI 관상 해석 에러 수정",
+      "테스트",
+      "ACP 반려동물 관상 서비스 실사용 테스트"
+    ],
+    "workInstruction": "/mnt/clawd/펫관상앱-클코작업지시서.md",
+    "activities": [
+      {
+        "date": "2026-02-25",
+        "text": "ACP 오퍼링 등록 완료 (pet_fortune_analysis, /bin/zsh.30 USDC) - Vercel API 연동",
+        "status": "developing"
+      },
+      {
+        "date": "2026-02-21",
+        "text": "AI 해석 에러 수정 중",
+        "status": "developing"
+      }
+    ]
+  },
+  {
+    "name": "백랏 스튜디오",
+    "slug": "baeklat-studio",
+    "description": "크리에이티브 스튜디오 공식 홈페이지",
+    "status": "developing",
+    "url": null,
+    "github": null,
+    "stack": [
+      "Next.js",
+      "Tailwind",
+      "Framer Motion",
+      "Supabase"
+    ],
+    "category": "비즈니스",
+    "phases": [
+      {
+        "name": "랜딩 페이지",
+        "status": "pending"
+      },
+      {
+        "name": "포트폴리오",
+        "status": "pending"
+      },
+      {
+        "name": "예약 시스템",
+        "status": "pending"
+      },
+      {
+        "name": "관리자 모드",
+        "status": "pending"
+      }
+    ],
+    "todos": [
+      "Phase 1 랜딩 페이지 시작",
+      "Google Calendar API 연동 (환경변수 설정)",
+      "Vercel 환경변수 + 배포"
+    ],
+    "workInstruction": "/mnt/clawd/백랏스튜디오-홈페이지-클코작업지시서.md",
+    "activities": [
+      {
+        "date": "2026-03-02",
+        "text": "VisibleRay 리브랜딩 + Supabase 백엔드 연동 완료 (DB 3테이블, Storage, RLS)",
+        "status": "developing"
+      },
+      {
+        "date": "2026-02-23",
+        "text": "빠른 기록 기능 추가 (QuickLogModal + BottomNav 중앙 버튼 + Sidebar 버튼 + FAB) 및 Vercel 재배포",
+        "status": "deployed"
+      },
+      {
+        "date": "2026-02-21",
+        "text": "작업지시서 완성",
+        "status": "planned"
+      }
+    ]
+  },
+  {
+    "name": "레딧 수요 스나이퍼",
+    "slug": "reddit-demand-sniper",
+    "description": "레딧 불만/수요 자동 수집 → 앱 아이디어 발굴",
+    "status": "running",
+    "url": null,
+    "github": null,
+    "stack": [
+      "Python",
+      "Claude API",
+      "Telegram"
+    ],
+    "category": "자동화",
+    "phases": [
+      {
+        "name": "MVP (RSS 수집)",
+        "status": "done"
+      },
+      {
+        "name": "서브레딧 확장",
+        "status": "pending"
+      },
+      {
+        "name": "자동 작업지시서",
+        "status": "pending"
+      }
+    ],
+    "todos": [
+      "Reddit API 키 승인 후 PRAW 업그레이드",
+      "VPS 배포 (24/7 셀러 운영)"
+    ],
+    "workInstruction": "/mnt/clawd/레딧수요스나이퍼-클코작업지시서.md",
+    "activities": [
+      {
+        "date": "2026-02-26",
+        "text": "서브레딧 15개 확장, Rate limit 적응형 개선(RSS-only 모드), ACP 캐싱 추가",
+        "status": "running"
+      },
+      {
+        "date": "2026-02-25",
+        "text": "ACP 오퍼링 등록 완료 (reddit_demand_signal, /bin/zsh.25 USDC) + acp_runner.py 버그 수정 + 빈결과 폴백 로직 추가",
+        "status": "running"
+      },
+      {
+        "date": "2026-02-22",
+        "text": "Phase 1 MVP 완료 + E2E 테스트 통과",
+        "status": "deployed"
+      }
+    ]
+  },
+  {
+    "name": "폴리봇 (BTC Sniper)",
+    "slug": "polybot",
+    "description": "Polymarket BTC 5분 바이너리 자동매매봇",
+    "status": "running",
+    "url": null,
+    "github": null,
+    "stack": [
+      "Python",
+      "Polymarket API",
+      "SQLite"
+    ],
+    "category": "트레이딩",
+    "phases": [
+      {
+        "name": "v1~v3",
+        "status": "done"
+      },
+      {
+        "name": "v4 합의 시스템",
+        "status": "done"
+      },
+      {
+        "name": "v4 실전 검증",
+        "status": "pending"
+      }
+    ],
+    "todos": [
+      "v4 실전 데이터 수집 후 전략 평가",
+      "수동 redeem 확인",
+      "QUANT 활용 전략 분석 세션",
+      "오늘 저녁  토큰 론칭 (60days.ai)",
+      "100 VIRTUAL 확보 (업비트→바이낸스→VIRTUAL)",
+      "토큰 론칭 후 트위터/Discord 홍보"
+    ],
+    "notes": "일일 손실 한도 초과로 정지. 잔고 $170.57",
+    "activities": [
+      {
+        "date": "2026-02-27",
+        "text": "ACP 셀러 재시작, 졸업조건 확인(42K VIRTUAL 필요), 토큰 론칭 Path2(60Days) 확인, Discord 지원 티켓 오픈, caffeinate 슬립 방지 설정",
+        "status": "running"
+      },
+      {
+        "date": "2026-02-21",
+        "text": "QUANT(📊퀀트분석가) 14번째 에이전트 추가, v4→v2 전략 전환",
+        "status": "running"
+      },
+      {
+        "date": "2026-02-20",
+        "text": "v4 다중지표+고래추적 전략 구현",
+        "status": "paused"
+      }
+    ]
+  },
+  {
+    "name": "세컨드브레인",
+    "slug": "second-brain",
+    "description": "자동 뉴스 브리핑 대시보드",
+    "status": "deployed",
+    "url": "https://second-brain-rabo1.vercel.app",
+    "github": "rabo1212/second-brain",
+    "stack": [
+      "Next.js",
+      "Claude API",
+      "Google News RSS"
+    ],
+    "category": "자동화",
+    "phases": [
+      {
+        "name": "MVP",
+        "status": "done"
+      },
+      {
+        "name": "AI 큐레이션",
+        "status": "done"
+      },
+      {
+        "name": "검색 기능",
+        "status": "done"
+      }
+    ],
+    "todos": [],
+    "workInstruction": "/mnt/clawd/세컨드브레인-클코작업지시서.md",
+    "activities": [
+      {
+        "date": "2026-02-22",
+        "text": "요약 실패 버그 수정 — 캐시 사전 생성 + backfill + API 폴백",
+        "status": "deployed"
+      },
+      {
+        "date": "2026-02-15",
+        "text": "검색 + 아카이브 기능 추가",
+        "status": "deployed"
+      }
+    ]
+  },
+  {
+    "name": "트레이딩 대시보드",
+    "slug": "trading-dashboard",
+    "description": "폴리봇+ACP 실시간 모니터링",
+    "status": "deployed",
+    "url": "localhost:3001",
+    "github": null,
+    "stack": [
+      "Next.js",
+      "SQLite",
+      "Recharts"
+    ],
+    "category": "트레이딩",
+    "phases": [
+      {
+        "name": "Phase 1 MVP",
+        "status": "done"
+      },
+      {
+        "name": "Phase 2 ACP 모니터",
+        "status": "done"
+      }
+    ],
+    "todos": [],
+    "workInstruction": "/mnt/clawd/트레이딩대시보드-클코작업지시서.md",
+    "activities": [
+      {
+        "date": "2026-02-19",
+        "text": "ACP 모니터 탭 추가",
+        "status": "deployed"
+      }
+    ]
+  },
+  {
+    "name": "PolyOracle ACP",
+    "slug": "polyoracle",
+    "description": "AI→AI 에이전트 서비스 (예측시장 분석 판매)",
+    "status": "running",
+    "url": null,
+    "github": null,
+    "stack": [
+      "TypeScript",
+      "ACP Protocol",
+      "Node.js"
+    ],
+    "category": "에이전트",
+    "phases": [
+      {
+        "name": "로컬 엔진",
+        "status": "done"
+      },
+      {
+        "name": "ACP 등록",
+        "status": "done"
+      },
+      {
+        "name": "VPS 배포",
+        "status": "pending"
+      }
+    ],
+    "todos": [
+      "Base USDC 충전 (업비트 출금 제한)",
+      "VPS 배포 (카드 결제 불가)",
+      "VPS(Railway) 배포 검토",
+      "매출 대시보드 구축",
+      "reddit_demand_signal 대체 서비스 검토",
+      "evaluator 승인률 개선 (Virtuals 디스코드 문의)",
+      "에이전트 이름 변경 원인 파악 (PolyOracle→rolypoly)",
+      "매출 추적 + 전환율 모니터링",
+      "Discord evaluator 승인률 문의",
+      "COMPLETED 10건 달성 후 Graduated Agent 신청",
+      "PolyTester에 Base USDC 충전 후 셀프 테스트",
+      "reddit_complaint_monitor E2E 테스트 (Reddit rate limit 해제 후)",
+      "졸업 신청 (10건 COMPLETED 확인 후)",
+      "100 VIRTUAL 충전 후 토큰() 론칭",
+      "졸업 버튼 활성화 확인 (대시보드 10건 반영 대기)",
+      "트위터/디스코드 홍보",
+      "60일 내 커밋 여부 결정",
+      "ACP 오퍼링으로 team_analysis 서비스 등록",
+      "텔레그램 알림 연동",
+      "백테스트 시스템 구축 (Phase 4)",
+      "evaluator 승인 후 Graduate Agent 버튼 확인 및 졸업 신청",
+      "Discord 답변 후 -ACP 에이전트 연결",
+      "졸업 신청 (10건 성공 + 비디오)",
+      "PolyTester USDC 충전 (셀프구매용)",
+      "↔ACP 연결 Discord 문의",
+      "PolyTester USDC 충전 ()",
+      "60 Days Commit (54일 남음)",
+      "PolyTester USDC 충전 → 셀프구매 재개",
+      "import-offerings.json Virtuals 웹에이전트에 동기화",
+      "token_scanner GeckoTerminal rate limit 대응",
+      "PolyBuyer USDC 잔액 모니터링"
+    ],
+    "workInstruction": "/mnt/clawd/ACP에이전트서비스-클코작업지시서.md",
+    "activities": [
+      {
+        "date": "2026-03-08",
+        "text": "SDK 자동구매봇(PolyBuyer) 완성 — initiateJob+payAndAcceptRequirement 파이프라인, 8서비스 로테이션 30분간격 루프 실행 중",
+        "status": "running"
+      },
+      {
+        "date": "2026-03-07",
+        "text": "오퍼링 22→13개 정리 (14개 삭제 + 5개 신규), 셀러/모니터 재시작, RPC 폴백 적용, 트윗봇 업데이트",
+        "status": "running"
+      },
+      {
+        "date": "2026-03-06",
+        "text": "OpenClaw 봇 모델 에러 수정,  토큰 Uniswap 구매 (51.278개), 메타마스크 토큰 import",
+        "status": "running"
+      },
+      {
+        "date": "2026-03-06",
+        "text": "트위터 자동화 완성: 하루3번 트윗(서비스+차트캡쳐+토큰프로모) + 지갑/토큰 모니터 텔레그램 알림 + 맥북 잠자기방지",
+        "status": "running"
+      },
+      {
+        "date": "2026-03-06",
+        "text": "SDK 셀러 웹에이전트 전환 완료 + GAME Twitter 자동트윗봇 구축 (매일 11시 서비스 로테이션) + 셀프구매 자동화 스크립트",
+        "status": "running"
+      },
+      {
+        "date": "2026-03-03",
+        "text": "$PORACLE 토큰 ↔ ACP 에이전트 연결 성공\\! isVirtualAgent=true, symbol=PORACLE",
+        "status": "developing"
+      },
+      {
+        "date": "2026-03-02",
+        "text": "새 ACP 에이전트(id:17275) 웹 등록, 졸업 패널 확인.  토큰 연결 시도 — ownerAddress 불일치로 실패. Discord 문의 진행 중",
+        "status": "developing"
+      },
+      {
+        "date": "2026-03-02",
+        "text": "ACP 셀프구매(PolyTester→PolyOracle) 실행, 10번째 COMPLETED 달성 대기 중 (evaluator 승인 pending)",
+        "status": "developing"
+      },
+      {
+        "date": "2026-03-01",
+        "text": "멀티에이전트 팀 분석 시스템 구축 완료 (7-9 AI 에이전트, 논문 기반)",
+        "status": "developing"
+      },
+      {
+        "date": "2026-02-28",
+        "text": "$PORACLE 토큰 Virtuals 60 Days 프로그램으로 론칭 완료! Midjourney 토큰 이미지 제작, Upbit→Binance→MetaMask→Privy 지갑 경유 100 VIRTUAL 납부",
+        "status": "running"
+      },
+      {
+        "date": "2026-02-26",
+        "text": "오퍼링 18개 설명 업데이트+ACP 재등록, 셀프구매로 COMPLETED 10건 달성, 토큰론칭 60Days 시도(100 VIRTUAL 필요)",
+        "status": "running"
+      },
+      {
+        "date": "2026-02-26",
+        "text": "18개 오퍼링 설명 구체적 예시로 전면 업데이트 + ACP 재등록, reddit_complaint_monitor 신규 서비스 추가",
+        "status": "running"
+      },
+      {
+        "date": "2026-02-26",
+        "text": "reddit_complaint_monitor ACP 서비스 신규 추가 (/bin/zsh.30) — Reddit 경쟁사 불만 수집 + AI 영업 멘트 생성",
+        "status": "running"
+      },
+      {
+        "date": "2026-02-26",
+        "text": "구매율 개선: 가격인상(6개 서비스 /bin/zsh.01→/bin/zsh.10~/bin/zsh.25), deliverable 포맷 버그 수정({type,value} 래핑), 소켓 재연결 잡 복구 추가, market_deep_analysis 키워드 폴백 수정, 에이전트 설명 리라이팅, PolyTester 테스트 에이전트 생성",
+        "status": "running"
+      },
+      {
+        "date": "2026-02-25",
+        "text": "구매율 개선: 가격 인상(엔터6종 .01→.10~.25), 에이전트 설명 리라이팅(ONLY 포지셔닝), requestPayment 메시지 17개 전체 개선, 마켓플레이스 재동기화",
+        "status": "running"
+      },
+      {
+        "date": "2026-02-25",
+        "text": "deliverable 필드+requestPayment 메시지 17개 전부 개선, 오퍼링 폴더명 버그 수정(polyoracle→rolypoly)",
+        "status": "running"
+      },
+      {
+        "date": "2026-02-25",
+        "text": "26→17개 오퍼링 정리(중복삭제+가격재조정), 실매출 /bin/zsh.20 확인, evaluator 병목 발견",
+        "status": "running"
+      },
+      {
+        "date": "2026-02-25",
+        "text": "26개 오퍼링 전수 품질테스트 완료, reddit_demand_signal 삭제(타임아웃), 25개 정상가동 확인",
+        "status": "running"
+      },
+      {
+        "date": "2026-02-25",
+        "text": "엔터테인먼트 서비스 4개 추가 (crypto_roast/degen_score/crypto_fortune/rug_pull_scanner), 24/7 자동재시작 스크립트 구축, 총 26개 오퍼링 운영 중. 오늘 실매출 $1.3+ 발생",
+        "status": "running"
+      },
+      {
+        "date": "2026-02-25",
+        "text": "crypto_fact_check 서비스 추가 ($0.03, Claude AI 팩트체크), Quick 라이트 시리즈 6개 + tweet_generator + fact_check 총 22개 오퍼링. 오늘 실매출 발생 중 (tweet_generator 30초만에 3건 연속 판매)",
+        "status": "running"
+      },
+      {
+        "date": "2026-02-25",
+        "text": "초저가 Quick 시리즈 6개 추가 ($0.01~$0.02): btc_price, stock_price, kimchi, gas, sector_heat, trending_markets. 총 21개 오퍼링 운영, 오늘 매출 $1+ 발생",
+        "status": "running"
+      },
+      {
+        "date": "2026-02-25",
+        "text": "market_tweet_generator 서비스 신규 개발 - 실시간 시장 데이터 기반 AI 트윗/스레드 생성 (/bin/zsh.02), Claude Haiku + 주식/크립토/섹터 데이터 연동. 총 15개 오퍼링",
+        "status": "running"
+      },
+      {
+        "date": "2026-02-25",
+        "text": "ACP 오퍼링 4개 추가 등록 (us_stock_analysis/yahoo_stock_data/sector_monitor_signal/natural_cron_parser), 총 14개 서비스 운영 중. cron 파서 UTC 시간 버그 수정",
+        "status": "running"
+      },
+      {
+        "date": "2026-02-25",
+        "text": "pet_fortune_analysis 오퍼링 추가 (/bin/zsh.30, 냥멍천명 Vercel API 연동), 셀러 10개 오퍼링 활성화",
+        "status": "running"
+      },
+      {
+        "date": "2026-02-25",
+        "text": "fortune_saju_analysis 오퍼링 추가 (/bin/zsh.50, 천명앱 Vercel API 연동), 셀러 9개 오퍼링 활성화",
+        "status": "running"
+      },
+      {
+        "date": "2026-02-25",
+        "text": "reddit_demand_signal 오퍼링 추가 (기존 reddit_demand_intel 이름/설명/가격 변경), 셀러 8개 오퍼링 활성화",
+        "status": "running"
+      },
+      {
+        "date": "2026-02-18",
+        "text": "ACP 등록 + 텔레그램 매출 알림 연결",
+        "status": "running"
+      }
+    ]
+  },
+  {
+    "name": "뽀모도로 게임",
+    "slug": "pomodoro",
+    "description": "본디 스타일 뽀모도로 타이머 게임",
+    "status": "developing",
+    "url": "localhost:3333",
+    "github": null,
+    "stack": [
+      "Next.js",
+      "TypeScript",
+      "Zustand"
+    ],
+    "category": "앱",
+    "phases": [
+      {
+        "name": "Phase 1 타이머",
+        "status": "done"
+      },
+      {
+        "name": "Phase 2 게이미피케이션",
+        "status": "done"
+      },
+      {
+        "name": "Phase 3 Supabase",
+        "status": "pending"
+      }
+    ],
+    "todos": [
+      "Supabase 인증 & DB 연동",
+      "PWA 설정 (홈화면 추가, 오프라인)",
+      "커스텀 도메인 연결",
+      "3D 드래그앤드롭 구현",
+      "5구역 3D 소품 구현",
+      "모달 게임패널 리스타일"
+    ],
+    "workInstruction": "/mnt/clawd/뽀모도로-게임-클코작업지시서.md",
+    "activities": [
+      {
+        "date": "2026-03-07",
+        "text": "꾸준함 비율(consistency ratio) 시스템 추가 — 스트릭 대안 동기부여 기능",
+        "status": "developing"
+      },
+      {
+        "date": "2026-03-06",
+        "text": "3D 드래그앤드롭 + 5구역 3D 소품 + 모달 게임패널 리스타일 완료",
+        "status": "developing"
+      },
+      {
+        "date": "2026-03-06",
+        "text": "React Three Fiber 3D 방 + 게임 HUD UI 대대적 리뉴얼 (42개 아이템 3D화, 파스텔키치+네온팝)",
+        "status": "developing"
+      },
+      {
+        "date": "2026-03-01",
+        "text": "픽셀 오피스 5구역 시스템 + 캐릭터 이동 애니메이션 구현",
+        "status": "deployed"
+      },
+      {
+        "date": "2026-02-27",
+        "text": "아이소메트릭 방 디자인 리뉴얼: 아이템 14→42개 확장, 렌더러 모듈화, 상점 카테고리 탭 추가",
+        "status": "deployed"
+      },
+      {
+        "date": "2026-02-26",
+        "text": "Phase 6 소셜 기능 완성 + Vercel 프로덕션 배포 완료",
+        "status": "deployed"
+      },
+      {
+        "date": "2026-02-12",
+        "text": "Phase 2 게이미피케이션 완료",
+        "status": "paused"
+      }
+    ]
+  },
+  {
+    "name": "딱사진",
+    "slug": "ddak-photo",
+    "description": "AI 상품사진 자동 생성 iOS 앱",
+    "status": "deployed",
+    "url": null,
+    "github": null,
+    "stack": [
+      "React Native",
+      "Expo",
+      "Flux AI"
+    ],
+    "category": "앱",
+    "phases": [
+      {
+        "name": "시장조사",
+        "status": "done"
+      },
+      {
+        "name": "MVP 개발",
+        "status": "done"
+      },
+      {
+        "name": "앱스토어 제출",
+        "status": "pending"
+      }
+    ],
+    "todos": [
+      "Apple Developer 가입 ($99)",
+      "실기기 테스트",
+      "앱스토어 제출",
+      "iOS 시뮬레이터 전체 플로우 QA",
+      "다크모드 대응 검토",
+      "FAL_KEY 환경변수 설정",
+      "E2E 테스트 (실제 API 연동)",
+      "GitHub 리포 생성 + 배포",
+      "실제 이미지 생성 E2E 테스트",
+      "Vercel 배포 확인 후 프로덕션 테스트",
+      "Vercel 배포 + 환경변수 설정",
+      "실제 제품사진으로 영상 품질 테스트",
+      "배포 URL에서 Step 1→7 실사용 테스트",
+      "에러 UX 개선 (API 실패 시 안내)"
+    ],
+    "workInstruction": "/mnt/clawd/상품사진앱-시장조사-클코작업지시서.md",
+    "activities": [
+      {
+        "date": "2026-03-08",
+        "text": "코드 리뷰 리포트 전체 수정: Critical+High 10개, Medium 4개, Low 1개(CSP) 적용",
+        "status": "deployed"
+      },
+      {
+        "date": "2026-03-08",
+        "text": "앱스토어급 프리미엄 UI v2: 세그먼트 바, 플로팅 네비, 디바이스 프레임, shimmer 로딩",
+        "status": "deployed"
+      },
+      {
+        "date": "2026-03-07",
+        "text": "전과정 E2E 테스트 완료 + Vercel 배포 버그 2건 수정 (maxDuration 타임아웃, Veo mimeType)",
+        "status": "deployed"
+      },
+      {
+        "date": "2026-03-07",
+        "text": "Vercel 배포 완료 + localStorage 저장/복구 + next/image 전환 + .env.example 추가",
+        "status": "deployed"
+      },
+      {
+        "date": "2026-03-06",
+        "text": "Veo 3.1 영상 생성 기능 추가 (Step 7 내보내기에 통합, API 테스트 완료)",
+        "status": "developing"
+      },
+      {
+        "date": "2026-03-02",
+        "text": "생성 후 편집 기능 추가: 가격/문구/이미지 수정 후 HTML만 재빌드",
+        "status": "developing"
+      },
+      {
+        "date": "2026-03-02",
+        "text": "Phase A~E 전면 업그레이드: FLUX Kontext Pro API, 카테고리별 카피전략, 9단계 심리구조, Gemini 에러추적",
+        "status": "developing"
+      },
+      {
+        "date": "2026-03-01",
+        "text": "Phase 1 MVP 전체 구현 완료 (11/11 tasks)",
+        "status": "developing"
+      },
+      {
+        "date": "2026-02-21",
+        "text": "Apple HIG 미니멀 화이트 디자인 리뉴얼 완료 (theme.ts + 19개 파일)",
+        "status": "developing"
+      },
+      {
+        "date": "2026-02-14",
+        "text": "dev-cycle 완주",
+        "status": "paused"
+      }
+    ]
+  },
+  {
+    "name": "미션 컨트롤",
+    "slug": "mission-control",
+    "description": "전체 프로젝트 대시보드 + 클코 브리핑 생성기",
+    "status": "developing",
+    "url": "https://mission-control-rabo1.vercel.app",
+    "github": "rabo1212/mission-control",
+    "stack": [
+      "Next.js",
+      "TypeScript",
+      "Tailwind"
+    ],
+    "category": "자동화",
+    "phases": [
+      {
+        "name": "Phase 1 MVP",
+        "status": "in_progress"
+      },
+      {
+        "name": "Phase 2 브리핑",
+        "status": "in_progress"
+      },
+      {
+        "name": "Phase 3 편집 기능",
+        "status": "pending"
+      },
+      {
+        "name": "Phase 4 자동 연동",
+        "status": "pending"
+      }
+    ],
+    "todos": [
+      "Vercel 배포",
+      "Phase 3 편집 기능",
+      "가재사무실 디자인 개선 및 모바일 최적화"
+    ],
+    "workInstruction": "/mnt/clawd/미션컨트롤-대시보드-클코작업지시서.md",
+    "activities": [
+      {
+        "date": "2026-03-04",
+        "text": "useSSE.ts TypeScript 에러 수정 + Vercel Production 배포",
+        "status": "developing"
+      },
+      {
+        "date": "2026-03-02",
+        "text": "가재사무실(/office) 탭 추가 - CSS+HTML 도트 아트 스타일 사무실, 16마리 에이전트 상태 시각화, 말풍선, OpenClaw 실시간 연동",
+        "status": "developing"
+      },
+      {
+        "date": "2026-02-21",
+        "text": "필터링 기능 + 자동 업데이트 스크립트 추가",
+        "status": "developing"
+      },
+      {
+        "date": "2026-02-22",
+        "text": "개발 시작",
+        "status": "developing"
+      }
+    ]
+  },
+  {
+    "name": "믿독(MITDOK)",
+    "slug": "mitdok",
+    "description": "구독 관리 앱 — 알림/절약/인사이트",
+    "status": "developing",
+    "url": "https://mitdok.vercel.app",
+    "github": "rabo1212/subscription-manager",
+    "stack": [
+      "React 19",
+      "Vite 7",
+      "Tailwind CSS 4"
+    ],
+    "category": "앱",
+    "phases": [
+      {
+        "name": "MVP UI",
+        "status": "in_progress"
+      },
+      {
+        "name": "localStorage 저장",
+        "status": "pending"
+      },
+      {
+        "name": "알림 구현",
+        "status": "pending"
+      },
+      {
+        "name": "해지 방법 DB",
+        "status": "pending"
+      }
+    ],
+    "todos": [
+      "localStorage 저장",
+      "알림 구현",
+      "해지 방법 DB",
+      "Phase 2: 카테고리별 지출 차트 + 중복 감지 + 절약 추천",
+      "Phase 3: 코드 리팩토링 + 모바일 최적화 + PWA",
+      "Phase 4: Free/Pro 결제 연동 (토스페이먼츠)",
+      "Phase 2: 카테고리별 지출 차트",
+      "Phase 2: 중복 감지 + 절약 추천",
+      "Phase 3: 코드 모듈 분리 + PWA",
+      "iOS 앱스토어 출시 준비 (Apple Developer 계정, 아이콘, 스플래시)",
+      "Supabase에 SQL 마이그레이션 실행",
+      "PortOne 콘솔에서 채널 설정 (사업자등록증)",
+      "Edge Functions 배포 (supabase functions deploy)",
+      "환경변수 설정 (.env)",
+      "Apple Developer 계정 등록 + RevenueCat 설정",
+      "App Store Connect 메타데이터 준비 (스크린샷, 설명)",
+      "TestFlight 빌드 + 실기기 테스트"
+    ],
+    "workInstruction": "/mnt/clawd/믿독-구독관리앱-클코작업지시서.md",
+    "activities": [
+      {
+        "date": "2026-03-06",
+        "text": "앱 아이콘 A(Bold Shield) 확정 + Xcode asset catalog 배치, 스플래시 스크린 제작, apple-receipt-verify Edge Function 생성, 빌드 테스트 통과",
+        "status": "developing"
+      },
+      {
+        "date": "2026-03-05",
+        "text": "상용화 전체 수정: PortOne V2 결제 연동, 서버 기반 Pro/Admin 전환, RLS 보안, App.tsx 리팩토링, 삭제 확인 모달, 비밀번호 강도, 한국어 에러, OG 태그",
+        "status": "developing"
+      },
+      {
+        "date": "2026-02-22",
+        "text": "Phase 3: 알림 시스템 + iOS Capacitor 대비 (CDN→빌드, HashRouter, PWA)",
+        "status": "deployed"
+      },
+      {
+        "date": "2026-02-21",
+        "text": "Phase 2 지출분석+절약추천 강화 완료 (AreaChart 월별추이, OTT/음악 특화 추천, 벤치마크)",
+        "status": "deployed"
+      },
+      {
+        "date": "2026-02-21",
+        "text": "Phase 1 완성 + Vercel 배포 (localStorage, 편집, 해지가이드, 무료체험, 알림, 배달카테고리 추가)",
+        "status": "deployed"
+      },
+      {
+        "date": "2026-02-21",
+        "text": "Phase 1 완성 (localStorage/편집/해지가이드/무료체험/알림) + 랜딩페이지 통합 + 배달 카테고리 추가 + Vercel mitdok.vercel.app 배포",
+        "status": "deployed"
+      },
+      {
+        "date": "2026-02-22",
+        "text": "프로젝트 시작",
+        "status": "developing"
+      }
+    ]
+  },
+  {
+    "name": "Imaginary Story",
+    "slug": "imaginary-story",
+    "description": "AI 스토리보드 생성 웹앱",
+    "status": "deployed",
+    "url": "https://imaginarystory.co.kr",
+    "github": "rabo1212/imaginary-story",
+    "stack": [
+      "React",
+      "TypeScript",
+      "Vite"
+    ],
+    "category": "웹앱",
+    "phases": [
+      {
+        "name": "MVP",
+        "status": "done"
+      },
+      {
+        "name": "SEO 등록",
+        "status": "done"
+      }
+    ],
+    "todos": [
+      "영상 크레딧 40→60 인상 검토",
+      "CapCut 자막+BGM 넣고 쇼츠 업로드",
+      "디스콰이엇 런칭글 올리기",
+      "인스타 계정 개설",
+      "AdSense 승인 후 ca-pub ID 교체",
+      "Google Search Console 인증 코드 교체",
+      "Vercel cron job 설정 (subscription-webhook)"
+    ],
+    "notes": "네이버 서치어드바이저 + 구글 서치콘솔 등록 완료",
+    "activities": [
+      {
+        "date": "2026-03-07",
+        "text": "구독 모델, B2B 조직, 기술 수정(race condition, atomic RPC, Tailwind PostCSS), 광고/크레딧 정책 개선 전체 구현 및 배포",
+        "status": "deployed"
+      },
+      {
+        "date": "2026-02-22",
+        "text": "모바일 레이아웃 최적화 + 마케팅 콘텐츠 7종 작성 + 쇼츠 30초 편집",
+        "status": "deployed"
+      },
+      {
+        "date": "2026-02-22",
+        "text": "카카오 애드핏 + 쿠팡파트너스 광고 3곳 추가 (유료 사용자 숨김)",
+        "status": "deployed"
+      },
+      {
+        "date": "2026-02-22",
+        "text": "모델폴백, GA4 이벤트 7개, 영상크레딧 60, 이미지 재시도, 가격인상, 타임아웃 연장",
+        "status": "deployed"
+      },
+      {
+        "date": "2026-02-22",
+        "text": "GA4 커스텀 이벤트 7개 추가 (purchase, generate, signup, share, ad)",
+        "status": "deployed"
+      },
+      {
+        "date": "2026-02-22",
+        "text": "영상 모델 자동 폴백 기능 추가 (Kling→Minimax→StableVideo)",
+        "status": "deployed"
+      },
+      {
+        "date": "2026-02-11",
+        "text": "SEO 등록 완료 (네이버+구글)",
+        "status": "deployed"
+      }
+    ]
+  },
+  {
+    "name": "꾸미 (Kkumi)",
+    "slug": "kkumi",
+    "description": "AI UGC 숏폼 광고 영상 자동 생성 서비스",
+    "status": "paused",
+    "url": "localhost:8001",
+    "github": null,
+    "stack": [
+      "Python",
+      "FastAPI",
+      "Fal.ai"
+    ],
+    "category": "AI/도구",
+    "phases": [
+      {
+        "name": "Phase 1 백엔드 MVP",
+        "status": "done"
+      },
+      {
+        "name": "Fal.ai 연동",
+        "status": "pending"
+      },
+      {
+        "name": "프론트엔드",
+        "status": "pending"
+      }
+    ],
+    "todos": [
+      "Fal.ai API 키 발급",
+      "실제 AI 모드 전환"
+    ],
+    "notes": "현재 Mock AI 모드 (MOCK_AI=true)",
+    "activities": [
+      {
+        "date": "2026-02-13",
+        "text": "Phase 1 백엔드 MVP 완료",
+        "status": "paused"
+      }
+    ]
+  },
+  {
+    "name": "바이낸스 현물봇",
+    "slug": "binance-spot-bot",
+    "description": "바이낸스 현물 RSI+Grid 하이브리드 자동매매봇",
+    "status": "paused",
+    "url": null,
+    "github": "rabo1212/binance-spot-bot",
+    "stack": [
+      "Python",
+      "httpx",
+      "aiosqlite",
+      "Binance API"
+    ],
+    "category": "트레이딩",
+    "phases": [
+      {
+        "name": "RSI 전략",
+        "status": "done"
+      },
+      {
+        "name": "Grid 전략",
+        "status": "done"
+      },
+      {
+        "name": "ATR 동적 손익절",
+        "status": "done"
+      },
+      {
+        "name": "실전 매매",
+        "status": "pending"
+      }
+    ],
+    "todos": [
+      "DRY_RUN 해제 후 실전 테스트"
+    ],
+    "notes": "DRY_RUN=true, TESTNET=true 상태",
+    "activities": [
+      {
+        "date": "2026-02-14",
+        "text": "sync→async 대규모 개선",
+        "status": "paused"
+      }
+    ]
+  },
+  {
+    "name": "업비트 하이브리드봇",
+    "slug": "upbit-bot",
+    "description": "업비트 BTC 그리드+모멘텀 하이브리드 자동매매봇",
+    "status": "paused",
+    "url": null,
+    "github": null,
+    "stack": [
+      "Python",
+      "aiohttp",
+      "aiosqlite",
+      "Upbit API"
+    ],
+    "category": "트레이딩",
+    "phases": [
+      {
+        "name": "그리드 매매",
+        "status": "done"
+      },
+      {
+        "name": "모멘텀 추격",
+        "status": "done"
+      },
+      {
+        "name": "터미널 대시보드",
+        "status": "done"
+      },
+      {
+        "name": "실전 매매",
+        "status": "pending"
+      }
+    ],
+    "todos": [
+      "DRY_RUN 해제 후 실전 테스트"
+    ],
+    "notes": "DRY_RUN=true 상태. Rich Live UI 터미널 대시보드 포함",
+    "activities": [
+      {
+        "date": "2026-02-16",
+        "text": "초기 구현 완료",
+        "status": "paused"
+      }
+    ]
+  },
+  {
+    "name": "바이낸스 선물봇",
+    "slug": "binance-futures-bot",
+    "description": "바이낸스 선물 테스트넷 RSI 롱/숏 자동매매봇",
+    "status": "paused",
+    "url": null,
+    "github": null,
+    "stack": [
+      "Python",
+      "binance-futures-connector"
+    ],
+    "category": "트레이딩",
+    "phases": [
+      {
+        "name": "RSI 전략",
+        "status": "done"
+      },
+      {
+        "name": "테스트넷 검증",
+        "status": "pending"
+      }
+    ],
+    "todos": [
+      "테스트넷 실전 데이터 수집"
+    ],
+    "notes": "BTCUSDT 15분봉 기반, 테스트넷 전용",
+    "activities": []
+  },
+  {
+    "name": "주식봇 (Stock Bot)",
+    "slug": "stock-bot",
+    "description": "야후파이낸스 주식 데이터 수집 + 텔레그램 알림봇",
+    "status": "deployed",
+    "url": null,
+    "github": "rabo1212/stock-bot",
+    "stack": [
+      "Node.js",
+      "yahoo-finance2",
+      "Telegram API",
+      "Redis"
+    ],
+    "category": "트레이딩",
+    "phases": [
+      {
+        "name": "데이터 수집",
+        "status": "done"
+      },
+      {
+        "name": "텔레그램 알림",
+        "status": "done"
+      }
+    ],
+    "todos": [],
+    "activities": [
+      {
+        "date": "2026-01-28",
+        "text": "주식 모니터링 가동",
+        "status": "deployed"
+      }
+    ]
+  },
+  {
+    "name": "Fairytale Photo",
+    "slug": "fairytale-photo",
+    "description": "AI 이미지 생성 + Konva 캔버스 편집 도구",
+    "status": "deployed",
+    "url": "https://fairytale-photo.vercel.app",
+    "github": "rabo1212/fairytale-photo",
+    "stack": [
+      "Next.js 14",
+      "Konva",
+      "Replicate API",
+      "Tailwind"
+    ],
+    "category": "AI/도구",
+    "phases": [
+      {
+        "name": "캔버스 편집",
+        "status": "done"
+      },
+      {
+        "name": "AI 이미지 생성",
+        "status": "done"
+      }
+    ],
+    "todos": [],
+    "activities": [
+      {
+        "date": "2026-01-25",
+        "text": "Vercel 배포 완료",
+        "status": "deployed"
+      }
+    ]
+  },
+  {
+    "name": "텔레그램 리마인더봇",
+    "slug": "telegram-reminder-bot",
+    "description": "자연어 시간 입력 → 텔레그램 알림 비서봇",
+    "status": "deployed",
+    "url": null,
+    "github": null,
+    "stack": [
+      "Python",
+      "python-telegram-bot"
+    ],
+    "category": "자동화",
+    "phases": [
+      {
+        "name": "자연어 파싱",
+        "status": "done"
+      },
+      {
+        "name": "알림 전송",
+        "status": "done"
+      }
+    ],
+    "todos": [],
+    "notes": "\"오후 3시에 약 먹기\", \"10분 후 확인\" 등 지원",
+    "activities": []
+  },
+  {
+    "name": "Dexter",
+    "slug": "dexter",
+    "description": "자율 금융 리서치 AI 에이전트",
+    "status": "developing",
+    "url": null,
+    "github": "virattt/dexter",
+    "stack": [
+      "TypeScript",
+      "Bun",
+      "LangChain",
+      "Playwright"
+    ],
+    "category": "에이전트",
+    "phases": [
+      {
+        "name": "리서치 엔진",
+        "status": "done"
+      },
+      {
+        "name": "자동 실행",
+        "status": "in_progress"
+      },
+      {
+        "name": "자체 검증",
+        "status": "pending"
+      }
+    ],
+    "todos": [
+      "금융 분석 자동화 파이프라인 완성"
+    ],
+    "activities": [
+      {
+        "date": "2026-02-09",
+        "text": "금융 AI 에이전트 개발 중",
+        "status": "developing"
+      }
+    ]
+  },
+  {
+    "name": "ComfyUI MCP Server",
+    "slug": "comfyui-mcp",
+    "description": "ComfyUI 연동 MCP 서버 (AI 이미지/음성/영상 생성)",
+    "status": "paused",
+    "url": null,
+    "github": "joenorton/comfyui-mcp-server",
+    "stack": [
+      "Python",
+      "MCP",
+      "Pillow",
+      "ComfyUI"
+    ],
+    "category": "AI/도구",
+    "phases": [
+      {
+        "name": "MCP 연동",
+        "status": "done"
+      }
+    ],
+    "todos": [
+      "ComfyUI 로컬 워크플로우 최적화"
+    ],
+    "notes": "포크 프로젝트",
+    "activities": [
+      {
+        "date": "2026-01-20",
+        "text": "MCP 서버 포크 및 설정",
+        "status": "paused"
+      }
+    ]
+  },
+  {
+    "name": "Backlot Video",
+    "slug": "backlot-video",
+    "description": "Remotion 기반 인트로/릴 영상 자동 생성",
+    "status": "paused",
+    "url": null,
+    "github": null,
+    "stack": [
+      "React 19",
+      "Remotion",
+      "TypeScript",
+      "Vite"
+    ],
+    "category": "영상/미디어",
+    "phases": [
+      {
+        "name": "BacklotIntro",
+        "status": "done"
+      },
+      {
+        "name": "ImaginaryStoryReel",
+        "status": "done"
+      }
+    ],
+    "todos": [],
+    "activities": [
+      {
+        "date": "2026-01-27",
+        "text": "영상 렌더링 도구 완성",
+        "status": "paused"
+      }
+    ]
+  },
+  {
+    "name": "Tech Shorts",
+    "slug": "tech-shorts",
+    "description": "Remotion 기반 기술 쇼츠 자동 생성",
+    "status": "running",
+    "url": null,
+    "github": null,
+    "stack": [
+      "React 19",
+      "Remotion",
+      "TypeScript"
+    ],
+    "category": "영상/미디어",
+    "phases": [
+      {
+        "name": "쇼츠 템플릿",
+        "status": "done"
+      }
+    ],
+    "todos": [
+      "ElevenLabs API 키 갱신 (현재 만료)",
+      "Fal.ai 잔액 충전 (현재 0)",
+      "ElevenLabs API 키 갱신",
+      "Fal.ai 잔액 충전",
+      "플래너 훅 패턴 다양화 (이걸모르면 반복 방지)"
+    ],
+    "activities": [
+      {
+        "date": "2026-04-03",
+        "text": "파이프라인 대폭 개선(스토리흐름 가이드, 금액2차검증, 말투다듬기, 날짜교정) + 위고비/채소주스 영상 2개 유튜브 업로드 + 테스트파일 정리(491MB 확보)",
+        "status": "running"
+      },
+      {
+        "date": "2026-04-02",
+        "text": "위고비 구독제 영상 제작 및 유튜브 업로드 완료. 파이프라인 개선: 스토리 흐름 가이드, 금액 2차검증, 나레이션 말투 다듬기, 날짜 자동교정 추가",
+        "status": "running"
+      }
+    ]
+  },
+  {
+    "name": "딱하나",
+    "slug": "ddak-hana",
+    "description": "풀스택 모노레포 프로젝트 (server + client)",
+    "status": "developing",
+    "url": "https://ddak-hana.vercel.app",
+    "github": "rabo1212/ddak-hana",
+    "stack": [
+      "Node.js",
+      "npm workspace"
+    ],
+    "category": "앱",
+    "phases": [
+      {
+        "name": "프로젝트 구조",
+        "status": "done"
+      },
+      {
+        "name": "개발",
+        "status": "in_progress"
+      }
+    ],
+    "todos": [
+      "서버/클라이언트 개발 진행"
+    ],
+    "activities": [
+      {
+        "date": "2026-02-15",
+        "text": "모노레포 구조 설정",
+        "status": "developing"
+      }
+    ]
+  },
+  {
+    "name": "지원해 (Jiwonhae)",
+    "slug": "jiwonhae",
+    "description": "AI 기반 자기소개서/면접 코칭 웹앱",
+    "status": "developing",
+    "url": "https://jiwonhae.vercel.app",
+    "github": "rabo1212/jiwonhae-",
+    "stack": [
+      "Next.js 14",
+      "Claude API",
+      "Upstash Redis",
+      "OpenAI"
+    ],
+    "category": "AI/도구",
+    "phases": [
+      {
+        "name": "자소서 코칭",
+        "status": "done"
+      },
+      {
+        "name": "면접 코칭",
+        "status": "in_progress"
+      }
+    ],
+    "todos": [
+      "면접 시뮬레이션 완성",
+      "배포"
+    ],
+    "activities": [
+      {
+        "date": "2026-02-16",
+        "text": "자소서/면접 코칭 기능 개발 중",
+        "status": "developing"
+      }
+    ]
+  },
+  {
+    "name": "Fortune App",
+    "slug": "fortune-app",
+    "description": "사주 + 점성술 + 타로 종합 운세 앱",
+    "status": "paused",
+    "url": null,
+    "github": null,
+    "stack": [
+      "Flutter",
+      "Riverpod",
+      "Supabase"
+    ],
+    "category": "천명 시리즈",
+    "phases": [
+      {
+        "name": "사주 엔진",
+        "status": "done"
+      },
+      {
+        "name": "점성술",
+        "status": "pending"
+      },
+      {
+        "name": "타로",
+        "status": "pending"
+      }
+    ],
+    "todos": [
+      "점성술/타로 기능 추가"
+    ],
+    "activities": [
+      {
+        "date": "2026-02-08",
+        "text": "Flutter 앱 기본 구조 완성",
+        "status": "paused"
+      }
+    ]
+  },
+  {
+    "name": "강원 여행 앱",
+    "slug": "gangwon-travel",
+    "description": "강원도 여행 정보 제공 웹앱 + QR",
+    "status": "paused",
+    "url": "https://gangwon-app.vercel.app",
+    "github": "rabo1212/gangwon-travel",
+    "stack": [
+      "React 19",
+      "Vite",
+      "Tailwind",
+      "QR Code"
+    ],
+    "category": "웹앱",
+    "phases": [
+      {
+        "name": "MVP",
+        "status": "done"
+      }
+    ],
+    "todos": [],
+    "activities": [
+      {
+        "date": "2026-02-08",
+        "text": "여행 정보 웹앱 완성",
+        "status": "paused"
+      }
+    ]
+  },
+  {
+    "name": "먀오 (Myao)",
+    "slug": "myao",
+    "description": "6명의 AI 전문가 관점 다중 에이전트 시스템",
+    "status": "paused",
+    "url": null,
+    "github": null,
+    "stack": [
+      "Flutter",
+      "Python",
+      "Multi-Agent"
+    ],
+    "category": "에이전트",
+    "phases": [
+      {
+        "name": "설계서 완성",
+        "status": "done"
+      },
+      {
+        "name": "MVP 개발",
+        "status": "pending"
+      }
+    ],
+    "todos": [
+      "MVP 개발 시작"
+    ],
+    "activities": [
+      {
+        "date": "2026-02-08",
+        "text": "앱 설계서 완성",
+        "status": "paused"
+      }
+    ]
+  },
+  {
+    "name": "전생테스트",
+    "slug": "past-life-test",
+    "description": "전생 테스트 웹앱 (PWA)",
+    "status": "paused",
+    "url": "https://past-life-test.vercel.app",
+    "github": "rabo1212/past-life-test",
+    "stack": [
+      "Next.js 14",
+      "Framer Motion",
+      "html2canvas",
+      "PWA"
+    ],
+    "category": "웹앱",
+    "phases": [
+      {
+        "name": "MVP",
+        "status": "done"
+      }
+    ],
+    "todos": [],
+    "activities": [
+      {
+        "date": "2026-02-08",
+        "text": "PWA 전생테스트 완성",
+        "status": "paused"
+      }
+    ]
+  },
+  {
+    "name": "미국 주식 분석기",
+    "slug": "us-stock-analyzer",
+    "description": "미국 주식 분석 API + AI 분석 서비스",
+    "status": "deployed",
+    "url": "https://us-stock-analyzer-gamma.vercel.app",
+    "github": null,
+    "stack": [
+      "Node.js",
+      "Vercel Serverless",
+      "AI"
+    ],
+    "category": "트레이딩",
+    "phases": [
+      {
+        "name": "분석 API",
+        "status": "done"
+      },
+      {
+        "name": "AI 분석",
+        "status": "done"
+      }
+    ],
+    "todos": [],
+    "activities": [
+      {
+        "date": "2026-02-04",
+        "text": "Vercel 서버리스 배포",
+        "status": "deployed"
+      }
+    ]
+  },
+  {
+    "name": "오늘의 날씨&주식",
+    "slug": "weather-stock-app",
+    "description": "실시간 날씨, 미세먼지, 주식 정보 PWA",
+    "status": "deployed",
+    "url": "https://weather-stock-app.vercel.app",
+    "github": null,
+    "stack": [
+      "JavaScript",
+      "HTML5",
+      "Scriptable",
+      "PWA"
+    ],
+    "category": "앱",
+    "phases": [
+      {
+        "name": "날씨/주식 표시",
+        "status": "done"
+      },
+      {
+        "name": "PWA",
+        "status": "done"
+      }
+    ],
+    "todos": [],
+    "activities": [
+      {
+        "date": "2026-01-29",
+        "text": "PWA 앱 배포",
+        "status": "deployed"
+      }
+    ]
+  },
+  {
+    "name": "무드보드 스튜디오",
+    "slug": "moodboard-studio",
+    "description": "AI 기반 제품 사진 무드보드 생성기",
+    "status": "paused",
+    "url": "https://moodboard-studio-one.vercel.app",
+    "github": "rabo1212/moodboard-studio",
+    "stack": [
+      "React 19",
+      "Vite",
+      "Tailwind",
+      "jspdf"
+    ],
+    "category": "AI/도구",
+    "phases": [
+      {
+        "name": "무드보드 생성",
+        "status": "done"
+      },
+      {
+        "name": "PDF 내보내기",
+        "status": "done"
+      }
+    ],
+    "todos": [],
+    "activities": [
+      {
+        "date": "2026-02-08",
+        "text": "무드보드 생성기 완성",
+        "status": "paused"
+      }
+    ]
+  },
+  {
+    "name": "제품사진 관리앱",
+    "slug": "product-ai-image",
+    "description": "제품 사진 촬영 관리 앱 (Flutter)",
+    "status": "paused",
+    "url": null,
+    "github": null,
+    "stack": [
+      "Flutter",
+      "Riverpod",
+      "Supabase"
+    ],
+    "category": "AI/도구",
+    "phases": [
+      {
+        "name": "사진 관리",
+        "status": "done"
+      }
+    ],
+    "todos": [],
+    "activities": [
+      {
+        "date": "2026-01-31",
+        "text": "Flutter 앱 완성",
+        "status": "paused"
+      }
+    ]
+  },
+  {
+    "name": "Abstract MV",
+    "slug": "abstract-mv",
+    "description": "Remotion 기반 추상 뮤직비디오 생성",
+    "status": "paused",
+    "url": null,
+    "github": null,
+    "stack": [
+      "React 18",
+      "Remotion",
+      "TypeScript"
+    ],
+    "category": "영상/미디어",
+    "phases": [
+      {
+        "name": "영상 템플릿",
+        "status": "done"
+      }
+    ],
+    "todos": [],
+    "activities": [
+      {
+        "date": "2026-02-13",
+        "text": "추상 MV 템플릿 완성",
+        "status": "paused"
+      }
+    ]
+  },
+  {
+    "name": "Imaginary Story Reel",
+    "slug": "imaginary-story-reel",
+    "description": "Remotion 기반 스토리 릴 영상 생성",
+    "status": "paused",
+    "url": null,
+    "github": null,
+    "stack": [
+      "React 18",
+      "Remotion",
+      "TypeScript"
+    ],
+    "category": "영상/미디어",
+    "phases": [
+      {
+        "name": "릴 템플릿",
+        "status": "done"
+      }
+    ],
+    "todos": [],
+    "activities": [
+      {
+        "date": "2026-02-08",
+        "text": "스토리 릴 생성기 완성",
+        "status": "paused"
+      }
+    ]
+  },
+  {
+    "name": "바이브 코딩 컬렉션",
+    "slug": "vibe-cording",
+    "description": "미니 게임/앱 모음 (MenuQR, 레몬게임, 풍선, 2048 등)",
+    "status": "paused",
+    "url": null,
+    "github": null,
+    "stack": [
+      "Next.js",
+      "React",
+      "Tailwind",
+      "Supabase"
+    ],
+    "category": "웹앱",
+    "notes": "여러 미니 프로젝트 컬렉션: menuqr(QR메뉴판), lemongame, balloon, catclicker, colorflip, 2048game 등",
+    "phases": [
+      {
+        "name": "MenuQR",
+        "status": "done"
+      },
+      {
+        "name": "미니게임들",
+        "status": "done"
+      }
+    ],
+    "todos": [
+      "고스톱: 브라우저 수동 테스트 + GitHub/Vercel 배포"
+    ],
+    "activities": [
+      {
+        "date": "2026-02-27",
+        "text": "고스톱플레이(GoStopPlay) Phase 1 MVP 완성: 엔진+AI+SVG카드+게임UI, 빌드 성공",
+        "status": "paused"
+      },
+      {
+        "date": "2026-02-13",
+        "text": "레몬게임 추가",
+        "status": "paused"
+      }
+    ]
+  },
+  {
+    "name": "퀀텀리프",
+    "slug": "quantum-leap",
+    "description": "AI/반도체 종목 모니터링 대시보드 + 텔레그램 알림",
+    "status": "developing",
+    "url": "https://quantum-leap-pied.vercel.app",
+    "github": "rabo1212/quantum-leap",
+    "stack": [
+      "Next.js",
+      "TypeScript",
+      "Finnhub API",
+      "Alpha Vantage API",
+      "Telegram Bot"
+    ],
+    "category": "트레이딩",
+    "phases": [
+      {
+        "name": "MVP + 실데이터",
+        "status": "done"
+      },
+      {
+        "name": "텔레그램 알림",
+        "status": "done"
+      },
+      {
+        "name": "포트폴리오 시뮬레이터",
+        "status": "planned"
+      }
+    ],
+    "todos": [
+      "Vercel Pro 시 Cron 빈도 업그레이드",
+      "Phase 2: 포트폴리오 시뮬레이터",
+      "Phase 2: 주식+폴리마켓 확장",
+      "Phase 2 주식/폴리마켓 확장"
+    ],
+    "activities": [
+      {
+        "date": "2026-03-02",
+        "text": "분석 품질 대폭 강화: trading-signals RSI/MACD/BB 실계산, Binance Futures(펀딩비/OI/L:S), CryptoPanic 뉴스, Whale Alert 고래추적, 4개 프롬프트 anti-hallucination 재작성, MarketOverview UI 지표요약 추가",
+        "status": "developing"
+      },
+      {
+        "date": "2026-03-02",
+        "text": "Phase 3 페이퍼 트레이딩 시스템 구현 (가상 K 포트폴리오, KV 저장, 자동 손절/익절, 생존규칙)",
+        "status": "developing"
+      },
+      {
+        "date": "2026-03-02",
+        "text": "Vercel 배포 완료 (quantum-leap-v2.vercel.app)",
+        "status": "deployed"
+      },
+      {
+        "date": "2026-03-02",
+        "text": "퀀텀리프 v2 Phase 1 MVP 완성 - 멀티에이전트 AI 크립토 분석 시스템 (4애널리스트+Bull/Bear토론+리스크+펀드매니저)",
+        "status": "developing"
+      },
+      {
+        "date": "2026-02-22",
+        "text": "Phase 1 MVP + 실데이터 API 연동 + 텔레그램 알림 시스템 구축 및 Vercel 배포"
+      }
+    ]
+  },
+  {
+    "name": "마작플레이 (MahjongPlay)",
+    "slug": "mahjong-play",
+    "description": "중국식 마작(국표마작, MCR) AI 연습 게임",
+    "status": "developing",
+    "url": "",
+    "github": "",
+    "stack": [
+      "Next.js 14",
+      "TypeScript",
+      "Tailwind CSS",
+      "Zustand"
+    ],
+    "category": "게임",
+    "phases": [
+      {
+        "name": "Phase 1: AI 연습 MVP",
+        "status": "done"
+      },
+      {
+        "name": "Phase 2: 온라인 대전",
+        "status": "pending"
+      },
+      {
+        "name": "Phase 3: 역 확장 + 폴리시",
+        "status": "pending"
+      }
+    ],
+    "todos": [
+      "Phase 3: 81가지 역 전부 구현",
+      "인게임 튜토리얼 테스트 및 모바일 최적화"
+    ],
+    "workInstruction": "",
+    "activities": [
+      {
+        "date": "2026-02-26",
+        "text": "인게임 튜토리얼 오버레이 구현 (5단계 가이드, 실제 게임 위 표시)",
+        "status": "developing"
+      },
+      {
+        "date": "2026-02-26",
+        "text": "Session 32: 남은 버그 4건 정리 + 인터랙티브 튜토리얼 모드 5단계 추가",
+        "status": "developing"
+      },
+      {
+        "date": "2026-02-26",
+        "text": "Session 31: DiscardPool key 중복, 키보드 가드, 쯔모 이중효과음, useGameLoop 정리",
+        "status": "developing"
+      },
+      {
+        "date": "2026-02-26",
+        "text": "Session 30: 버그 4건 수정 (치/펑 추천, 타일 크기, 국번호, 설정팝업)",
+        "status": "developing"
+      },
+      {
+        "date": "2026-02-26",
+        "text": "Session 29: 온라인 전적 로컬 저장, 전적 필터에 온라인 탭 추가",
+        "status": "developing"
+      },
+      {
+        "date": "2026-02-26",
+        "text": "Session 25-28: 효과음/벽패경고/전적필터/대기패개선/랭킹정렬/모바일대응",
+        "status": "developing"
+      },
+      {
+        "date": "2026-02-26",
+        "text": "Session 28: OnlineGameOverModal 모바일, 랭킹 승률 정렬, 순위 밖 안내",
+        "status": "developing"
+      },
+      {
+        "date": "2026-02-26",
+        "text": "Session 27: WaitingTiles 14장 대기패 계산, console.error 제거",
+        "status": "developing"
+      },
+      {
+        "date": "2026-02-26",
+        "text": "Session 26: 전적 난이도 필터/삭제 버튼, 빈 히스토리 메시지, GameOverModal 모바일 대응",
+        "status": "developing"
+      },
+      {
+        "date": "2026-02-26",
+        "text": "Session 25: 패 뽑기 효과음 연결(playTileDraw), 벽패 10장 이하 위기 경고 UI",
+        "status": "developing"
+      },
+      {
+        "date": "2026-02-26",
+        "text": "모바일 게임 테이블 반응형: 타일 크기/버림패/팝업 위치 개선 (Session 24)",
+        "status": "developing"
+      },
+      {
+        "date": "2026-02-26",
+        "text": "마작 입문 가이드 페이지 /rules 추가: 패 종류/게임 흐름/화료/점수/용어 (Session 23)",
+        "status": "developing"
+      },
+      {
+        "date": "2026-02-26",
+        "text": "Hard AI 전략 고도화: 스지/카베/수트패턴/패산인식/가깡전략 (Session 22)",
+        "status": "developing"
+      },
+      {
+        "date": "2026-02-26",
+        "text": "역 가이드 페이지 리뉴얼: 검색/점수필터/시각적 패 예시 추가 (Session 21)",
+        "status": "developing"
+      },
+      {
+        "date": "2026-02-26",
+        "text": "Session 20: PWA manifest + viewport/theme-color 메타 + error.tsx/not-found.tsx + iOS safe area",
+        "status": "developing"
+      },
+      {
+        "date": "2026-02-26",
+        "text": "Session 19: 액션 키보드 단축키(C/P/K/W/Space) + TileComponent aria-label + React.memo 최적화",
+        "status": "developing"
+      },
+      {
+        "date": "2026-02-26",
+        "text": "Session 18: GameOverModal 동적 좌석풍 라벨 + MCR 정산 기반 세션 점수 계산",
+        "status": "developing"
+      },
+      {
+        "date": "2026-02-26",
+        "text": "Session 17: 동적 좌석풍 라벨 + 세션 점수 HUD + yaku-list 주석 수정",
+        "status": "developing"
+      },
+      {
+        "date": "2026-02-26",
+        "text": "Session 16: 동풍전 4국 세션 시스템 연결 (session.ts 고아코드 활용, 6파일 +251줄)",
+        "status": "developing"
+      },
+      {
+        "date": "2026-02-26",
+        "text": "Session 15: 치(吃) 다중 옵션 선택 UI + 꽃패 렌더링 수정 (7파일, +120줄)",
+        "status": "developing"
+      },
+      {
+        "date": "2026-02-26",
+        "text": "Session 14: 코드 리뷰 5건 버그 수정 (history 리다이렉트, 역수 텍스트, 팝업 닫기, as=style 제거, IIFE 정리)",
+        "status": "developing"
+      },
+      {
+        "date": "2026-02-26",
+        "text": "Session 13: 멀티플레이 UX (방 수 뱃지, 초대링크, 초보방 필터)",
+        "status": "developing"
+      },
+      {
+        "date": "2026-02-26",
+        "text": "Session 12: UX 폴리시 묶음 (로컬 나가기, OG메타, favicon, 통계라벨)",
+        "status": "developing"
+      },
+      {
+        "date": "2026-02-26",
+        "text": "Session 11: 로컬 게임오버 모달 업그레이드 (쯔모/론, 정산, 부로)",
+        "status": "developing"
+      },
+      {
+        "date": "2026-02-26",
+        "text": "Session 10: 역 사전 페이지 + 대기실 코드 복사 버튼",
+        "status": "developing"
+      },
+      {
+        "date": "2026-02-26",
+        "text": "Session 9: 네비게이션 개선 + 홈 로컬 전적 목록",
+        "status": "developing"
+      },
+      {
+        "date": "2026-02-25",
+        "text": "Session 8: 온라인 전적 히스토리 페이지 추가 (/history)",
+        "status": "developing"
+      },
+      {
+        "date": "2026-02-25",
+        "text": "Session 7-2: 게임 중 설정 패널(효과음/가이드 토글) 추가",
+        "status": "developing"
+      },
+      {
+        "date": "2026-02-25",
+        "text": "Session 7-1: 온라인 게임에 초보자 가이드(향청수/대기패/추천 버리기) 추가",
+        "status": "developing"
+      },
+      {
+        "date": "2026-02-25",
+        "text": "Session 6-3: 닉네임 변경/로그아웃/게임오버 UX 개선",
+        "status": "developing"
+      },
+      {
+        "date": "2026-02-25",
+        "text": "Session 6-2: 글로벌 리더보드(랭킹) 페이지 추가",
+        "status": "developing"
+      },
+      {
+        "date": "2026-02-25",
+        "text": "Session 6-1: 대기실+게임 중 플레이어 접속 상태 dot 인디케이터 추가",
+        "status": "developing"
+      },
+      {
+        "date": "2026-02-25",
+        "text": "Session 4-3~5-3: 게임기록저장, 통계카드, 난이도선택, 퇴장시스템",
+        "status": "developing"
+      },
+      {
+        "date": "2026-02-25",
+        "text": "Session 5-2: 방 생성 시 난이도/초보자 모드 선택 UI",
+        "status": "developing"
+      },
+      {
+        "date": "2026-02-25",
+        "text": "Session 5-1: 로비에 플레이어 프로필 통계 카드 추가",
+        "status": "developing"
+      },
+      {
+        "date": "2026-02-25",
+        "text": "Session 4-3: 온라인 게임 기록 저장 + 로비 전적 표시",
+        "status": "developing"
+      },
+      {
+        "date": "2026-02-25",
+        "text": "Session 3-3~4-2: 정형문 채팅, 게임 결과 강화(MCR 정산+승리패), 로비 방 목록",
+        "status": "developing"
+      },
+      {
+        "date": "2026-02-25",
+        "text": "온라인 대국 전 엔진 강화 10건: 가깡/영상개화/해저로월/DTO/세션시스템",
+        "status": "deployed"
+      },
+      {
+        "date": "2026-02-25",
+        "text": "디자인 리뷰 P3 개선 8건 (추천 자동선택, 대기패 overflow, 버림패 시간순 강조, 부로 구분선, 키보드 단축키, 결과 공유, 한자 강조, AI 인디케이터)",
+        "status": "deployed"
+      },
+      {
+        "date": "2026-02-25",
+        "text": "디자인 리뷰 P1/P2 개선 8건 (액션팝업, 턴하이라이트, 벽진행바, 역색상코딩, 부로회전, 패수배지, 버튼그룹분리)",
+        "status": "deployed"
+      },
+      {
+        "date": "2026-02-25",
+        "text": "디자인 리뷰 퀵윈 7건 적용 (삭수 아라비아숫자, 中發 확대, hover 모바일 대응, 턴 알림음, 전적 총판수, 백판 대비, 펠트 중복 제거)",
+        "status": "deployed"
+      },
+      {
+        "date": "2026-02-25",
+        "text": "리뷰 기반 CRITICAL/HIGH/MEDIUM 버그 14건 수정 (AI 프리즈, 최적 분해, isMenzen, overflow 등)",
+        "status": "deployed"
+      },
+      {
+        "date": "2026-02-25",
+        "text": "GitHub 레포 생성 + Vercel 배포 완료",
+        "status": "deployed"
+      },
+      {
+        "date": "2026-02-25",
+        "text": "미션컨트롤 대시보드 등록 완료",
+        "status": "developing"
+      },
+      {
+        "date": "2026-02-25",
+        "text": "Phase 1 MVP 완성: 게임엔진+UI+3단계AI+효과음+전적기록",
+        "status": "developing"
+      }
+    ]
+  },
+  {
+    "name": "내 집 얼마?",
+    "slug": "my-house-price",
+    "description": "아파트 실거래가 조회 + 대출계산기 웹앱",
+    "status": "deployed",
+    "url": "https://my-house-price.vercel.app",
+    "github": "rabo1212/my-house-price",
+    "stack": [
+      "Next.js",
+      "TypeScript",
+      "Recharts",
+      "Tailwind"
+    ],
+    "category": "부동산",
+    "phases": [
+      {
+        "name": "MVP",
+        "status": "done"
+      },
+      {
+        "name": "커스텀 도메인",
+        "status": "planned"
+      }
+    ],
+    "todos": [
+      "Vercel 배포 (대장님 타이밍에)",
+      "전세 데이터 연동 + 전세vs매매 시뮬레이션",
+      "다크모드",
+      "다크모드 지원"
+    ],
+    "timeline": [
+      {
+        "date": "2026-02-26",
+        "event": "MVP 완성 + Vercel 배포"
+      }
+    ],
+    "activities": [
+      {
+        "date": "2026-02-26",
+        "text": "전국 17개 시/도 250개 시군구 지역 데이터 확장 (기존 31개→250개)",
+        "status": "deployed"
+      },
+      {
+        "date": "2026-02-26",
+        "text": "입체감 디자인 리뉴얼 (글래스모피즘+메시그라데이션+3D호버) + 킬러피처 3종(히트맵/게이지/공유카드) + 코드리뷰 전체 수정 + Vercel 배포",
+        "status": "deployed"
+      },
+      {
+        "date": "2026-02-26",
+        "text": "킬러 피처 3종 추가: 가격 포지션 게이지(지금 사도 될까?), 평당가 히트맵, SNS 공유 카드 + 대출계산기 숫자입력 + 시세비교 검색방식 전환",
+        "status": "developing"
+      }
+    ]
+  },
+  {
+    "name": "랜딩 에이전트 팀",
+    "slug": "landing-agent-team",
+    "description": "AI 5-Agent 파이프라인으로 13섹션 고전환 랜딩페이지 자동 생성",
+    "status": "deployed",
+    "url": "https://webapp-rabo1.vercel.app",
+    "github": "rabo1212/landing-agent-team",
+    "stack": [
+      "Next.js",
+      "TypeScript",
+      "Gemini API",
+      "shadcn/ui",
+      "Zustand"
+    ],
+    "category": "AI 도구",
+    "phases": [
+      {
+        "name": "CLI 파이프라인",
+        "status": "done"
+      },
+      {
+        "name": "웹앱 UI",
+        "status": "done"
+      },
+      {
+        "name": "품질 개선",
+        "status": "planned"
+      }
+    ],
+    "todos": [
+      "커스텀 도메인 연결",
+      "디자인 AI 냄새 제거 품질 검증"
+    ],
+    "timeline": [
+      {
+        "date": "2026-02-26",
+        "event": "Next.js 14 웹앱 UI 구현 및 Vercel 배포 완료"
+      }
+    ],
+    "activities": [
+      {
+        "date": "2026-02-26",
+        "text": "Next.js 14 웹앱 UI 구현 및 Vercel 배포 완료 (5-Agent 파이프라인 + Gemini API)",
+        "status": "deployed"
+      }
+    ]
+  },
+  {
+    "name": "고스톱플레이",
+    "slug": "gostop-play",
+    "description": "3인 고스톱 웹 게임 (AI 대전)",
+    "status": "deployed",
+    "url": "https://gostop-play.vercel.app",
+    "github": "rabo1212/gostop-play",
+    "stack": [
+      "Next.js",
+      "TypeScript",
+      "Zustand",
+      "Vitest"
+    ],
+    "category": "게임",
+    "phases": [
+      {
+        "name": "MVP",
+        "status": "done"
+      },
+      {
+        "name": "세션 관리",
+        "status": "done"
+      },
+      {
+        "name": "배포",
+        "status": "done"
+      }
+    ],
+    "todos": [
+      "온라인 대전 E2E 테스트",
+      "온라인 대전 E2E 테스트 (멀티브라우저)"
+    ],
+    "timeline": [
+      {
+        "date": "2026-02-27",
+        "text": "Phase 1 MVP 완료 + Vercel 배포"
+      }
+    ],
+    "activities": [
+      {
+        "date": "2026-02-27",
+        "text": "Supabase 셋업 완료 + 모바일 UI 전면 재설계 (먹은패 가로배치, 카드크기 최적화)",
+        "status": "deployed"
+      },
+      {
+        "date": "2026-02-27",
+        "text": "온라인 3인 대전 구현 완료 (Supabase Realtime, 28파일 2946줄)",
+        "status": "developing"
+      },
+      {
+        "date": "2026-02-27",
+        "text": "Phase 1 MVP 완료: 게임 엔진, AI, 화투 이미지, 3판 세션, 테스트 50개, GitHub+Vercel 배포",
+        "status": "deployed"
+      }
+    ]
+  },
+  {
+    "name": "부동산 데이터 서비스",
+    "slug": "real-estate",
+    "description": "부동산 투자 알리미 봇 + 한국 부동산 MCP 서버",
+    "status": "deployed",
+    "url": null,
+    "github": null,
+    "stack": [
+      "Node.js",
+      "TypeScript",
+      "Python",
+      "FastAPI",
+      "MCP",
+      "Telegram Bot"
+    ],
+    "category": "부동산",
+    "phases": [
+      {
+        "name": "텔레그램 봇",
+        "status": "done"
+      },
+      {
+        "name": "MCP 서버",
+        "status": "done"
+      },
+      {
+        "name": "온비드 공매",
+        "status": "in-progress"
+      }
+    ],
+    "todos": [
+      "온비드 공매 입찰결과 기능 완성",
+      "MCP 서버 Docker 배포"
+    ],
+    "activities": [
+      {
+        "date": "2026-03-04",
+        "text": "대시보드 등록 (real-estate-bot 텔레그램 알리미 + real-estate-mcp 14종 부동산 도구 MCP 서버)",
+        "status": "deployed"
+      }
+    ]
+  },
+  {
+    "name": "ForgeMovie",
+    "slug": "forge-movie",
+    "description": "AI 기반 유튜브/인스타 영상 소재 자동 생성 플랫폼",
+    "status": "developing",
+    "url": null,
+    "github": null,
+    "stack": [
+      "Next.js 14",
+      "TypeScript",
+      "Claude API",
+      "FAL AI",
+      "YouTube API"
+    ],
+    "category": "AI 도구",
+    "phases": [
+      {
+        "name": "5단계 워크플로우",
+        "status": "done"
+      },
+      {
+        "name": "TTS 나레이션",
+        "status": "done"
+      },
+      {
+        "name": "배포",
+        "status": "pending"
+      }
+    ],
+    "todos": [
+      "Vercel 배포",
+      "ZIP 내보내기 테스트"
+    ],
+    "activities": [
+      {
+        "date": "2026-03-04",
+        "text": "대시보드 등록 (제목→대본→이미지→나레이션→내보내기 5단계 파이프라인 구현 완료)",
+        "status": "developing"
+      }
+    ]
+  },
+  {
+    "name": "딱랜딩",
+    "slug": "ddak-landing",
+    "description": "AI 기반 이커머스 상세페이지 자동 생성기 (13섹션 30초)",
+    "status": "developing",
+    "url": null,
+    "github": null,
+    "stack": [
+      "Next.js 14",
+      "TypeScript",
+      "Gemini API",
+      "Zustand",
+      "Tailwind"
+    ],
+    "category": "AI 도구",
+    "phases": [
+      {
+        "name": "위저드 UI",
+        "status": "done"
+      },
+      {
+        "name": "AI 분석+카피",
+        "status": "done"
+      },
+      {
+        "name": "HTML 빌더",
+        "status": "in-progress"
+      }
+    ],
+    "todos": [
+      "HTML 빌더 완성",
+      "Vercel 배포"
+    ],
+    "activities": [
+      {
+        "date": "2026-03-04",
+        "text": "대시보드 등록 (사진+정보 → Gemini 분석 → 13섹션 카피 생성 → HTML 내보내기 파이프라인)",
+        "status": "developing"
+      }
+    ]
+  },
+  {
+    "name": "라보 커맨드센터",
+    "slug": "rabo-command-center",
+    "description": "개인 프로젝트 현황 대시보드 + 실데이터 연동",
+    "status": "deployed",
+    "url": null,
+    "github": null,
+    "stack": [
+      "Next.js 16",
+      "TypeScript",
+      "Recharts",
+      "Tailwind"
+    ],
+    "category": "도구",
+    "phases": [
+      {
+        "name": "MVP + 실데이터",
+        "status": "done"
+      },
+      {
+        "name": "Polish",
+        "status": "done"
+      },
+      {
+        "name": "배포",
+        "status": "pending"
+      }
+    ],
+    "todos": [
+      "Vercel 배포",
+      "mission-control과 역할 구분 정리"
+    ],
+    "activities": [
+      {
+        "date": "2026-03-07",
+        "text": " 토큰 DexScreener 실시간 연동 + ACP 거래 일시 표시 수정 + Vercel 배포",
+        "status": "deployed"
+      },
+      {
+        "date": "2026-03-04",
+        "text": "Phase 1-3 완성: MVP + 실데이터 연동 + Polish (Next.js 16 + Recharts)",
+        "status": "developing"
+      }
+    ]
+  },
+  {
+    "slug": "raboland",
+    "name": "RABOLAND",
+    "description": "드림코어 미학 포트폴리오 사이트",
+    "status": "developing",
+    "stack": [
+      "Next.js 14",
+      "TypeScript",
+      "Tailwind CSS"
+    ],
+    "category": "web",
+    "todos": [
+      "Vercel 배포",
+      "반응형 모바일 최적화"
+    ],
+    "activities": [
+      {
+        "date": "2026-03-02",
+        "text": "RABOLAND 포트폴리오 사이트 구축 (Next.js 14). 랜딩/taste/archive 3탭 구성, 이미지 업로드 기능, 드림코어 미학(노이즈/VHS/글리치)",
+        "status": "developing"
+      }
+    ]
+  },
+  {
+    "name": "잊지마(Ijjima)",
+    "slug": "ijjima",
+    "description": "텔레그램으로 할 일 등록, 카카오톡으로 마감 리마인드",
+    "status": "developing",
+    "url": "https://ijjima.vercel.app",
+    "stack": [
+      "Next.js",
+      "TypeScript",
+      "Supabase",
+      "Telegram Bot",
+      "Kakao API"
+    ],
+    "category": "생산성",
+    "phases": [
+      {
+        "name": "MVP (텔레그램+카카오)",
+        "status": "done"
+      },
+      {
+        "name": "웹 대시보드",
+        "status": "pending"
+      },
+      {
+        "name": "Gmail/Calendar 연동",
+        "status": "pending"
+      }
+    ],
+    "todos": [
+      "리마인드 cron 실제 동작 테스트",
+      "웹 대시보드 테스트 메시지 버튼 수정",
+      "debug 로깅 정리",
+      "Gmail 분석 연동",
+      "Google Calendar 동기화",
+      "OAuth 동의화면 인증 신청 (테스트 사용자 제한 해제)",
+      "Vercel에 OPENAI_API_KEY, ANTHROPIC_API_KEY 환경변수 추가",
+      "iCloud 백업",
+      "TestFlight 베타 배포",
+      "앱스토어 출시 준비 (스크린샷, 설명문)"
+    ],
+    "activities": [
+      {
+        "date": "2026-04-12",
+        "text": "기억해방 v0.3 완성: 가구50종, 에셋팩 전체활용, 앱아이콘, 위젯, 실기기테스트 통과",
+        "status": "developing"
+      },
+      {
+        "date": "2026-04-11",
+        "text": "기억해방 v0.1~v0.3 MVP 구현: 에스컬레이션알림, 게이트3종, 감정연결문구, 도트방, 가구드래그배치, 식물성장, 동물해금, 퀴즈, 4탭",
+        "status": "developing"
+      },
+      {
+        "date": "2026-03-07",
+        "text": "통화녹음 분석 → 자동 할일 등록 기능 구현 (Whisper + Claude API)",
+        "status": "deployed"
+      },
+      {
+        "date": "2026-03-06",
+        "text": "리마인드 단순화: N일 전부터 매일 아침 7시 카톡 알림 + 원탭 완료 기능",
+        "status": "deployed"
+      },
+      {
+        "date": "2026-03-06",
+        "text": "카톡 원탭 완료 + 완료할 때까지 매일 리마인드 기능 구현 및 배포",
+        "status": "deployed"
+      },
+      {
+        "date": "2026-03-06",
+        "text": "Google OAuth 연동 + 캘린더 동기화(공유 캘린더 포함) + Gmail 마감 메일 스캔 구현 및 배포",
+        "status": "developing"
+      },
+      {
+        "date": "2026-03-06",
+        "text": "MVP 완성: 텔레그램 자연어 명령(등록/목록/완료/삭제) + 카카오톡 연동(OAuth state로 계정 연결) + 리마인드 발송 파이프라인 구축 + Vercel 배포 완료",
+        "status": "developing"
+      }
+    ]
+  },
+  {
+    "name": "DailyBlogLabo",
+    "slug": "dailybloglabo",
+    "description": "AI 자동 멀티채널 뉴스 블로그 (5탭 x AM/PM = 하루 10포스트)",
+    "status": "developing",
+    "url": "https://dailybloglabo.vercel.app",
+    "github": "rabo1212/dailybloglabo",
+    "stack": [
+      "Next.js 14",
+      "TypeScript",
+      "Tailwind CSS",
+      "Claude API",
+      "MDX"
+    ],
+    "category": "콘텐츠",
+    "phases": [
+      {
+        "name": "MVP",
+        "status": "done"
+      },
+      {
+        "name": "API 키 연동",
+        "status": "current"
+      },
+      {
+        "name": "GitHub Actions 자동화",
+        "status": "planned"
+      }
+    ],
+    "todos": [
+      {
+        "text": "API 키 발급 (Tavily, Replicate, Alpha Vantage)",
+        "done": false
+      },
+      {
+        "text": "GitHub Actions workflow 추가",
+        "done": false
+      },
+      {
+        "text": "커스텀 도메인 연결",
+        "done": false
+      },
+      "Tavily API 키 발급 (뉴스 검색 품질 향상)",
+      "커스텀 도메인 연결",
+      "Dev Log EP 시리즈 내용 보강",
+      "티스토리 API 키 발급",
+      "네이버 블로그 API 키 발급",
+      "애드센스 신청"
+    ],
+    "timeline": [
+      {
+        "date": "2026-03-24",
+        "activity": "MVP 완성 + Vercel 배포. 5개 탭 포스트 생성 성공."
+      }
+    ],
+    "activities": [
+      {
+        "date": "2026-04-08",
+        "text": "v2 전면 재구성: 탭 5개 교체, Claude CLI spawn 엔진, Gemini 이미지, 프리셋 YAML, 웹 리서치 에이전트, 티스토리/네이버 발행 모듈, 텔레그램 알림, 크론잡 등록",
+        "status": "developing"
+      },
+      {
+        "date": "2026-03-24",
+        "text": "DAYLOG_EV 전체 리뷰 + 수정: 한국어 전용 전환, Search/Archive 페이지 추가, 이미지 Flux Pro 업그레이드, My Dev Log EP.01~10 시리즈 생성, 미래날짜 자동공개 시스템",
+        "status": "deployed"
+      }
+    ]
+  },
+  {
+    "name": "영모저모 (Senior Shorts Studio)",
+    "slug": "senior-shorts-studio",
+    "description": "AI 기반 시니어 유튜브 쇼츠/롱폼 자동 생성 스튜디오",
+    "status": "running",
+    "github": "",
+    "stack": [
+      "Python",
+      "Flask",
+      "Remotion",
+      "Claude API",
+      "Google TTS",
+      "YouTube API"
+    ],
+    "category": "콘텐츠",
+    "phases": [
+      {
+        "name": "MVP (쇼츠 자동생성)",
+        "status": "done"
+      },
+      {
+        "name": "v2 (레퍼런스/전략/롱폼)",
+        "status": "done"
+      },
+      {
+        "name": "크론잡 자동화",
+        "status": "done"
+      },
+      {
+        "name": "AI 이미지 전환",
+        "status": "pending"
+      }
+    ],
+    "todos": [
+      "Fal.ai 잔액 충전 후 AI 이미지 전환",
+      "ElevenLabs 크레딧 갱신",
+      "CLOVA API 키 발급 및 .env 설정",
+      "캡컷 실제 연동 테스트 (롱폼)",
+      "롱폼 영상 첫 제작 테스트 (8분)",
+      "Edge TTS 외 한국어 음성 품질 비교 테스트",
+      "렌더링 resume 로직 보완"
+    ],
+    "activities": [
+      {
+        "date": "2026-04-08",
+        "text": "TTS Neural2-A 변경, Claude CLI 폴백 래퍼 구현, 건강 쇼츠 제작+업로드",
+        "status": "running"
+      },
+      {
+        "date": "2026-04-06",
+        "text": "음성겹침 수정(Remotion durationInFrames), 자막 word-break 수정, 썸네일 후킹카피 자동생성(Haiku), Edge TTS YuJin→Hyunsu, 토선생 크론 비활성화",
+        "status": "running"
+      },
+      {
+        "date": "2026-04-05",
+        "text": "쇼츠 3개 업로드(무릎통증/연금절세/의료대란), 크론잡 5건 수정(Google TTS/썸네일 압축/제목검증/ALLOW_UPLOAD/이미지 폴백), Edge TTS YuJin→Hyunsu 버그픽스",
+        "status": "running"
+      },
+      {
+        "date": "2026-04-03",
+        "text": "v2 업그레이드 완료: 레퍼런스/전략 오토모드, 에이전트 10개, CLOVA TTS, 롱폼 캡컷",
+        "status": "running"
+      }
+    ]
+  }
+]

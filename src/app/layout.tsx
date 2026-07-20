@@ -1,6 +1,7 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Geist_Mono } from "next/font/google";
 import NavTabs from "@/components/NavTabs";
+import PepeChat from "@/components/PepeChat";
 import "./globals.css";
 
 const mono = Geist_Mono({
@@ -11,6 +12,13 @@ const mono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Mission Control",
   description: "대장님 프로젝트 통합 대시보드",
+};
+
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+  maximumScale: 5,
+  themeColor: "#0a0a12",
 };
 
 export default function RootLayout({
@@ -32,12 +40,13 @@ export default function RootLayout({
         className={`${mono.variable} antialiased bg-[#0a0a12] text-[#f5f5f7] min-h-screen`}
         style={{ fontFamily: "'Pretendard Variable', sans-serif" }}
       >
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 py-6">
-          <div className="flex items-center justify-between mb-6">
+        <div className="max-w-7xl mx-auto px-3 sm:px-6 py-4 sm:py-6">
+          <div className="flex items-center justify-between mb-4 sm:mb-6">
             <NavTabs />
           </div>
           {children}
         </div>
+        <PepeChat />
       </body>
     </html>
   );
